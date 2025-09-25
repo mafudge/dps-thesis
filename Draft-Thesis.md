@@ -138,7 +138,208 @@ about "vibe coding" and Lovable, Bolt, Replit and Cursor.
 **3.0 Methods**
 ===============
 
-TODO
+3.1 Introduction
+----------------
+
+The objective of this research is to study the impact of generative AI
+on an individual\'s learning. Specifically, this research will study the
+impacts of Large-Language Model (LLM) use by students enrolled in an
+introductory Python programming course. Their learning will be studied
+through the lenses of academic performance on a summative assessment at
+the mid-term of the course in addition to scores on a computational
+literacy instrument. LLM use will be classified into activities that
+either support or avoid learning, which will then be quantified by for
+each participant. This chapter explains the methodology that will be
+used to address the research questions of this study.
+
+### 3.1.1 Research Questions
+
+RQ1: How does large-language model use influence student learning
+performance?
+
+\- This was measured by first classifying chat logs into counts of
+const/unconst then
+
+\- performing a multi-variate regression of the key influencers
+Constructive/Unconstructive =\> E1
+
+RQ2: When the prompt is adjusted to include assignment instructions
+(in-context learning) what is the impact on student learning
+performance?
+
+\- This was measured by first classifying chat logs into counts of
+const/unconst then
+
+\- Checking control / treatment against E1 for any statistical
+significance.
+
+RQ3: What is the relationship between large language model use and
+computational literacy?
+
+\- This was measured by first classifying chat logs into counts of
+const/unconst then
+
+\- performing a multi-variate regression of the key influencers
+Constructive/Unconstructive =\> E1
+
+3.2 Study Design
+----------------
+
+![A diagram of the study design](media/image5.png){width="6.5in"
+height="3.2916666666666665in"}\
+*Figure1: An overview of the study design.*
+
+### 3.2.1 Overview
+
+The study took place over a six-week period in the Spring 2025 semester
+of an introductory Python programming course, IST256
+[[https://ist256.com/spring2025/syllabus/]{.underline}](https://ist256.com/spring2025/syllabus/).
+Taught within the School of Information Studies at Syracuse University,
+the course teaches programming fundamentals from the informatics
+perspective and is intended for non-computer science majors. There were
+173 students enrolled in the course. The study only focused on the first
+6 weeks because these units cover basic computational literacy
+constructs as applied to the Python programming language. These include
+instruction sequencing, variables, branching, iteration, and composition
+(functions). The course schedule can be found here:
+[[https://ist256.com/spring2025/syllabus/\#course-schedule]{.underline}](https://ist256.com/spring2025/syllabus/#course-schedule).
+The study was exempt from IRB under section §46.104 section 1, which
+covers research conducted in an established educational setting. A
+university IRB Exemption application has been filed and obtained for
+category 1 for research in established or commonly accepted educational
+settings. The IRB\# is 24-346. While all elements of the study design
+were part of the course, students could elect to opt-out of including
+their data in the study.
+
+The study begins with a diagnostic instrument C1 to get the baseline of
+computational literacy for each participant. This happened within the
+first week of class before any instruction. At this time students were
+introduced to the course-provided AI,
+[[https://ai.ist256.com]{.underline}](https://ai.ist256.com), which was
+a Large Language Model (GPT4o-mini) configured with a system prompt.
+Students were encouraged to use the AI as a virtual tutor asking it for
+help with Python questions and course-related assignments. When asking a
+specific question about an assignment, students were instructed to
+switch the LLM context by selecting the assignment in question from a
+drop-down menu.\
+![](media/image2.png){width="5.09375in" height="5.614583333333333in"}\
+*Figure 2: Context-Selection from the IST256 AI Tutor*
+
+For the control group T1 this action did nothing - it does not add any
+additional context. For the treatment group T2 the action copied the
+assignment or lab instructions into the conversational context.\
+![](media/image3.png){width="6.5in" height="4.0in"}\
+*Figure 3: The treatment group (T2) is aware of the selected content.*
+
+Because the chatbot was self-hosted, all student interactions and AI
+responses were captured. D1 chatbot trace data is a dataset of those
+collected interactions throughout the six weeks of use. After the six
+week period, there were three observations. E1 was the midterm exam in
+the course covering the content from the first six weeks, C2 was a
+re-issue of the same C1 diagnostic as a means to measure improvement of
+computational literacy. Observation Q1 was a questionnaire that asked
+for simple demographic data about each participant. Q1 was issued at the
+end of the course along with course evaluations.
+
+#### 3.2.1.1 How the Study Addressed the Research Questions
+
+All three research questions explored the influence of Large-Language
+Model use on learning and computational literacy. Therefore an analysis
+of the chatbot trace data D1, was crucial to answering the research
+questions. Categorical content analysis \[CITE - foundation content
+analysis\] was used to classify student AI interactions into two
+categories of learning-supportive and learning-avoidance activities.
+These activities were deductively coded based on observations of other
+researchers in literature in addition to my six years of experience
+teaching the course.\[CITE deductive\]. The resulting categories were
+quantified and grouped to establish a quantized profile of AI use by
+each participant. These category counts were the independent variables
+of this study.
+
+To answer RQ1, a multivariate regression was performed with the category
+counts as the independent variables and E1 as the dependent variable.
+RQ2 introduces the control / treatment independent variable to the
+multivariate regression from RQ1. Finally for RQ3 the dependent variable
+is changed to C2.
+
+### 3.2.2 Participant Funnel
+
+Participants were students enrolled in the Spring 2025 section of
+IST256. There were 173 students enrolled. The research was exempt from
+IRB under section §46.104 section 1, which covers research conducted in
+an established educational setting. A university IRB Exemption
+application was filed and approved for category 1 for research in
+established or commonly accepted educational settings under the Syracuse
+University IRB number \#24-346.
+
+Of the 173 participants only 126 consented to the study. Five of the
+students who consented did not complete the observations necessary for
+the dependent variables: C1, C2 or E1, leaving 121 participants.
+
+#### 3.2.2.1 Population 1: Chatbot participants There are two populations under analysis. The first population is the set of participants who used the AI chatbot and therefore have the trace data D1 necessary to study their AI interactions. There were 48 individuals in the control group and 39 in the treatment group for a total participant population of 87. 
+
+![](media/image1.png){width="6.5in"
+height="3.5833333333333335in"}*Figure 4: The participant funnel for
+chatbot use. 87 participants.*
+
+#### 3.2.2.1 Population 2: Chatbot participants with Survey Responses
+
+A survey Q1 was issued to students with the goal of identifying possible
+covariates. Besides demographic questions around the year of study,
+major, and gender students were also asked about their programming
+experience prior to the IST256 course. Ten chatbot users did not
+complete this survey thus reducing the participant size down to 77
+whenever survey responses were needed in the analysis. Among the 77
+participants, 41 were in the control group and 36 were in the treatment
+group.
+
+![](media/image4.png){width="6.5in"
+height="3.0555555555555554in"}*Figure 4: The participant funnel when
+accounting for survey responses.*
+
+### 3.2.3 Computational Literacy Instrument (C1/C2)
+
+Explain
+
+### 3.2.4 Chatbot Design
+
+#### 3.2.4.1 Random Assignment
+
+Jxcshgfkjds
+
+#### 3.2.4.2 Base Model Selection and Control Group (X1)
+
+dshfgjhsdf
+
+#### 3.2.4.3 Treatment Group (T1)
+
+jhgkdfs
+
+### 3.2.5 Midterm Exam (E1)
+
+Talk about format, questions, closed book, etc..
+
+### 3.2.6 Questionnaire (Q1)
+
+Jdsfhgkjds
+
+### 3.2.7 Trace Data
+
+Whats in it how it is collected and labeled?
+
+3.3 Data Analysis
+-----------------
+
+### 3.3.1 Overview
+
+High level of the process
+
+### 3.3.2 Tools
+
+### 3.3.3 Categorizing Trace Data
+
+Explain what you did here, trying out various large language models for
+categorzing
 
  
 
