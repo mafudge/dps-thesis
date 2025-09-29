@@ -186,7 +186,7 @@ Constructive/Unconstructive =\> E1
 3.2 Study Design
 ----------------
 
-![A diagram of the study design](media/image4.png){width="6.5in"
+![A diagram of the study design](media/image8.png){width="6.5in"
 height="3.2916666666666665in"}\
 *Figure1: An overview of the study design.*
 
@@ -223,13 +223,13 @@ help with Python questions and course-related assignments. When asking a
 specific question about an assignment, students were instructed to
 switch the LLM context by selecting the assignment in question from a
 drop-down menu.\
-![](media/image6.png){width="5.09375in" height="5.614583333333333in"}\
+![](media/image5.png){width="5.09375in" height="5.614583333333333in"}\
 *Figure 2: Context-Selection from the IST256 AI Tutor*
 
 For the control group T1 this action did nothing - it does not add any
 additional context. For the treatment group T2 the action copied the
 assignment or lab instructions into the conversational context.\
-![](media/image8.png){width="6.5in" height="4.0in"}\
+![](media/image4.png){width="6.5in" height="4.0in"}\
 *Figure 3: The treatment group (T2) is aware of the selected content.*
 
 Because the chatbot was self-hosted, all student interactions and AI
@@ -279,7 +279,7 @@ the dependent variables: C1, C2 or E1, leaving 121 participants.
 
 #### 3.2.2.1 Population 1: Chatbot participants There are two populations under analysis. The first population is the set of participants who used the AI chatbot and therefore have the trace data D1 necessary to study their AI interactions. There were 48 individuals in the control group and 39 in the treatment group for a total participant population of 87. 
 
-![](media/image7.png){width="6.5in"
+![](media/image10.png){width="6.5in"
 height="3.5833333333333335in"}*Figure 4: The participant funnel for
 chatbot use. 87 participants.*
 
@@ -294,7 +294,7 @@ whenever survey responses were needed in the analysis. Among the 77
 participants, 41 were in the control group and 36 were in the treatment
 group.
 
-![](media/image3.png){width="6.5in"
+![](media/image2.png){width="6.5in"
 height="3.0555555555555554in"}*Figure 5: The participant funnel when
 accounting for survey responses.*
 
@@ -331,7 +331,7 @@ what questions they got correct / incorrect.
 The following figure is an example question from the CT-Test. The entire
 instrument can be found in appendix A.
 
-![](media/image9.png){width="6.5in" height="3.1666666666666665in"}\
+![](media/image7.png){width="6.5in" height="3.1666666666666665in"}\
 *Figure 6: A sample question fro the CT-Test*
 
 ### 3.2.4 Chatbot Design
@@ -403,7 +403,7 @@ Several system prompt iterations were evaluated before the following was
 determined to be most suitable for meeting the objectives while
 minimizing the number of input tokens.This was the base model
 configuration for the control group (T1).\
-![](media/image1.png){width="6.5in" height="2.0in"}\
+![](media/image9.png){width="6.5in" height="2.0in"}\
 *Figure 7: The system prompt for the control group T1.*
 
 #### 3.2.4.4 Treatment Group (T2)
@@ -420,7 +420,7 @@ where code must be written and any sample code. The following prompt
 template is used to add the information to the conversation:
 
 ![A black screen with white text AI-generated content may be
-incorrect.](media/image2.jpg){width="6.5in"
+incorrect.](media/image1.jpg){width="6.5in"
 height="1.3472222222222223in"}
 
 *Figure 8: Treatment T2 context prompt template.*
@@ -429,7 +429,7 @@ Subsequently, the AI chatbot responds that it is ready to assist with
 the assignment. The AI response demonstrated context awareness.
 
 ![A black background with white text AI-generated content may be
-incorrect.](media/image5.jpg){width="6.5in"
+incorrect.](media/image3.jpg){width="6.5in"
 height="1.3611111111111112in"}
 
 *Figure 9: AI response to context selection from T2.*
@@ -536,19 +536,38 @@ session Id, then quantify those session-based interactions.
 
 ### 3.3.1 Overview
 
+\[describe the process at a high level, details are below\]
+
+Categorical content analysis
+
+Build a codebook
+
+Take a sample of 50
+
+Hand classify the 50
+
+Evaluate which model does the most consistent job classifying compared
+to human.
+
+Classify all 1024 observations
+
+Summarize classifications so the unit of analysis is participant.
+
+\[old stuff\]
+
 There were 1024 participant sessions in the D1 chatbot trace data. Each
-session would be coded based on whether the session demonstrated a clear
-indication of task completion or activity where the participant seeks to
-understand. There was also a category for inconclusive sessions, where
-the session did not clearly demonstrate either. The categorical content
-analysis was performed based on deductive coding. Themes were identified
-among findings in academic literature in addition to my seven years of
-experience teaching IST256. The codebook outlined four key behaviors.
-The task completion category included activities such as superficial
-learning through answer seeking, and overreliance by cognitive
-offloading for task completion. The understanding category included
-scaffolding activities where the AI helps the learner, and questioning
-where participants ask questions to clarify a concept.
+session was coded using an LLM based on whether the session demonstrated
+a clear indication of task completion or activity where the participant
+sought to learn. There was also a category for inconclusive sessions,
+where the session did not clearly demonstrate either. The categorical
+content analysis was performed based on deductive coding. Themes were
+identified among findings in academic literature in addition to my seven
+years of experience teaching IST256. The codebook outlined four key
+behaviors. The task completion category included activities such as
+superficial learning through answer seeking, and overreliance by
+cognitive offloading for task completion. The understanding category
+included scaffolding activities where the AI helps the learner, and
+questioning where participants ask questions to clarify a concept.
 
 Since it was not practical to manually code all 1024 participant
 sessions, AI-assisted content analysis was used. The codebook was turned
@@ -563,23 +582,19 @@ used to classify the data.
 
 ### 3.3.2 Tools
 
-What did you use to perform the analysis?
+What did you use to perform the analysis? Python libraries used, etc....
 
-### 3.3.3 Categorizing Trace Data
+### 3.3.3 Building The Codebook
 
-Explain what you did here, trying out various large language models for
-categorizing
-
-Sub sections depending on length???
-
-Categorical content analysis \[CITE - foundation content analysis\] was
-used to classify student AI interactions into two categories of
-learning-supportive and learning-avoidance activities. These activities
-were deductively coded based on observations of other researchers in
-literature in addition to my six years of experience teaching the
-course. \[CITE deductive\]. The resulting categories were quantified and
-grouped to establish a quantized profile of AI use by each participant.
-These category counts were the independent variables of this study.
+To perform the categorical content analysis of the 1024 D1 chatbot trace
+data sessions, first a codebook was built deductively. An initial set of
+codes were established based on observations of other researchers in
+literature in combination with my seven years of experience teaching
+IST256. A sub-sample of 50 sessions were selected at random from the D1
+dataset to identify initial classifications. I classified each session
+according to the codebook in *Table 3*. In addition, I summarized the
+classified activity as an example which could be incorporated into the
+AI prompt used by the LLM.
 
 +-------------+-------------+-------------+-------------+-------------+
 | **P         | **D         | **Example** | **          | *           |
@@ -661,30 +676,130 @@ These category counts were the independent variables of this study.
 |             |             | a           |             |             |
 |             |             | dictionary? |             |             |
 +-------------+-------------+-------------+-------------+-------------+
-| Meta        | Participant | Do you know | I           |             |
-|             | asks        | about       | nconclusive |             |
-|             | questions   | seaborn?    |             |             |
-|             | about the   |             |             |             |
-|             | AI\'s       | How much    |             |             |
-|             | ca          | stuff can   |             |             |
-|             | pabilities. | you         |             |             |
-|             |             | remember    |             |             |
-|             |             | from our    |             |             |
-|             |             | con         |             |             |
-|             |             | versations? |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Off-Topic   | Not related | \"When is   | I           |             |
-|             | to subject. | the exam?\" | nconclusive |             |
-|             | Questions   |             |             |             |
-|             | not related | \"Can you   |             |             |
-|             | to          | tell me the |             |             |
-|             | p           | weather?\"  |             |             |
-|             | rogramming. |             |             |             |
+| Unable to   | The         | \"When is   | I           |             |
+| Determine   | transcript  | the         | nconclusive |             |
+|             | does not    | exam?\"     |             |             |
+|             | provide     | \<br\>\"Can |             |             |
+|             | enough      | you tell me |             |             |
+|             | information | the         |             |             |
+|             | to classify | weather?\   |             |             |
+|             | the         | "\<br\>What |             |             |
+|             | par         | did I ask   |             |             |
+|             | ticipant\'s | you last    |             |             |
+|             | behavior.   | week?       |             |             |
+|             | Off topic   |             |             |             |
+|             | question    |             |             |             |
+|             | not about   |             |             |             |
+|             | the subject |             |             |             |
+|             | matter.     |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 
 *Table 3: Codebook of participant behaviors*
 
- 
+For example, in one of *Participant 119*'s sessions this was this only
+question asked the AI chatbot:
+
+> PARTICIPANT\_119: "Write a function, score\_sentiment() which given 3
+> inputs: positive words, negative words and some text, will return an
+> integer score of sentiment as output. Assume all inputs are lower case
+> and do not have any punctuations."\
+> AI\_ASSISTANT: (writes code and explains what it does as the bot was
+> designed)
+
+The participant pasted in part of the assignment instructions asking the
+AI generate code. I classified this session as Task Completion, under
+the behavior Seeking Answers.
+
+For another example, here is *Participant 107's* session. I classified
+this interaction as Learning under the behavior Questioning, as it is
+obvious the participant is seeking to understand Python concepts.
+
+> PARTICIPANT\_107: Why false?\
+> a=0.1\
+> b=0.2\
+> bool(a+b==0.3)\
+> AI\_ASSISTANT: (provides an explanation with examples)\
+> \
+> PARTICIPANT\_107: explain 7%2\
+> AI\_ASSISTANT: (provides an explanation with examples)\
+> \
+> PARTICIPANT\_107: explain == vs =\
+> AI\_ASSISTANT: (provides an explanation with examples)
+
+An AI prompt was formulated from the codebook and the various examples
+of interactions I observed within the observations. The AI prompt is
+included in Appendix C.
+
+### 3.3.4 Justification of Model Selection for Classification
+
+Using a Large-Language Model to classify the 1024 sessions raised two
+concerns. First was inter-coder reliability. I wanted the LLM classifier
+to match my classifications as closely as possible. Secondly was
+internal reliability, LLMs are prone to hallucinations so I had to
+ensure whatever model I chose was consistent across multiple
+classifications of the same data. The best model was the most similar to
+my classification and the most internally consistent.
+
+Four different models were chosen as candidates: x-ai/grok-4-fast,
+openai/gpt-5-mini, google/gemini-2.5-flash, and
+anthropic/claude-sonnet-4. Each model candidate came from a different AI
+provider and were considered the best for classification type tasks at
+the time of the study.
+
+Each of the four models classified the same 50 session sub-sample I
+classified initially. The same AI prompt from Appendix C was used across
+all four models. This procedure was repeated three times to establish a
+measure of consistency among model runs. Krippendorff's alpha was
+calculated to measure the model's agreement with my classifications and
+with itself across the three runs.
+
+  --------------------------------------------------------------------------------
+  **Model**                   **Agreement with Human**   **Internal Consistency\
+                                                         (3 runs)**
+  --------------------------- -------------------------- -------------------------
+  x-ai/grok-4-fast            0.873131                   0.885031
+
+  openai/gpt-5-mini           0.788552                   0.914743
+
+  google/gemini-2.5-flash     0.833052                   1.000000
+
+  anthropic/claude-sonnet-4   0.873131                   1.000000
+  --------------------------------------------------------------------------------
+
+*Table 4: The Krippendorff's Alpha of model vs human and internal
+consistency of model against itself.*
+
+As *table 4* indicates, x-ai/grok-4-fast and anthropic/claude-sonnet-4
+classifications were in closest agreement to my classifications. Only
+google/gemini-2.5-flash, and anthropic/claude-sonnet-4 classified the
+data consistently across the three runs. For these reasons
+anthropic/claude-sonnet-4 was chosen as the model to complete the
+classification task.
+
+Incidentally, the Krippendorff's alpha across all models + human for the
+three runs was 0.76108, 0.75115 and 0.77207.
+
+### 3.3.5 Categorical Content Analysis
+
+Next we run the classifier using anthropic/claude-sonnet-4 across the
+1024 points of data. (show a bar chart of the categories).
+
+Next as part of the categorical content analysis count each category so
+that the unit of analysis is at the participant level. This forms our
+independent variables.
+
+Bujilding the dependent variables by counting up the categories. This is
+the independent variable. Unit of analysis is participant level so we
+count up the number of interactions that are "Task Completion" vs
+"Learning"
+
+![](media/image6.png){width="4.052083333333333in"
+height="3.0208333333333335in"}
+
+### 3.3.4 Addressing the Research Questions
+
+Now explain the approach to answering the research questions.
+Multi-variate regressions....
 
 **4.0 Results**
 ===============
