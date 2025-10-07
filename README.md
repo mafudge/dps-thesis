@@ -17,9 +17,9 @@ My thesis investigates the impact of Large Language Models (LLMs) use on learnin
 Click to view these contents.
 
 - `thesis/`: Contains the thesis documents in a variety of formats.
-   - [Draft-Thesis.md](./thesis/Draft-Thesis.md): The thesis document in Markdown format.
-   - [Draft-Thesis.pdf](./thesis/Draft-Thesis.pdf): The thesis document in PDF format.
-   - [Draft-Thesis.docx](./thesis/Draft-Thesis.docx): The thesis document in MS Word format.
+   - [Draft-Thesis.md](./thesis2/Draft-Thesis.md): The thesis document in Markdown format.
+   - [Draft-Thesis.pdf](./thesis2/Draft-Thesis.pdf): The thesis document in PDF format.
+   - [Draft-Thesis.docx](./thesis2/Draft-Thesis.docx): The thesis document in MS Word format.
 
 - `code/`: Contains Jupyter notebooks and Python scripts used for data analysis and modeling. These are viewable on GitHub.
    - [0.0-install_requirements.ipynb](./code/0.0-install_requirements.ipynb) ==> Used for installing the required packages, should you want to run the code.

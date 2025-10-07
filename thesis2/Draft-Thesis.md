@@ -1,5 +1,5 @@
 ---
-title: '[]{#_7iaqqjsk9qng .anchor}📚 Draft-Thesis'
+title: '[]{#_ktu42zjub5ja .anchor}📚 Draft-Thesis'
 ---
 
 **Contents**
@@ -426,7 +426,7 @@ improvement magnitude.
 ----------------
 
 ![A diagram of the study
-design](./publish/thesis2/md/media/image22.png){width="6.5in"
+design](./publish/thesis2/md/media/image16.png){width="6.5in"
 height="3.2916666666666665in"}\
 *Figure1: An overview of the study design.*
 
@@ -472,14 +472,14 @@ help with Python questions and course-related assignments. When asking a
 specific question about an assignment, students were instructed to
 switch the LLM context by selecting the assignment in question from a
 drop-down menu.\
-![](./publish/thesis2/md/media/image19.png){width="5.09375in"
+![](./publish/thesis2/md/media/image6.png){width="5.09375in"
 height="5.614583333333333in"}\
 *Figure 2: Context-Selection from the IST256 AI Tutor*
 
 For the control group T1 this action did nothing - it does not add any
 additional context. For the treatment group T2 the action copied the
 assignment or lab instructions into the conversational context.\
-![](./publish/thesis2/md/media/image7.png){width="6.5in"
+![](./publish/thesis2/md/media/image4.png){width="6.5in"
 height="4.0in"}\
 *Figure 3: The treatment group (T2) is aware of the selected content.*
 
@@ -515,7 +515,7 @@ data D1 necessary to study their AI interactions. There were 48
 individuals in the control group and 39 in the treatment group for a
 total participant population of 87.
 
-![](./publish/thesis2/md/media/image8.png){width="6.5in"
+![](./publish/thesis2/md/media/image3.png){width="6.5in"
 height="3.5833333333333335in"}*Figure 4: The participant funnel for
 chatbot use. 87 participants.*
 
@@ -530,7 +530,7 @@ whenever survey responses were needed in the analysis. Among the 77
 participants, 41 were in the control group and 36 were in the treatment
 group.
 
-![](./publish/thesis2/md/media/image14.png){width="6.5in"
+![](./publish/thesis2/md/media/image13.png){width="6.5in"
 height="3.0555555555555554in"}*Figure 5: The participant funnel when
 accounting for survey responses.*
 
@@ -567,7 +567,7 @@ what questions they got correct / incorrect.
 The following figure is an example question from the CT-Test. The entire
 instrument can be found in appendix A.
 
-![](./publish/thesis2/md/media/image1.png){width="6.5in"
+![](./publish/thesis2/md/media/image11.png){width="6.5in"
 height="3.1666666666666665in"}\
 *Figure 6: A sample question fro the CT-Test*
 
@@ -640,7 +640,7 @@ Several system prompt iterations were evaluated before the following was
 determined to be most suitable for meeting the objectives while
 minimizing the number of input tokens.This was the base model
 configuration for the control group (T1).\
-![](./publish/thesis2/md/media/image16.png){width="6.5in"
+![](./publish/thesis2/md/media/image17.png){width="6.5in"
 height="2.0in"}\
 *Figure 7: The system prompt for the control group T1.*
 
@@ -658,7 +658,7 @@ where code must be written and any sample code. The following prompt
 template is used to add the information to the conversation:
 
 ![A black screen with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image21.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image15.jpg){width="6.5in"
 height="1.3472222222222223in"}
 
 *Figure 8: Treatment T2 context prompt template.*
@@ -667,7 +667,7 @@ Subsequently, the AI chatbot responds that it is ready to assist with
 the assignment. The AI response demonstrated context awareness.
 
 ![A black background with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image17.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image2.jpg){width="6.5in"
 height="1.3611111111111112in"}
 
 *Figure 9: AI response to context selection from T2.*
@@ -1096,7 +1096,7 @@ categorized as "Task Completion" and one categorized as "Inconclusive."
 With the data setup this way I could now use the categorized counts as
 independent variables, and study their impacts on E1, C1 and C2.
 
-![](./publish/thesis2/md/media/image20.png){width="5.234375546806649in"
+![](./publish/thesis2/md/media/image8.png){width="5.234375546806649in"
 height="3.900122484689414in"}
 
 *Figure 10: Three classifications of chat sessions from the D1 dataset*
@@ -1421,7 +1421,7 @@ Both independent variables had fewer observations as the counts of the
 participants' sessions increased. This was expected for session-oriented
 data which is commonly right-skewed, where most participants have few
 sessions and few participants have several
-sessions..![](./publish/thesis2/md/media/image10.png){width="6.5in"
+sessions..![](./publish/thesis2/md/media/image7.png){width="6.5in"
 height="4.486111111111111in"}\
 *Figure ??: Partial regression plots when holding the other constant of
 E1 \~ Task Completion Session Count + Learning Session Count.*
@@ -1432,7 +1432,7 @@ Scatterplot Smoothing (LOESS) curve was relatively flat and close to the
 horizontal. The end of the LOESS curve does indicate a slight uptick
 likely due to lack of observations in that region.
 
-![](./publish/thesis2/md/media/image9.png){width="5.229166666666667in"
+![](./publish/thesis2/md/media/image23.png){width="5.229166666666667in"
 height="3.46875in"}\
 *Figure ??: Residuals vs Fitted Values for E1 \~ Learning Session Count
 + Task Completion Session Count*
@@ -1455,7 +1455,7 @@ hypothesis of normality. This was corroborated visually via a histogram
 of residuals and the Q-Q plot, both of which demonstrated close
 adherence to the normal distribution.
 
-![](./publish/thesis2/md/media/image4.png){width="6.5in"
+![](./publish/thesis2/md/media/image12.png){width="6.5in"
 height="2.3055555555555554in"}\
 *Figure ??: Evidence of normality among the residuals of E1 \~ Task
 Completion Session Count + Learning Session Count.*
@@ -1494,7 +1494,7 @@ session resulted in an E1 decrease by 0.41 units (beta = -0.41, SE =
 0.12, *t* = -3.52, *p* = .001, 95% CI \[-0.65, -0.18\]). This bivariate
 relationship confirmed greater engagement with task completion sessions
 was independently associated with lower exam scores.\
-![](./publish/thesis2/md/media/image13.png){width="6.5in"
+![](./publish/thesis2/md/media/image1.png){width="6.5in"
 height="3.638888888888889in"}
 
 *Figure ??: Forestplot of E1 \~Task Completion Session Count*
@@ -1513,7 +1513,7 @@ but not statistically significant (beta = 0.06, SE = 0.08, t = 0.79, p =
 0.435, 95% CI \[-0.10, 0.23\]). Learning session count was not a
 predictor of exam performance when considered in isolation.
 
-![](./publish/thesis2/md/media/image15.png){width="6.5in"
+![](./publish/thesis2/md/media/image5.png){width="6.5in"
 height="3.8472222222222223in"}\
 *Figure ??: Forestplot of E1 \~ Learning Session Count*
 
@@ -1542,7 +1542,7 @@ significant (delta r-squared = 0.189 - 0.127 = 0.062) indicating that
 the addition of learning session counts provided 6% more unique
 explanatory power beyond task completion sessions alone.
 
-![](./publish/thesis2/md/media/image12.png){width="6.5in"
+![](./publish/thesis2/md/media/image14.png){width="6.5in"
 height="3.638888888888889in"}
 
 *Figure ??: Forestplot of E1 \~ Task Completion Session Count + Learning
@@ -1691,7 +1691,7 @@ suggesting that the residuals approximated a normal distribution. This
 finding was corroborated visually via a histogram of residuals and a Q-Q
 plot to observe adherence to a normal distribution.
 
-![](./publish/thesis2/md/media/image5.png){width="6.5in"
+![](./publish/thesis2/md/media/image22.png){width="6.5in"
 height="2.3055555555555554in"}\
 *Figure ??: Evidence of normality among the residuals of E1 \~
 Treatment*
@@ -1786,7 +1786,7 @@ CI \[0.73, -0.39\]), while task completion count demonstrated a
 significant negative relationship (beta = -0.569, *SE* = 0.12, *t*(83) =
 -4.65, *p* \< 0.001, 95% CI \[-0.81, -0.33\]).
 
-![](./publish/thesis2/md/media/image23.png){width="6.5in"
+![](./publish/thesis2/md/media/image21.png){width="6.5in"
 height="3.5833333333333335in"}\
 *Figure ??: Forestplot of E1 \~ Treatment + Learning Session Count +
 Task Completion Session Count*
@@ -2063,7 +2063,7 @@ session-oriented independent variables had fewer observations as the
 counts of the participants' sessions increased, as was expected since
 this data is commonly right-skewed.
 
-![](./publish/thesis2/md/media/image6.png){width="6.5in"
+![](./publish/thesis2/md/media/image9.png){width="6.5in"
 height="4.486111111111111in"}\
 *Figure ??: Partial regression plots when holding the other constant of
 C2 \~ Task Completion Session Count + Learning Session Count. + C1 with
@@ -2074,7 +2074,7 @@ scattered points. Heteroscedasticity can be observed on the right end of
 the graph. The Locally Estimated Scatterplot Smoothing (LOESS) curve was
 relatively flat and hovering about horizontal.
 
-![](./publish/thesis2/md/media/image2.png){width="5.166666666666667in"
+![](./publish/thesis2/md/media/image10.png){width="5.166666666666667in"
 height="3.46875in"}\
 *Figure ??: Residuals vs Fitted Values for C2 \~ Learning Session Count
 + Task Completion Session Count + C1*
@@ -2091,7 +2091,7 @@ hypothesis of normality. This was corroborated visually via a histogram
 of residuals and the Q-Q plot, both of which demonstrated close
 adherence to the normal distribution.
 
-![](./publish/thesis2/md/media/image3.png){width="6.5in"
+![](./publish/thesis2/md/media/image19.png){width="6.5in"
 height="2.2777777777777777in"}\
 *Figure ??: Evidence of normality among the residuals of C2 \~ Task
 Completion Session Count + Learning Session Count + C1*
@@ -2152,7 +2152,7 @@ suggests a potential beneficial relationship between learning-oriented
 LLM usage and computational literacy that warrants investigation with
 larger samples or more sensitive measures.
 
-![](./publish/thesis2/md/media/image11.png){width="6.5in"
+![](./publish/thesis2/md/media/image20.png){width="6.5in"
 height="3.5972222222222223in"}\
 *Figure ??: Forestplot of C2 \~ Learning Session Count + Task Completion
 Session Count + C1*
