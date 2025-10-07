@@ -1,0 +1,88 @@
+participant_number,survey_done,chatbot_done,chatbot_group,first_year,gender,year_in_school_simplified,first_prog_course,C1,C2,E1,Difference_C2_C1,inconclusive_session_count,learning_session_count,task_completion_session_count,total_session_count,total_interaction_count,interaction_to_session_ratio,control_treatment_asnumber,first_prog_course_asnumber,gender_asnumber,year_in_school_simplified_asnumber
+1,Y,Y,Control,N,Male,Not-First Year,Y,11.0,16.0,34,5.0,0,6,4,10,50,5.0,0,1.0,1.0,1.0
+2,Y,Y,Treatment,N,Male,Not-First Year,Y,17.0,20.0,20,3.0,1,8,14,23,83,3.608695652173913,1,1.0,1.0,1.0
+7,Y,Y,Treatment,Y,Female,First Year,Y,26.0,27.0,42,1.0,0,14,2,16,32,2.0,1,1.0,0.0,0.0
+9,Y,Y,Control,N,Female,Not-First Year,Y,17.0,13.0,26,-4.0,0,10,3,13,45,3.4615384615384617,0,1.0,0.0,1.0
+10,Y,Y,Treatment,Y,Male,First Year,Y,23.0,25.0,29,2.0,0,1,0,1,4,4.0,1,1.0,1.0,0.0
+11,Y,Y,Treatment,Y,Female,First Year,Y,24.0,24.0,29,0.0,0,0,2,2,2,1.0,1,1.0,0.0,0.0
+12,N,Y,Control,,,,,15.0,20.0,24,5.0,2,22,9,33,123,3.727272727272727,0,,,
+14,Y,Y,Control,Y,Female,First Year,Y,24.0,23.0,34,-1.0,1,3,0,4,9,2.25,0,1.0,0.0,0.0
+19,Y,Y,Treatment,Y,Male,First Year,N,20.0,21.0,32,1.0,1,2,2,5,5,1.0,1,0.0,1.0,0.0
+20,Y,Y,Control,Y,Male,First Year,N,26.0,26.0,32,0.0,0,9,0,9,22,2.4444444444444446,0,0.0,1.0,0.0
+21,Y,Y,Treatment,N,Male,Not-First Year,N,20.0,19.0,34,-1.0,1,0,0,1,0,0.0,1,0.0,1.0,1.0
+22,Y,Y,Control,Y,Male,First Year,Y,22.0,20.0,32,-2.0,2,1,0,3,1,0.3333333333333333,0,1.0,1.0,0.0
+23,Y,Y,Control,N,Male,Not-First Year,Y,22.0,27.0,33,5.0,1,17,2,20,58,2.9,0,1.0,1.0,1.0
+24,Y,Y,Control,Y,Male,First Year,N,15.0,14.0,24,-1.0,0,5,12,17,83,4.882352941176471,0,0.0,1.0,0.0
+26,Y,Y,Control,Y,Male,First Year,N,14.0,13.0,28,-1.0,0,0,1,1,1,1.0,0,0.0,1.0,0.0
+27,Y,Y,Control,Y,Female,First Year,Y,19.0,25.0,32,6.0,0,8,11,19,29,1.5263157894736843,0,1.0,0.0,0.0
+28,Y,Y,Control,Y,Female,First Year,N,24.0,20.0,37,-4.0,0,2,0,2,7,3.5,0,0.0,0.0,0.0
+29,Y,Y,Treatment,Y,Female,First Year,N,22.0,26.0,42,4.0,2,30,3,35,102,2.914285714285714,1,0.0,0.0,0.0
+32,Y,Y,Treatment,Y,Male,First Year,Y,20.0,24.0,30,4.0,0,0,1,1,0,0.0,1,1.0,1.0,0.0
+33,Y,Y,Control,N,Female,Not-First Year,N,12.0,15.0,26,3.0,2,11,1,14,31,2.2142857142857144,0,0.0,0.0,1.0
+34,N,Y,Control,,,,,25.0,25.0,37,0.0,1,14,5,20,68,3.4,0,,,
+35,Y,Y,Treatment,Y,Non-binary / third gender,First Year,N,25.0,21.0,26,-4.0,0,0,3,3,3,1.0,1,0.0,2.0,0.0
+36,Y,Y,Control,N,Male,Not-First Year,Y,27.0,28.0,45,1.0,0,3,0,3,5,1.6666666666666667,0,1.0,1.0,1.0
+37,Y,Y,Control,N,Female,Not-First Year,Y,23.0,23.0,36,0.0,0,3,0,3,19,6.333333333333333,0,1.0,0.0,1.0
+38,Y,Y,Control,Y,Male,First Year,Y,23.0,21.0,37,-2.0,1,2,0,3,2,0.6666666666666666,0,1.0,1.0,0.0
+39,N,Y,Treatment,,,,,17.0,18.0,25,1.0,0,5,7,12,49,4.083333333333333,1,,,
+41,Y,Y,Control,N,Male,Not-First Year,Y,18.0,21.0,30,3.0,2,24,14,40,115,2.875,0,1.0,1.0,1.0
+42,Y,Y,Control,N,Male,Not-First Year,N,20.0,24.0,25,4.0,0,2,4,6,26,4.333333333333333,0,0.0,1.0,1.0
+44,Y,Y,Treatment,Y,Male,First Year,N,16.0,24.0,41,8.0,0,3,0,3,13,4.333333333333333,1,0.0,1.0,0.0
+45,Y,Y,Treatment,Y,Female,First Year,Y,14.0,13.0,35,-1.0,1,2,1,4,3,0.75,1,1.0,0.0,0.0
+46,Y,Y,Treatment,Y,Male,First Year,Y,19.0,21.0,29,2.0,1,28,10,39,141,3.615384615384616,1,1.0,1.0,0.0
+47,Y,Y,Control,Y,Male,First Year,N,25.0,24.0,29,-1.0,1,1,0,2,3,1.5,0,0.0,1.0,0.0
+48,N,Y,Control,,,,,22.0,25.0,27,3.0,0,1,0,1,3,3.0,0,,,
+50,Y,Y,Control,Y,Male,First Year,Y,22.0,25.0,33,3.0,0,0,1,1,12,12.0,0,1.0,1.0,0.0
+51,Y,Y,Treatment,Y,Male,First Year,Y,24.0,23.0,26,-1.0,0,1,1,2,19,9.5,1,1.0,1.0,0.0
+52,Y,Y,Control,N,Female,Not-First Year,Y,10.0,12.0,27,2.0,0,9,16,25,53,2.12,0,1.0,0.0,1.0
+53,Y,Y,Control,Y,Female,First Year,Y,5.0,8.0,20,3.0,0,0,1,1,2,2.0,0,1.0,0.0,0.0
+55,Y,Y,Control,Y,Male,First Year,Y,27.0,25.0,33,-2.0,0,1,0,1,31,31.0,0,1.0,1.0,0.0
+56,Y,Y,Treatment,Y,Male,First Year,N,25.0,22.0,37,-3.0,0,0,1,1,3,3.0,1,0.0,1.0,0.0
+57,Y,Y,Treatment,Y,Female,First Year,N,19.0,26.0,27,7.0,0,0,1,1,3,3.0,1,0.0,0.0,0.0
+61,Y,Y,Control,Y,Male,First Year,N,17.0,16.0,18,-1.0,0,1,0,1,6,6.0,0,0.0,1.0,0.0
+62,Y,Y,Control,Y,Female,First Year,Y,12.0,22.0,34,10.0,1,4,0,5,39,7.8,0,1.0,0.0,0.0
+63,Y,Y,Control,Y,Male,First Year,Y,18.0,24.0,22,6.0,1,1,1,3,2,0.6666666666666666,0,1.0,1.0,0.0
+64,Y,Y,Control,Y,Male,First Year,Y,19.0,20.0,32,1.0,0,24,9,33,123,3.727272727272727,0,1.0,1.0,0.0
+65,Y,Y,Control,N,Female,Not-First Year,N,16.0,12.0,17,-4.0,0,18,19,37,121,3.27027027027027,0,0.0,0.0,1.0
+66,Y,Y,Control,Y,Female,First Year,Y,24.0,25.0,35,1.0,0,2,1,3,3,1.0,0,1.0,0.0,0.0
+67,Y,Y,Control,N,Female,Not-First Year,N,26.0,25.0,34,-1.0,0,14,4,18,42,2.333333333333333,0,0.0,0.0,1.0
+68,N,Y,Control,,,,,26.0,26.0,39,0.0,0,21,3,24,86,3.583333333333333,0,,,
+69,Y,Y,Control,Y,Female,First Year,N,25.0,25.0,26,0.0,0,1,2,3,7,2.333333333333333,0,0.0,0.0,0.0
+74,Y,Y,Treatment,N,Male,Not-First Year,N,23.0,25.0,40,2.0,0,22,4,26,115,4.423076923076923,1,0.0,1.0,1.0
+75,Y,Y,Control,Y,Male,First Year,N,24.0,26.0,37,2.0,0,23,2,25,92,3.68,0,0.0,1.0,0.0
+76,Y,Y,Control,N,Male,Not-First Year,N,21.0,24.0,31,3.0,2,0,0,2,0,0.0,0,0.0,1.0,1.0
+78,Y,Y,Treatment,Y,Male,First Year,Y,21.0,23.0,33,2.0,0,5,1,6,3,0.5,1,1.0,1.0,0.0
+79,Y,Y,Treatment,Y,Male,First Year,Y,22.0,20.0,34,-2.0,0,7,15,22,77,3.5,1,1.0,1.0,0.0
+80,Y,Y,Treatment,Y,Female,First Year,Y,24.0,25.0,40,1.0,0,0,1,1,11,11.0,1,1.0,0.0,0.0
+81,Y,Y,Treatment,N,Male,Not-First Year,Y,21.0,23.0,29,2.0,1,3,7,11,37,3.363636363636364,1,1.0,1.0,1.0
+82,Y,Y,Control,N,Female,Not-First Year,N,16.0,19.0,29,3.0,2,33,7,42,119,2.833333333333333,0,0.0,0.0,1.0
+84,Y,Y,Treatment,Y,Female,First Year,Y,25.0,24.0,37,-1.0,0,0,3,3,8,2.6666666666666665,1,1.0,0.0,0.0
+85,Y,Y,Treatment,Y,Male,First Year,Y,25.0,25.0,39,0.0,0,7,8,15,35,2.333333333333333,1,1.0,1.0,0.0
+86,Y,Y,Control,N,Female,Not-First Year,N,26.0,25.0,33,-1.0,0,12,0,12,31,2.583333333333333,0,0.0,0.0,1.0
+87,N,Y,Control,,,,,26.0,24.0,28,-2.0,0,11,16,27,118,4.37037037037037,0,,,
+89,Y,Y,Treatment,Y,Male,First Year,Y,27.0,25.0,35,-2.0,1,9,1,11,40,3.636363636363636,1,1.0,1.0,0.0
+90,Y,Y,Treatment,Y,Female,First Year,Y,25.0,26.0,39,1.0,0,4,3,7,6,0.8571428571428571,1,1.0,0.0,0.0
+91,Y,Y,Control,N,Male,Not-First Year,Y,16.0,21.0,25,5.0,1,3,4,8,157,19.625,0,1.0,1.0,1.0
+92,Y,Y,Control,Y,Male,First Year,Y,24.0,22.0,34,-2.0,0,3,1,4,10,2.5,0,1.0,1.0,0.0
+93,Y,Y,Control,N,Male,Not-First Year,N,26.0,25.0,24,-1.0,0,16,5,21,59,2.8095238095238093,0,0.0,1.0,1.0
+94,Y,Y,Treatment,Y,Male,First Year,Y,13.0,15.0,26,2.0,0,7,2,9,42,4.666666666666667,1,1.0,1.0,0.0
+97,Y,Y,Treatment,Y,Female,First Year,N,23.0,24.0,39,1.0,1,6,3,10,21,2.1,1,0.0,0.0,0.0
+98,N,Y,Treatment,,,,,16.0,17.0,27,1.0,0,1,3,4,5,1.25,1,,,
+99,Y,Y,Treatment,Y,Female,First Year,Y,20.0,24.0,36,4.0,1,5,3,9,16,1.7777777777777777,1,1.0,0.0,0.0
+100,Y,Y,Treatment,Y,Female,First Year,N,24.0,21.0,37,-3.0,0,0,7,7,110,15.714285714285714,1,0.0,0.0,0.0
+103,N,Y,Treatment,,,,,25.0,26.0,37,1.0,0,4,1,5,5,1.0,1,,,
+104,Y,Y,Control,Y,Male,First Year,N,22.0,27.0,31,5.0,0,8,2,10,9,0.9,0,0.0,1.0,0.0
+106,Y,Y,Control,N,Male,Not-First Year,Y,15.0,10.0,23,-5.0,0,1,0,1,1,1.0,0,1.0,1.0,1.0
+107,Y,Y,Control,N,Female,Not-First Year,Y,25.0,24.0,31,-1.0,0,1,1,2,11,5.5,0,1.0,0.0,1.0
+109,Y,Y,Control,Y,Female,First Year,Y,18.0,16.0,29,-2.0,1,10,16,27,161,5.962962962962963,0,1.0,0.0,0.0
+110,Y,Y,Control,Y,Male,First Year,Y,22.0,17.0,22,-5.0,1,2,8,11,171,15.545454545454543,0,1.0,1.0,0.0
+111,Y,Y,Treatment,Y,Male,First Year,N,14.0,8.0,24,-6.0,1,24,12,37,108,2.918918918918919,1,0.0,1.0,0.0
+113,Y,Y,Treatment,Y,Male,First Year,N,19.0,23.0,26,4.0,0,1,0,1,0,0.0,1,0.0,1.0,0.0
+115,Y,Y,Treatment,Y,Female,First Year,Y,18.0,22.0,34,4.0,0,4,0,4,3,0.75,1,1.0,0.0,0.0
+116,Y,Y,Treatment,N,Male,Not-First Year,N,23.0,25.0,31,2.0,0,5,6,11,31,2.8181818181818183,1,0.0,1.0,1.0
+119,Y,Y,Control,Y,Female,First Year,Y,21.0,26.0,40,5.0,0,3,0,3,27,9.0,0,1.0,0.0,0.0
+120,Y,Y,Control,Y,Female,First Year,N,25.0,24.0,36,-1.0,0,8,4,12,11,0.9166666666666666,0,0.0,0.0,0.0
+121,Y,Y,Treatment,Y,Male,First Year,N,12.0,11.0,27,-1.0,0,1,0,1,0,0.0,1,0.0,1.0,0.0
+122,N,Y,Treatment,,,,,25.0,26.0,39,1.0,0,16,8,24,59,2.458333333333333,1,,,
+123,Y,Y,Treatment,Y,Male,First Year,Y,22.0,21.0,26,-1.0,0,4,11,15,70,4.666666666666667,1,1.0,1.0,0.0
+124,Y,Y,Treatment,Y,Male,First Year,Y,14.0,15.0,20,1.0,1,5,25,31,209,6.741935483870968,1,1.0,1.0,0.0
