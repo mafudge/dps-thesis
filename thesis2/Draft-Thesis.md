@@ -1,5 +1,5 @@
 ---
-title: '[]{#_xafg0ij6u8ko .anchor}📚 Draft-Thesis'
+title: '[]{#_x5r62ke6gsq8 .anchor}📚 Draft-Thesis'
 ---
 
 **Contents**
@@ -9,300 +9,504 @@ title: '[]{#_xafg0ij6u8ko .anchor}📚 Draft-Thesis'
 
 [**1.0 Introduction \[TODO\] 4**](#introduction-todo)
 
-[**2.0 Literature Review 6**](#literature-review)
+> [1.1 Background and Context 4](#_knn3ej99pimy)
+>
+> [1.1 Background \[Framing\] 4](#_jj0ae4i1qiq)
+>
+> [1.2 Purpose of the Study 6](#_y9nqj9nyt7ce)
+>
+> [1.3 Research questions and Methodology 6](#_4bx5pdpbltr8)
+>
+> [1.4 Thesis Organization 6](#thesis-organization)
+
+[**2.0 Literature Review 7**](#literature-review)
 
 > [2.1 Rise of the Large Language Model (LLM)
-> 7](#rise-of-the-large-language-model-llm)
+> 8](#rise-of-the-large-language-model-llm)
 >
 > [2.2 LLMs as a Disruptive Innovation for software development
-> 8](#llms-as-a-disruptive-innovation-for-software-development)
+> 10](#llms-as-a-disruptive-innovation-for-software-development)
 >
 > [2.2.1 Impacts on Developer Productivity
-> 10](#impacts-on-developer-productivity)
+> 11](#impacts-on-developer-productivity)
 >
 > [2.2.2 Conversations on the Future of Programming
-> 11](#conversations-on-the-future-of-programming)
+> 12](#conversations-on-the-future-of-programming)
 >
 > [2.3 Large-Language Model use in Higher Education
-> 11](#large-language-model-use-in-higher-education)
+> 12](#large-language-model-use-in-higher-education)
 >
 > [2.4 LLM Use in Programming Education
-> 13](#llm-use-in-programming-education)
+> 14](#llm-use-in-programming-education)
 >
 > [2.4.1 Framing Novices and Programming Difficulties
-> 13](#framing-novices-and-programming-difficulties)
+> 14](#framing-novices-and-programming-difficulties)
 >
 > [2.4.2 Studies of LLM Use in Programming Courses
-> 14](#studies-of-llm-use-in-programming-courses)
+> 15](#studies-of-llm-use-in-programming-courses)
 >
-> [2.5 LLM Impacts on Programming Educational Theories
-> 17](#llm-impacts-on-programming-educational-theories)
+> [2.5 LLM Impacts on Computer Programming Education
+> 18](#llm-impacts-on-computer-programming-education)
 >
-> [2.5.1 Computational Thinking 17](#computational-thinking)
+> [2.5.1 Computational Thinking 18](#computational-thinking)
 >
-> [2.5.2 Self-Effacacy 19](#self-effacacy)
+> [2.5.2 Self-Efficacy 20](#self-efficacy)
 >
-> [2.5.3 Academic Performance 20](#academic-performance)
+> [2.5.3 Help Seeking Behavior 21](#help-seeking-behavior)
+>
+> [2.5.4 Academic Performance 23](#academic-performance)
 
-[**3.0 Methods 21**](#methods)
+[**3.0 Methods 25**](#methods)
 
-> [3.1 Introduction 21](#introduction)
+> [3.1 Introduction 25](#introduction)
 >
-> [3.1.1 Research Questions 22](#research-questions)
+> [3.1.1 Research Questions 25](#research-questions)
 >
-> [3.2 Study Design 23](#study-design)
+> [3.2 Study Design 27](#study-design)
 >
-> [3.2.1 Overview 24](#overview)
+> [3.2.1 Overview 27](#overview)
 >
-> [3.2.2 Participant Funnel 27](#participant-funnel)
+> [3.2.2 Participant Funnel 30](#participant-funnel)
 >
 > [3.2.2.1 Population 1: Chatbot participants
-> 28](#population-1-chatbot-participants)
+> 31](#population-1-chatbot-participants)
 >
 > [3.2.2.1 Population 2: Chatbot participants with Survey Responses
-> 29](#population-2-chatbot-participants-with-survey-responses)
+> 32](#population-2-chatbot-participants-with-survey-responses)
 >
 > [3.2.3 Computational Literacy Instrument (C1/C2)
-> 29](#computational-literacy-instrument-c1c2)
+> 32](#computational-literacy-instrument-c1c2)
 >
-> [3.2.4 Chatbot Design 31](#chatbot-design)
+> [3.2.4 Chatbot Design 34](#chatbot-design)
 >
-> [3.2.4.1 LLM Selection 31](#llm-selection)
+> [3.2.4.1 LLM Selection 34](#llm-selection)
 >
-> [3.2.4.2 Random Assignment 32](#random-assignment)
+> [3.2.4.2 Random Assignment 35](#random-assignment)
 >
-> [3.2.4.3 Control Group (T1) 32](#control-group-t1)
+> [3.2.4.3 Control Group (T1) 35](#control-group-t1)
 >
-> [3.2.4.4 Treatment Group (T2) 33](#treatment-group-t2)
+> [3.2.4.4 Treatment Group (T2) 36](#treatment-group-t2)
 >
-> [3.2.5 Midterm Exam (E1) 35](#midterm-exam-e1)
+> [3.2.5 Midterm Exam (E1) 38](#midterm-exam-e1)
 >
-> [3.2.6 Questionnaire (Q1) 36](#questionnaire-q1)
+> [3.2.6 Questionnaire (Q1) 39](#questionnaire-q1)
 >
-> [3.2.7 Chatbot Trace Data (D1) 36](#chatbot-trace-data-d1)
+> [3.2.7 Chatbot Trace Data (D1) 39](#chatbot-trace-data-d1)
 >
-> [3.3 Data Analysis 38](#data-analysis)
+> [3.3 Data Analysis 41](#data-analysis)
 >
-> [3.3.1 Overview 38](#overview-1)
+> [3.3.1 Overview 41](#overview-1)
 >
-> [3.3.2 Tools 39](#tools)
+> [3.3.2 Tools 42](#tools)
 >
 > [3.3.3 Operationalizing D1 Chatbot Trace Data
-> 40](#operationalizing-d1-chatbot-trace-data)
+> 43](#operationalizing-d1-chatbot-trace-data)
 >
 > [3.3.4 Model Selection Reliability Testing
-> 42](#model-selection-reliability-testing)
+> 45](#model-selection-reliability-testing)
 >
-> [3.3.5 Categorical Content Analysis 44](#categorical-content-analysis)
+> [3.3.5 Categorical Content Analysis 47](#categorical-content-analysis)
 >
 > [3.4 Hypothesis Formulation and Methodology
-> 45](#hypothesis-formulation-and-methodology)
+> 48](#hypothesis-formulation-and-methodology)
 >
 > [3.4.1 RQ1 Hypothesis and Methodology
-> 45](#rq1-hypothesis-and-methodology)
+> 48](#rq1-hypothesis-and-methodology)
 >
 > [3.4.2 RQ2 Hypothesis and Methodology
-> 47](#rq2-hypothesis-and-methodology)
+> 50](#rq2-hypothesis-and-methodology)
 >
 > [3.4.3 RQ3 Hypothesis and Methodology
-> 49](#rq3-hypothesis-and-methodology)
+> 52](#rq3-hypothesis-and-methodology)
 >
 > [3.4.4 Satisfying Assumptions of Linear Regressions
-> 51](#satisfying-assumptions-of-linear-regressions)
+> 54](#satisfying-assumptions-of-linear-regressions)
 
-[**4.0 Results 52**](#results)
+[**4.0 Results 55**](#results)
 
-> [4.1 Introduction 52](#introduction-1)
+> [4.1 Introduction 55](#introduction-1)
 >
-> [4.2 Findings for RQ1 54](#findings-for-rq1)
+> [4.2 Findings for RQ1 57](#findings-for-rq1)
 >
-> [4.2.1 Model Overview for RQ1 54](#model-overview-for-rq1)
+> [4.2.1 Model Overview for RQ1 57](#model-overview-for-rq1)
 >
 > [4.2.2 Regression Assumption Tests of the Model for RQ1
-> 55](#regression-assumption-tests-of-the-model-for-rq1)
+> 58](#regression-assumption-tests-of-the-model-for-rq1)
 >
 > [4.2.3 Hierarchical Regression Analysis for the RQ1 Model
-> 58](#hierarchical-regression-analysis-for-the-rq1-model)
+> 61](#hierarchical-regression-analysis-for-the-rq1-model)
 >
 > [4.2.3.1 Model 1: E1 \~ Task Complection Session Count
-> 59](#model-1-e1-task-complection-session-count)
+> 62](#model-1-e1-task-complection-session-count)
 >
 > [4.2.3.2 Model 2: E1 \~ Learning Session Count
-> 60](#model-2-e1-learning-session-count)
+> 63](#model-2-e1-learning-session-count)
 >
 > [4.2.3.3 Model 3: E1 \~ Learning Session Count + Task Completion
 > Session Count
-> 61](#model-3-e1-learning-session-count-task-completion-session-count)
+> 64](#model-3-e1-learning-session-count-task-completion-session-count)
 >
-> [4.2.4 Summary of Findings for RQ1 62](#summary-of-findings-for-rq1)
+> [4.2.4 Summary of Findings for RQ1 65](#summary-of-findings-for-rq1)
 >
-> [4.2.5 Conclusion for RQ1 64](#conclusion-for-rq1)
+> [4.2.5 Conclusion for RQ1 67](#conclusion-for-rq1)
 >
-> [4.3 Findings for RQ2 64](#findings-for-rq2)
+> [4.3 Findings for RQ2 67](#findings-for-rq2)
 >
-> [4.3.1 Model Overview for RQ2 64](#model-overview-for-rq2)
+> [4.3.1 Model Overview for RQ2 68](#model-overview-for-rq2)
 >
 > [4.3.2 Regression Assumption Tests for the RQ2 Model
-> 65](#regression-assumption-tests-for-the-rq2-model)
+> 68](#regression-assumption-tests-for-the-rq2-model)
 >
 > [4.3.3 Regression Analysis for the RQ2
-> 67](#regression-analysis-for-the-rq2)
+> 70](#regression-analysis-for-the-rq2)
 >
-> [4.3.3.1 Multiple Regression with usage as Covariates for RQ2
-> 69](#multiple-regression-with-usage-as-covariates-for-rq2)
+> [4.3.3.1 Model 0: Treatment Effects on E1
+> 70](#model-0-treatment-effects-on-e1)
 >
-> [4.3.3.2 Mediation Analysis for RQ2 70](#mediation-analysis-for-rq2)
+> [4.3.3.1 Model 1: Multiple Regression with usage as Covariates for RQ2
+> 72](#model-1-multiple-regression-with-usage-as-covariates-for-rq2)
 >
-> [4.3.3.3 Moderation Analysis for RQ2 71](#moderation-analysis-for-rq2)
+> [4.3.3.2 Model 2 a/b: Mediation Analysis for RQ2
+> 74](#model-2-ab-mediation-analysis-for-rq2)
 >
-> [4.3.4 Summary of Findings for RQ2 73](#summary-of-findings-for-rq2)
+> [4.3.3.3 Model 3 a/b: Moderation Analysis for RQ2
+> 75](#model-3-ab-moderation-analysis-for-rq2)
 >
-> [4.3.5 Conclusion for RQ2 74](#conclusion-for-rq2)
+> [4.3.4 Summary of Findings for RQ2 76](#summary-of-findings-for-rq2)
 >
-> [4.4 Findings for RQ3 75](#findings-for-rq3)
+> [4.3.5 Conclusion for RQ2 77](#conclusion-for-rq2)
 >
-> [4.4.1 Model Overview for RQ3 75](#model-overview-for-rq3)
+> [4.4 Findings for RQ3 79](#findings-for-rq3)
+>
+> [4.4.1 Model Overview for RQ3 79](#model-overview-for-rq3)
 >
 > [4.4.2 Regression Assumption Tests for the RQ3 Model
-> 76](#regression-assumption-tests-for-the-rq3-model)
+> 80](#regression-assumption-tests-for-the-rq3-model)
 >
-> [4.4.3 Regression Analysis for RQ3 Accounting for test-retest
-> 80](#regression-analysis-for-rq3-accounting-for-test-retest)
+> [4.4.3 Model 1: Regression Analysis for RQ3 Accounting for test-retest
+> 84](#model-1-regression-analysis-for-rq3-accounting-for-test-retest)
 >
-> [4.4.3.1 Supplementary Analysis Change in Scores
-> 82](#supplementary-analysis-change-in-scores)
+> [4.4.3.1 Model 1a: Supplementary Analysis Change in Scores
+> 86](#model-1a-supplementary-analysis-change-in-scores)
 >
-> [4.4.4 Summary of Findings for RQ3 83](#summary-of-findings-for-rq3)
+> [4.4.4 Summary of Findings for RQ3 87](#summary-of-findings-for-rq3)
 >
-> [4.4.5 Conclusion for RQ3 84](#conclusion-for-rq3)
+> [4.4.5 Conclusion for RQ3 88](#conclusion-for-rq3)
 >
-> [4.5 Overall Summary of Findings 85](#overall-summary-of-findings)
+> [4.5 Overall Summary of Findings 89](#overall-summary-of-findings)
 
-[**5.0 Summary \[TODO\] 87**](#summary-todo)
+[**5.0 Summary 91**](#summary)
 
-> [5.1 Introduction 87](#introduction-2)
+> [5.1 Introduction 91](#introduction-2)
 >
-> [5.2 Discussion of Findings 87](#discussion-of-findings)
+> [5.1.1 Key Findings At a Glance 91](#key-findings-at-a-glance)
 >
-> [5.2.1 RQ1 87](#rq1)
+> [5.2 Finding 1: Mutual Suppression 92](#finding-1-mutual-suppression)
 >
-> [5.2.2 RQ2 88](#rq2)
+> [5.2.1 Discussion of Finding 1 92](#discussion-of-finding-1)
 >
-> [5.2.3 RQ3 89](#rq3)
+> [5.2.2 Contextualization of Finding 1
+> 94](#contextualization-of-finding-1)
 >
-> [5.3 Theoretical and Practical Implications
-> 89](#theoretical-and-practical-implications)
+> [5.3 Finding 2: Negative Implications of AI use for Task Completion
+> 95](#finding-2-negative-implications-of-ai-use-for-task-completion)
 >
-> [5.4 Limitations of the Study 90](#limitations-of-the-study)
+> [5.3.1 Discussion of Finding 2 95](#discussion-of-finding-2)
 >
-> [5.5 Recommendations for Future Research
-> 91](#recommendations-for-future-research)
+> [5.3.2 Contextualization of Finding 2
+> 96](#contextualization-of-finding-2)
 >
-> [5.6 Conclusion 91](#conclusion)
+> [5.4 Finding 3: Positive Implications of AI use for Learning
+> 97](#finding-3-positive-implications-of-ai-use-for-learning)
+>
+> [5.4.1 Discussion of Finding 3 97](#discussion-of-finding-3)
+>
+> [5.4.2 Contextualization of Finding 3
+> 98](#contextualization-of-finding-3)
+>
+> [5.5 Implications and Recommendations
+> 98](#implications-and-recommendations)
+>
+> [5.5.1 Theoretical Implications 99](#theoretical-implications)
+>
+> [5.5.2 Practical Implications for Instructors
+> 100](#practical-implications-for-instructors)
+>
+> [5.5.3 Practical Implications for Institutions
+> 102](#practical-implications-for-institutions)
+>
+> [5.5.4 Practical Implications for Students
+> 102](#practical-implications-for-students)
+>
+> [5.6 Limitations 103](#limitations)
+>
+> [5.7 Future Research 104](#future-research)
+>
+> [5.8 Conclusion 106](#conclusion)
 
-[**References 93**](#references)
+[**References 108**](#references)
 
  
 
 **1.0 Introduction \[TODO\]**
 =============================
 
-NOTE: This is a work in progress....
+1.1 Background
+--------------
 
-This thesis investigates how the use of the Large Language Models (LLM)
-impact student learning performance and computational literacy.
-Participants were recruited from an introductory Python programming
-course to participate in the empirical study.. As a long time instructor
-of the course, previous observations revealed students use AI for both
-superficial task completion and to gain a deeper understanding of course
-material. To study the repercussions of this phenomena, student
-interactions with a course-provided LLM were captured, categorized then
-quantified to determine their correlation with academic outcomes. Given
-the disruptive potential of LLMs in software development and education,
-the findings will provide crucial insights into how to best leverage
-LLMs to foster positive learning outcomes and mitigate negative ones for
-novice programmers.
+Computer programming is undergoing a profound transformation. Large
+Language Models (LLMs), a type of artificial intelligence (AI) trained
+on vast amounts of textual data, have shown profound programming
+capability. A recent study found that with guided prompts, the GPT-4 LLM
+outperformed 85% of human programmers on online programming challenges
+[(Hou & Ji, 2025)](https://www.zotero.org/google-docs/?6YpWOL). A 2023
+study from code management platform Github revealed 92% of U.S.-based
+developers use AI coding tools with 70% saying they offer advantages at
+work [(Github, 2023)](https://www.zotero.org/google-docs/?IozMez).
 
-This study was very much a realization from years of teaching
-introductory Python programming to undergraduates. CLEAN THIS UP....into
-which facets of Large Language model use influence student grades.
-Oftentimes students are outcomes-focused so any insights into LLM use
-that foster positive outcomes, yet diminish negative ones would likely
-serve as a motivational driver.
+In early 2025, Andrej Karpathy tweeted about his experience engaging in
+a conversation with AI build software without focusing on the code
+itself [(Andrej Karpathy \[\@karpathy\],
+2025)](https://www.zotero.org/google-docs/?jY3fat). He named this
+activity *vibe coding* which recently became the Collins Dictionary 2025
+Word of the Year [(Collins,
+2025)](https://www.zotero.org/google-docs/?d5OUI1). This has given rise
+to numerous vibe coding platforms such as
+[[Base44.com]{.underline}](http://base44.com),
+[[Cursor.com]{.underline}](https://cursor.com),
+[[Lovable.dev]{.underline}](https://lovable.dev), and
+[[Replit.com]{.underline}](https://replit.com) that all promise to build
+software through human-AI exchanges. These platforms provide access to
+the expertise of computer programming at a fraction of the time and cost
+of a human, a disruptive innovation by Christensen's definition
+[(Christensen et al.,
+2018)](https://www.zotero.org/google-docs/?9k76gP). These disruptions
+are sparking conversations among academia and industry that suggest
+computer programming as we know it is headed on the path to extinction,
+and from the aftermath a new human-AI cooperative set of skills centered
+on AI literacy and computational thinking will emerge [(Lohr, 2025;
+Stiffler, 2025)](https://www.zotero.org/google-docs/?fvLVoS).
 
-Having taught undergraduates Python programming to undergraduates for
-seven years, I've observed several trends (ELABORATE). I am constantly
-improving the course and its delivery to help students achieve those
-outcomes. When generative AI burst onto the scene it was a disruptor.
-Students now had a programming expert at their fingertips. It could
-serve as a 24/7 tutor, teacher, code debugger. It was an entity students
-could now use to have an dialog on-demand for their questions. I
-embraced it not only allowing use in my courses but encouraging it.
+For educators teaching introductory programming courses this seismic
+shift presents an immediate and critical tension. LLMs are
+simultaneously capable of serving as both legitimate learning aids and
+as a means to circumvent learning completely. On one hand they promise
+unparalleled support by functioning as a 24/7 tutor ready to explain
+concepts, provide examples or debugging assistance in ways that help
+students form deep connections necessary for learning [(Cambaz & Zhang,
+2024; Finnie-Ansley et al., 2022; Hassan et al., 2025; Prather et al.,
+2019; Prather, Reeves, Leinonen, et al.,
+2024](https://www.zotero.org/google-docs/?hzM9cH)). On the other hand,
+their answer-generating capabilities foster learning avoidance behaviors
+and cognitive offloading which undermines the fundamental development of
+critical thinking and problem-solving skills [(Abbas et al., 2024;
+Becker et al., 2023; Margulieux et al., 2024; Pons, 2023; Rahman &
+Watanobe, 2023)](https://www.zotero.org/google-docs/?ydyyXS).
 
-With all of the upside, the downside of course, it can be used to
-circumvent learning though not-so constructive activities such as
-generating answers to assignments, or having AI explain their own code
-as part of a code reflection.
+This thesis moves beyond the debate of allowing or banning AI use in the
+classroom for programming education. Generative AI is here to stay so
+teachers, students, and educational institutions must all adapt. LLMs
+are more than information-retrieval machines; their generative nature
+has implications on our cognitive engagement. Therefore, this thesis
+investigates empirically how LLMs are used by students in an
+introductory computer programming course, focusing on the impacts that
+use has on learning and computational literacy skill acquisition.
 
-My suspicion was that this type of superficial learning was going on in
-my courses. My observation was based on students with quality
-assignments, yet poor exam scores. There are a variety of reasons why
-student achievement on the numerous practice activities in the course
-might not correlate with an exam score. And I've always had this problem
-to some degree, my sense was AI was exacerbating the problem.
+To create an analogy, the introduction of LLMs into programming
+education is like giving novice hikers a GPS. They can use the GPS (LLM)
+to scout routes and survey the land around them (learning-focused use,
+like scouting concepts or debugging), ultimately to help them orient
+themselves better (skill acquisition). Alternatively, they can use the
+GPS to tell them exactly how to get to a destination (task-completion
+use, like seeking immediate answers), achieving the short-term goal but
+failing to build the essential skill (computational literacy) needed to
+become self-sufficient.
 
-While I lacked the evidence to support it, on rare occasions I would
-observe it. For example, students would come to office hours stuck on a
-problem. I'd ask them to walk through what they had so far, but they
-could not explain it. They informed me AI helped them with the problem
-but their understanding of the generated code was so lacking they could
-not adapt it to fit the problem.
+My hope is the findings from this thesis will encourage other academics
+teaching computer programming to not only rethink how we teach this
+subject, but also identify which skills are necessary to train for
+future programmers in the age of AI.
 
-This got me thinking. Perhaps I should observe students completing a
-programming task with AI and ask them to think-aloud while they do it. I
-invited a handful of students to participate and observed the results.
-Of the behaviors observed, two were the most interesting.
+1.2 Problem Statement
+---------------------
 
-Some students engaged in scaffolding with the AI, using it to support
-and justify their own thinking as they solved the problem in code. These
-students were critical of the code that was generated, seeking to
-understand it and often asking the AI to explain or justify its
-decisions.
+This is the most critical section. It defines the intellectual space
+your thesis occupies and justifies its existence. You must clearly state
+what is *missing* from current research.
 
-Another group of students used the AI for task completion; delegating to
-it and trusting the generations were correct. There was clear evidence
-of overreliance, with students believing the problem was solved
-correctly, when it was not. The students that were able to identify the
-execution output from the AI-generated was not correct, would often
-start over or make unreasonable requests for the AI to fix itself.
+-   **Identify the Gap:** Explicitly state the **specific limitations,
+    > inconsistencies, or lack of knowledge** in the current literature.
+    > If previous studies have reached conflicting conclusions, point
+    > that out.
 
-The question is not whether AI should be allowed or banned. Like the
-calculator, the internet, and wikipedia, AI usage in education is not
-going away. Therefore the questions become:
+-   **The Thesis Problem:** Clearly define the **central problem** or
+    > issue that motivated your research. This is often framed as a
+    > question that has not yet been answered, or a phenomenon that has
+    > not been adequately explained.
 
--   Which AI usage patterns are beneficial to learning and which are
-    > harmful to learning?
+-   **The Urgency/Relevance:** Why does this gap matter? Explain the
+    > **academic, social, or practical consequences** of this problem
+    > remaining unsolved. This justifies the effort of a doctoral-level
+    > study.
 
--   When it comes to using AI as a learning aid, what should we be
-    > teaching our students?
+While use of Large Language Models (LLMs) as an aid for computer
+programming is becoming well established in practice, researchers are
+only beginning to understand their impacts on computer programming
+education. This has profound implications for how we best educate the
+programmers of the future. Current academic literature presents several
+limitations and inconsistencies regarding LLM use by novices in
+programming education leading to three specific gaps.
 
--   Should we bother to make better AI - that is, tailor the AI to the
-    > course material? Are the benefits worth the effort?
+First, research is inconsistent concerning whether use of AI coding
+assistants is a benefit or harm to novice programmers. Some studies
+suggest copilots are an asset for less experienced programmers ([Moradi
+Dakhel et al., 2023; Peng et al.,
+2023)](https://www.zotero.org/google-docs/?YZTJhA) or provide task
+completion increases [(Kazemitabaar et al.,
+2023)](https://www.zotero.org/google-docs/?SPCcnb), while in the same
+study suggest they are a liability for novices who may lack the
+expertise to detect flaws in the generated code ([Moradi Dakhel et al.,
+2023; Peng et al., 2023)](https://www.zotero.org/google-docs/?vfx5AV).
+Studies have focused on the identification of behavioral AI usage
+patterns among participants [(Becker et al., 2023; Prather, Reeves,
+Leinonen, et al., 2024)](https://www.zotero.org/google-docs/?KLJ13A)
+helping to advance an understanding of how AI is used.
+
+While several studies highlight the drawbacks of LLM use among novice
+programmers, specifically how it fosters learning avoidance and
+cognitive offloading [(Abbas et al., 2024; Becker et al., 2023;
+Margulieux et al., 2024; Pons, 2023; Rahman & Watanobe,
+2023)](https://www.zotero.org/google-docs/?jQZcQw), little research has
+directly explored AI\'s impacts on academic performance and
+computational literacy skill acquisition. Furthermore, prior work
+correlating AI use and final grades often relied on self-reported
+frequency surveys [(Jošt et al.,
+2024a)](https://www.zotero.org/google-docs/?18I1T4), which points to an
+opportunity to explore the impact of LLM use through a more unobtrusive
+method, such as the analysis of direct student interactions.
+
+Finally, research on student help-seeking behaviors using LLM assistants
+has been descriptive, establishing categories like asking questions or
+requesting code assistance [(Kazemitabaar et al.,
+2024)](https://www.zotero.org/google-docs/?nWNhLK), but leaving gaps in
+exploring the implications of these *types* of help-seeking (adaptive
+vs. maladaptive) on specific student outcomes like course performance
+and computational literacy gains. Specifically, the relationship between
+task completion behaviors and the fundamental development of
+computational literacy is still emerging, with an opportunity existing
+to measure this relationship using a formalized computational thinking
+assessment [(Román-González et al.,
+2017)](https://www.zotero.org/google-docs/?fRdurf).
+
+This thesis addresses these gaps by providing empirical evidence of LLM
+use and its impacts on student outcomes and computational literacy.
+Leveraging prior research that identifies the different AI usage
+patterns, this study classified usage into two distinct usage patterns
+task-completion focused and learning focused. Learning focused usage
+demonstrates adaptive help-seeking behaviors while task-completion usage
+demonstrates maladaptive help seeking. To fill the gaps in literature,
+this study quantifies these usage patterns and correlates them with
+measurable academic outcomes.
+
+The Urgency/Relevance
+
+The resolution of this problem is urgent and highly relevant due to
+significant academic and practical consequences:
+
+• Academic Consequences: Without understanding the mechanisms by which
+LLM use impacts learning, educators risk adopting policies (whether of
+restriction or integration) that are ineffective or actively detrimental
+to student skill acquisition. The current ambiguity hinders the
+development of a cooperative skill set centered on AI literacy and
+computational thinking, which is suggested to emerge as programming
+evolves.
+
+• Practical/Pedagogical Consequences: The observed negative effects of
+task completion behaviors align with undesirable executive help seeking,
+leading to poor metacognition and potentially constraining the
+development of computational literacy. If instructors cannot identify
+which behaviors lead to learning success (adaptive help
+seeking/scaffolding) and which lead to failure (cognitive
+offloading/task completion), they cannot effectively redesign curricula
+or interventions.
+
+• Methodological Contribution: By using categorical content analysis on
+unobtrusive chatbot trace data to classify student interactions as
+\"learning\" or \"task completion\", and demonstrating effects such as
+the mutual suppression effect, this study provides a crucial
+methodological framework for future researchers studying complex,
+competing behavioral patterns in human-AI interaction.
+
+Therefore, this thesis investigates empirically how LLMs are used by
+students in an introductory computer programming course, focusing on the
+impacts that use has on learning and computational literacy skill
+acquisition, thus providing the necessary foundation to encourage
+academics to rethink how they teach this subject and which skills are
+necessary for future programmers in the age of AI.
+
+1.3 Purpose of the Study
+------------------------
+
+This section moves from the identified problem to your specific plan of
+action to address it.
+
+-   **Overarching Aim:** State the single, central **purpose** of your
+    > thesis (e.g., \"The aim of this research is to develop and
+    > validate a new model for X\...\").
+
+-   **Specific Objectives:** List 3 to 5 **specific, measurable
+    > objectives** (often using verbs like *to investigate*, *to
+    > analyze*, *to compare*, *to determine*). These should align
+    > directly with your methods and results.
+
+-   **Research Question(s) (RQs):** State your primary **Research
+    > Question(s)** (RQs) and any relevant sub-questions. These
+    > questions should be concise and directly address the knowledge gap
+    > identified in Section 2.
+
+    -   *Tip: Ensure your RQs are answerable based on the data you
+        > collected in your Methods and Results chapters.*
+
+1.4 Significance of the Study
+-----------------------------
+
+This section is where you highlight the expected value of your work.
+Every doctoral thesis must demonstrate **original contribution to
+knowledge**.
+
+-   **Theoretical Contribution:** How does your work advance theory or
+    > conceptual understanding within your field? Will it fill the gap
+    > you identified, challenge an existing theory, or propose a new
+    > framework?
+
+-   **Practical or Policy Contribution:** Beyond academia, what
+    > real-world impact might your findings have? Who will benefit
+    > (e.g., practitioners, policymakers, educators, patients)?
+
+-   **Originality:** Clearly articulate what is **new** about your
+    > research---is it the method, the data set, the theoretical
+    > framing, or the combination of all three?
+
+Thesis Organization
+-------------------
+
+After the introduction, the supporting work from this thesis is
+organized into four chapters. Each subsequent chapter builds upon the
+previous ones to outlay the lens through which this research is
+grounded, the methods by which the study was conducted, the key findings
+and the implications of those findings. A summary of each chapter is
+outlined in table 1.
+
+  Chapter                 Summary
+  ----------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1.0 Introduction        The introduction provides the necessary framing for this study, including motivation, key research questions and approaches to answering them.
+  2.0 Literature Review   This chapter investigates the current and relevant literature on Large-Language Models through the lens of how they are transforming work, education, and then specifically programming education. LLM impacts are then studied through 4 research lenses: computational thinking, self-efficacy, help-seeking behavior and academic performance.
+  3.0 Methods             The methods chapter formulates hypotheses from the research questions and structures the methodologies to address them. There is a detailed explanation of the study design and an outline of the methodological analysis to operationalize the data collected from the study.
+  4.0 Results             This chapter outlines the findings from the results of the study. The results are structured by research questions since each question employs a different method of analysis.
+  5.0 Summary             The summary section synthesizes the results from the previous chapter into findings, which are then contextualized within the academic literature. A discussion includes with the implications of the findings, limitations, and areas for future research.
 
 **2.0 Literature Review**
 =========================
-
-TODO: Add some learning theory here:
-
--   Importance of deep connections to learning. The science of learning
-    > requires us to form deep connections to the material.
-
--   Students learn better from teacher's notes versus just studying
-    > general subjects. Specificity matters for recall and your mind
-    > recalls what its seen or heard before (supportive of in-context
-    > learning)
-
--   
 
 The following literature review presents the necessary background to
 better understand Large Language Models (LLMs) and their impacts on how
@@ -725,13 +929,13 @@ Reeves, Leinonen, et al.,
 concerns of their own over reliance on AI based on the ease and
 convenience at which the model provided suggestions.
 
-2.5 LLM Impacts on Programming Educational Theories
----------------------------------------------------
+2.5 LLM Impacts on Computer Programming Education
+-------------------------------------------------
 
 This section explores the impacts of large language model use on key
-theories associated with learning to program. There are three main areas
-that will be discussed: computational thinking ability, self-efficacy,
-and learning performance.
+theories and concepts associated with learning to program. There are
+four main areas that will be discussed: computational thinking ability,
+self-efficacy, help seeking behavior and learning performance.
 
 Each area will begin with a discussion of the foundational literature
 then include specific framing as to why the theory is important within
@@ -800,7 +1004,7 @@ formalized computational thinking assessment such as the CTt from
 [Román-González et al.,
 (2017)](https://www.zotero.org/google-docs/?UzJXoY).
 
-### 2.5.2 Self-Effacacy
+### 2.5.2 Self-Efficacy
 
 Self-efficacy can be defined as the belief in one\'s capabilities to
 succeed. [Bandura, (1977)](https://www.zotero.org/google-docs/?Q9HHP4)
@@ -850,7 +1054,90 @@ students may become overconfident and over reliant from use of AI. This
 points to a gap in literature to study the relationship between
 overconfidence and self-efficacy.
 
-### 2.5.3 Academic Performance
+### 2.5.3 Help Seeking Behavior
+
+Prior to Sharon Nelson-Le Gall's seminal work on the subject, help
+seeking was widely viewed as an undesirable behavior [(Nelson-Le Gall,
+1981)](https://www.zotero.org/google-docs/?oLU7zJ). Help seeking
+behavior was perceived as symptomatic of weakness, immaturity, or
+passivity, and it was widely believed that the solitary, unaided
+completion of tasks led to competence.
+
+Nelson-Le Gall studied problem solving skills in elementary school
+children, and observed two forms of help seeking. Instrumental help
+seeking was defined as an active, complex social-cognitive activity key
+to learning and achievement. Executive help seeking represents the
+intention to have someone else achieve a goal on behalf of the
+help-seeker; an undesirable characteristic with negative long-term
+effects on learning.
+
+Her contribution successfully reframed help-seeking not as a deficiency
+but as an adaptive approach to managing challenges. This new perspective
+established adaptive help seeking as an important developmental skill in
+addition to a key resource management component for self-regulated
+learners. This historical shift laid the groundwork for distinguishing
+between beneficial and detrimental forms of help solicitation.
+
+[Newman (1994)](https://www.zotero.org/google-docs/?b39sij) refined the
+categories of help seeking as defined by Nelson-Le Gall to fit within
+the framework of self-regulated learning (SRL) theory. Self-regulated
+learners were defined as proactive learners who adapt their strategies
+to overcome barriers to learning. They use cognitive, behavioral and
+motivational strategies to achieve their goals. An adaptive help seeker
+under Newman's definition used the instrumental approaches as defined by
+Nelson-Le Gall.
+
+[Aleven et al., (2003)](https://www.zotero.org/google-docs/?7esJFp) was
+among the first researchers to form the connection between adaptive help
+seeking activity and the design of technology to facilitate it. These
+systems have evolved over time to include terms like cognitive tutors
+and intelligent tutoring systems. A later paper by [(Aleven et al.,
+2006)](https://www.zotero.org/google-docs/?XthPry) computationally
+modeled adaptive and maladaptive help seeking behaviors with the goal of
+building an intelligent tutoring system to identify and encourage
+adaptive help seeking behaviors.
+
+The advance of AI use and Large Language Models has proliferated into
+research on help seeking behaviors of students using AI for learning
+computer programming. [Kazemitabaar et al.,
+(2024)](https://www.zotero.org/google-docs/?emZBuy) studied the help
+seeking behaviors of students while using CodeAid, an LLM-powered
+programming assistant designed to provide assistance with course
+material. One of the mechanisms for studying student use of CodeAid was
+to analyze the interaction logs. A thematic analysis of the interactions
+established four unique types of inquiry: asking questions, requests for
+debugging code, requests for code writing assistance, and asking for
+code explanations. These categories were discussed as informational and
+not associated with adaptive or maladaptive learning strategies. The
+findings were descriptive and not correlated with student outcomes. An
+interesting finding was students tended to use the tool more around
+assignment and exam due dates.
+
+The second highlighted study did establish a correlation between
+quantity of AI tool use in an introductory programming course and course
+performance (N=52, r=0.35, p=0.0147) [(Sheese et al.,
+2024)](https://www.zotero.org/google-docs/?WpNIqU). The study followed a
+similar methodological approach as [Kazemitabaar et al.,
+(2024)](https://www.zotero.org/google-docs/?6bNchs). A custom AI tool,
+called CodeHelp was deployed to students, trace interaction logs were
+collected and analyzed using a thematic analysis broken into four
+categories: debugging questions, code implementation questions,
+understanding, and nothing (no category). In addition, low-effort
+student queries were identified where students copied code or text and
+provided little interactions. Their findings illustrated students in the
+courses tended to be focused on immediate help with a current problem
+versus seeking to understand concepts, and unsophisticated in their
+requests, often writing little to nothing themselves. In their future
+work section, the researchers discussed exploring the implications of
+students\' relationship between lower effort interactions and their
+potential impacts on learning.
+
+The two studies leave gaps in literature where the impacts on the types
+of help seeking employed by the student can be explored. This can be
+investigated through the lens of course performance on exams in addition
+to skill acquisition through computational literacy gains.
+
+### 2.5.4 Academic Performance
 
 As pointed out in previous areas of the literature review, LLM use has
 been observed as having both positive and negative impacts on
@@ -880,7 +1167,7 @@ Margulieux et al., 2024; Prather, Reeves, Leinonen, et al.,
 
 There was research which did measure the impact of AI use on learning
 outcomes within the domain of programming education [(Jošt et al.,
-2024)](https://www.zotero.org/google-docs/?Ebw1it). The findings
+2024b)](https://www.zotero.org/google-docs/?Ebw1it). The findings
 indicated a significant negative correlation between reliance on LLMs
 for critical programing tasks like code generation and debugging and
 final grades (N = 32). Programming tasks employed by students were
@@ -981,7 +1268,7 @@ improvement magnitude.
 ----------------
 
 ![A diagram of the study
-design](./publish/thesis2/md/media/image15.png){width="6.5in"
+design](./publish/thesis2/md/media/image17.png){width="6.5in"
 height="3.2916666666666665in"}\
 *Figure1: An overview of the study design.*
 
@@ -1027,14 +1314,14 @@ help with Python questions and course-related assignments. When asking a
 specific question about an assignment, students were instructed to
 switch the LLM context by selecting the assignment in question from a
 drop-down menu.\
-![](./publish/thesis2/md/media/image14.png){width="5.09375in"
+![](./publish/thesis2/md/media/image16.png){width="5.09375in"
 height="5.614583333333333in"}\
 *Figure 2: Context-Selection from the IST256 AI Tutor*
 
 For the control group T1 this action did nothing - it does not add any
 additional context. For the treatment group T2 the action copied the
 assignment or lab instructions into the conversational context.\
-![](./publish/thesis2/md/media/image12.png){width="6.5in"
+![](./publish/thesis2/md/media/image4.png){width="6.5in"
 height="4.0in"}\
 *Figure 3: The treatment group (T2) is aware of the selected content.*
 
@@ -1070,7 +1357,7 @@ data D1 necessary to study their AI interactions. There were 48
 individuals in the control group and 39 in the treatment group for a
 total participant population of 87.
 
-![](./publish/thesis2/md/media/image10.png){width="6.5in"
+![](./publish/thesis2/md/media/image22.png){width="6.5in"
 height="3.5833333333333335in"}*Figure 4: The participant funnel for
 chatbot use. 87 participants.*
 
@@ -1085,7 +1372,7 @@ whenever survey responses were needed in the analysis. Among the 77
 participants, 41 were in the control group and 36 were in the treatment
 group.
 
-![](./publish/thesis2/md/media/image20.png){width="6.5in"
+![](./publish/thesis2/md/media/image6.png){width="6.5in"
 height="3.0555555555555554in"}*Figure 5: The participant funnel when
 accounting for survey responses.*
 
@@ -1128,7 +1415,7 @@ what questions they got correct / incorrect.
 The following figure is an example question from the CT-Test. The entire
 instrument can be found in appendix A.
 
-![](./publish/thesis2/md/media/image9.png){width="6.5in"
+![](./publish/thesis2/md/media/image15.png){width="6.5in"
 height="3.1666666666666665in"}\
 *Figure 6: A sample question fro the CT-Test*
 
@@ -1207,7 +1494,7 @@ Several system prompt iterations were evaluated before the following was
 determined to be most suitable for meeting the objectives while
 minimizing the number of input tokens.This was the base model
 configuration for the control group (T1).\
-![](./publish/thesis2/md/media/image23.png){width="6.5in"
+![](./publish/thesis2/md/media/image9.png){width="6.5in"
 height="2.0in"}\
 *Figure 7: The system prompt for the control group T1.*
 
@@ -1225,7 +1512,7 @@ where code must be written and any sample code. The following prompt
 template is used to add the information to the conversation:
 
 ![A black screen with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image5.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image23.jpg){width="6.5in"
 height="1.3472222222222223in"}
 
 *Figure 8: Treatment T2 context prompt template.*
@@ -1234,7 +1521,7 @@ Subsequently, the AI chatbot responds that it is ready to assist with
 the assignment. The AI response demonstrated context awareness.
 
 ![A black background with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image13.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image14.jpg){width="6.5in"
 height="1.3611111111111112in"}
 
 *Figure 9: AI response to context selection from T2.*
@@ -1442,13 +1729,9 @@ AI prompt used by the LLM.
 |             | co          | in the      |             | al.,        |
 |             | nversation. | lab?\"      |             | 2025)]      |
 |             |             |             |             | (https://ww |
-|             |             | [(Hassan et |             | w.zotero.or |
-|             |             | al.,        |             | g/google-do |
-|             |             | 2025)]      |             | cs/?M8nObm) |
-|             |             | (https://ww |             |             |
-|             |             | w.zotero.or |             |             |
-|             |             | g/google-do |             |             |
-|             |             | cs/?ocgJMx) |             |             |
+|             |             |             |             | w.zotero.or |
+|             |             |             |             | g/google-do |
+|             |             |             |             | cs/?M8nObm) |
 +-------------+-------------+-------------+-------------+-------------+
 | O           | The         | \"Can you   | Task        | [(Prather,  |
 | verreliance | participant | convert     | Completion  | Reeves,     |
@@ -1468,15 +1751,8 @@ AI prompt used by the LLM.
 |             | Thus a deep | error for   |             | w.zotero.or |
 |             | connection  | me.\"       |             | g/google-do |
 |             | to the      |             |             | cs/?afJ6YN) |
-|             | material is | [(Prather,  |             |             |
-|             | not formed. | Reeves,     |             |             |
-|             |             | Leinonen,   |             |             |
-|             |             | et al.,     |             |             |
-|             |             | 2024)]      |             |             |
-|             |             | (https://ww |             |             |
-|             |             | w.zotero.or |             |             |
-|             |             | g/google-do |             |             |
-|             |             | cs/?fWvkuI) |             |             |
+|             | material is |             |             |             |
+|             | not formed. |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 | Scaffolding | AI provides | \"What does | Learning    | [(Prather   |
 |             | support /   | this error  |             | et al.,     |
@@ -1494,15 +1770,15 @@ AI prompt used by the LLM.
 |             |             | roubleshoot |             | (https://ww |
 |             |             | my code?\"  |             | w.zotero.or |
 |             |             |             |             | g/google-do |
-|             |             | .[(Prather, |             | cs/?svZdyf) |
-|             |             | Reeves,     |             |             |
-|             |             | Denny, et   |             | [(Hassan et |
-|             |             | al.,        |             | al.,        |
-|             |             | 2024)]      |             | 2025)]      |
-|             |             | (https://ww |             | (https://ww |
-|             |             | w.zotero.or |             | w.zotero.or |
-|             |             | g/google-do |             | g/google-do |
-|             |             | cs/?CjRe5C) |             | cs/?vorDax) |
+|             |             |             |             | cs/?svZdyf) |
+|             |             |             |             |             |
+|             |             |             |             | [(Hassan et |
+|             |             |             |             | al.,        |
+|             |             |             |             | 2025)]      |
+|             |             |             |             | (https://ww |
+|             |             |             |             | w.zotero.or |
+|             |             |             |             | g/google-do |
+|             |             |             |             | cs/?vorDax) |
 +-------------+-------------+-------------+-------------+-------------+
 | Questioning | Asking the  | Can you     | Learning    | [(Fi        |
 |             | AI to       | provide an  |             | nnie-Ansley |
@@ -1617,8 +1893,8 @@ were compared against the LLM's classifications using the Krippendorff's
 Alpha to obtain a measure of agreement for inter-coder reliability.
 
 The inter-coder reliability procedure was repeated three times to
-establish a measure of consistency among model runs. Once again the
-Krippendorff's alpha measure was used to measure the model's agreement,
+establish a measure of consistency among model runs. Once again
+Krippendorff\'s alpha measure was used to measure the model's agreement,
 but this time with itself across three runs. The expectation was an
 internal consistency of 1.0 which means the LLM performed the task
 identically each time.
@@ -1665,7 +1941,7 @@ categorized as "Task Completion" and one categorized as "Inconclusive."
 With the data setup this way I could now use the categorized counts as
 independent variables, and study their impacts on E1, C1 and C2.
 
-![](./publish/thesis2/md/media/image22.png){width="5.234375546806649in"
+![](./publish/thesis2/md/media/image21.png){width="5.234375546806649in"
 height="3.900122484689414in"}
 
 *Figure 10: Three classifications of chat sessions from the D1 dataset*
@@ -2063,7 +2339,7 @@ Both independent variables had fewer observations as the counts of the
 participants' sessions increased. This was expected for session-oriented
 data which is commonly right-skewed, where most participants have few
 sessions and few participants have several
-sessions..![](./publish/thesis2/md/media/image4.png){width="6.5in"
+sessions..![](./publish/thesis2/md/media/image3.png){width="6.5in"
 height="4.486111111111111in"}\
 *Figure ??: Partial regression plots when holding the other constant of
 E1 \~ Task Completion Session Count + Learning Session Count.*
@@ -2074,7 +2350,7 @@ Scatterplot Smoothing (LOESS) curve was relatively flat and close to the
 horizontal. The end of the LOESS curve does indicate a slight uptick
 likely due to lack of observations in that region.
 
-![](./publish/thesis2/md/media/image2.png){width="5.229166666666667in"
+![](./publish/thesis2/md/media/image12.png){width="5.229166666666667in"
 height="3.46875in"}\
 *Figure ??: Residuals vs Fitted Values for E1 \~ Learning Session Count
 + Task Completion Session Count*
@@ -2097,7 +2373,7 @@ hypothesis of normality. This was corroborated visually via a histogram
 of residuals and the Q-Q plot, both of which demonstrated close
 adherence to the normal distribution.
 
-![](./publish/thesis2/md/media/image3.png){width="6.5in"
+![](./publish/thesis2/md/media/image18.png){width="6.5in"
 height="2.3055555555555554in"}\
 *Figure ??: Evidence of normality among the residuals of E1 \~ Task
 Completion Session Count + Learning Session Count.*
@@ -2136,7 +2412,7 @@ session resulted in an E1 decrease by 0.41 units (beta = -0.41, SE =
 0.12, *t* = -3.52, *p* = .001, 95% CI \[-0.65, -0.18\]). This bivariate
 relationship confirmed greater engagement with task completion sessions
 was independently associated with lower exam scores.\
-![](./publish/thesis2/md/media/image7.png){width="6.5in"
+![](./publish/thesis2/md/media/image1.png){width="6.5in"
 height="3.638888888888889in"}
 
 *Figure ??: Forestplot of E1 \~Task Completion Session Count*
@@ -2155,7 +2431,7 @@ but not statistically significant (beta = 0.06, SE = 0.08, t = 0.79, p =
 0.435, 95% CI \[-0.10, 0.23\]). Learning session count was not a
 predictor of exam performance when considered in isolation.
 
-![](./publish/thesis2/md/media/image11.png){width="6.5in"
+![](./publish/thesis2/md/media/image2.png){width="6.5in"
 height="3.8472222222222223in"}\
 *Figure ??: Forestplot of E1 \~ Learning Session Count*
 
@@ -2184,7 +2460,7 @@ significant (delta r-squared = 0.189 - 0.127 = 0.062) indicating that
 the addition of learning session counts provided 6% more unique
 explanatory power beyond task completion sessions alone.
 
-![](./publish/thesis2/md/media/image21.png){width="6.5in"
+![](./publish/thesis2/md/media/image8.png){width="6.5in"
 height="3.638888888888889in"}
 
 *Figure ??: Forestplot of E1 \~ Task Completion Session Count + Learning
@@ -2333,7 +2609,7 @@ suggesting that the residuals approximated a normal distribution. This
 finding was corroborated visually via a histogram of residuals and a Q-Q
 plot to observe adherence to a normal distribution.
 
-![](./publish/thesis2/md/media/image17.png){width="6.5in"
+![](./publish/thesis2/md/media/image7.png){width="6.5in"
 height="2.3055555555555554in"}\
 *Figure ??: Evidence of normality among the residuals of E1 \~
 Treatment*
@@ -2348,6 +2624,8 @@ assumptions, the model was deemed appropriate for interpretation.
 
 ### 4.3.3 Regression Analysis for the RQ2 
 
+#### 4.3.3.1 Model 0: Treatment Effects on E1
+
 The regression model revealed the control group achieved a mean E1 score
 of 30.23 points (SE = 0.87) while participants in the treatment group,
 who had access to the context-aware AI, scored an average of 2.05 points
@@ -2357,7 +2635,7 @@ CI \[-0.54, 4.64\]). In addition, the confidence interval crossed the
 zero boundary, further indicating that the true population difference
 could plausibly be null.
 
-![](./publish/thesis2/md/media/image19.png){width="6.5in"
+![](./publish/thesis2/md/media/image20.png){width="6.5in"
 height="3.9722222222222223in"}\
 *Figure ??: Forestplot of E1 \~ Treatment*
 
@@ -2393,7 +2671,7 @@ variables as covariates, in a mediation analysis, in a moderation
 analysis and then finally summarizing a clear picture of the impact of
 the treatment on midterm exam scores.
 
-#### 4.3.3.1 Multiple Regression with usage as Covariates for RQ2
+#### 4.3.3.1 Model 1: Multiple Regression with usage as Covariates for RQ2
 
 To investigate whether usage patterns might be obscuring or influencing
 the treatment effect, a multiple regression analysis was conducted
@@ -2428,7 +2706,7 @@ CI \[0.73, -0.39\]), while task completion count demonstrated a
 significant negative relationship (beta = -0.569, *SE* = 0.12, *t*(83) =
 -4.65, *p* \< 0.001, 95% CI \[-0.81, -0.33\]).
 
-![](./publish/thesis2/md/media/image1.png){width="6.5in"
+![](./publish/thesis2/md/media/image13.png){width="6.5in"
 height="3.5833333333333335in"}\
 *Figure ??: Forestplot of E1 \~ Treatment + Learning Session Count +
 Task Completion Session Count*
@@ -2443,7 +2721,7 @@ the treatment\'s impact on exam performance operates independently of
 behavioral AI usage patterns indicated by learning session count and
 task completion count.
 
-#### 4.3.3.2 Mediation Analysis for RQ2
+#### 4.3.3.2 Model 2 a/b: Mediation Analysis for RQ2
 
 By answering RQ1, I discovered that AI usage impacted midterm exam
 scores.To explore whether the treatment effect operated through changes
@@ -2482,7 +2760,7 @@ mediator. Therefore, the treatment effect on exam performance does not
 operate through changes in student usage behaviors as indicated through
 task competition session count and learning session count.
 
-#### 4.3.3.3 Moderation Analysis for RQ2
+#### 4.3.3.3 Model 3 a/b: Moderation Analysis for RQ2
 
 In order to complete the picture, two moderation analyses examined
 whether treatment conditions altered the strength of relationships
@@ -2625,14 +2903,9 @@ caution against conditioning on post-treatment variables, as this can
 introduce bias even when treatment does not significantly affect those
 variables. However, usage patterns may also act as suppressors,
 obscuring a true treatment effect. We cannot definitively resolve this
-tension with the current data.\"
+tension with the current data.
 
-State what you CAN claim:
-
-\"We can conclude that IF the treatment effect operates independently of
-usage patterns, the effect size is approximately 2.74 points. However,
-whether this conditional estimate reflects a true causal effect or
-post-treatment bias remains uncertain.\"
+TODO: Omit this old stuff?
 
 between in-context learning and midterm exam performance exhibited a
 suppression effect, initial simple regression analysis failed to detect
@@ -2735,7 +3008,7 @@ session-oriented independent variables had fewer observations as the
 counts of the participants' sessions increased, as was expected since
 this data is commonly right-skewed.
 
-![](./publish/thesis2/md/media/image18.png){width="6.5in"
+![](./publish/thesis2/md/media/image5.png){width="6.5in"
 height="4.486111111111111in"}\
 *Figure ??: Partial regression plots when holding the other constant of
 C2 \~ Task Completion Session Count + Learning Session Count. + C1 with
@@ -2746,7 +3019,7 @@ scattered points. Heteroscedasticity can be observed on the right end of
 the graph. The Locally Estimated Scatterplot Smoothing (LOESS) curve was
 relatively flat and hovering about horizontal.
 
-![](./publish/thesis2/md/media/image8.png){width="5.166666666666667in"
+![](./publish/thesis2/md/media/image10.png){width="5.166666666666667in"
 height="3.46875in"}\
 *Figure ??: Residuals vs Fitted Values for C2 \~ Learning Session Count
 + Task Completion Session Count + C1*
@@ -2763,7 +3036,7 @@ hypothesis of normality. This was corroborated visually via a histogram
 of residuals and the Q-Q plot, both of which demonstrated close
 adherence to the normal distribution.
 
-![](./publish/thesis2/md/media/image6.png){width="6.5in"
+![](./publish/thesis2/md/media/image19.png){width="6.5in"
 height="2.2777777777777777in"}\
 *Figure ??: Evidence of normality among the residuals of C2 \~ Task
 Completion Session Count + Learning Session Count + C1*
@@ -2773,7 +3046,7 @@ The final check was for multicollinearity. The variance inflation factor
 variable reporting a VIF \> 1.27 indicating no problematic
 multicollinearity. The VIF for C1 was 1.07.
 
-### 4.4.3 Regression Analysis for RQ3 Accounting for test-retest
+### 4.4.3 Model 1: Regression Analysis for RQ3 Accounting for test-retest
 
 When observing descriptive statistics, computational literacy scores
 increased with statistical significance from pre-test (C1: mean = 20.57,
@@ -2824,12 +3097,12 @@ suggests a potential beneficial relationship between learning-oriented
 LLM usage and computational literacy that warrants investigation with
 larger samples or more sensitive measures.
 
-![](./publish/thesis2/md/media/image16.png){width="6.5in"
+![](./publish/thesis2/md/media/image11.png){width="6.5in"
 height="3.5972222222222223in"}\
 *Figure ??: Forestplot of C2 \~ Learning Session Count + Task Completion
 Session Count + C1*
 
-#### 4.4.3.1 Supplementary Analysis Change in Scores
+#### 4.4.3.1 Model 1a: Supplementary Analysis Change in Scores
 
 This supplementary analysis examined whether LLM usage patterns
 predicted the magnitude of improvement rather than final standing
@@ -2944,6 +3217,8 @@ regression revealed a mutual suppression effect where both independent
 variables together offered the best model for explaining midterm exam
 performance when compared to each variable independently.
 
+TODO: Re-Edit (Based on new findings, upon further analysis by Dr.
+Stanton.)\
 For RQ2, the relationship between in-context learning and exam
 performance exhibited a similar suppression effect. Simple regression
 analysis failed to detect a significant treatment effect (*p* = .119).
@@ -2986,283 +3261,589 @@ relationship, I concluded LLM usage patterns were significantly related
 to computational literacy The caveat here is the nature of this
 relationship varied by usage type.
 
-**5.0 Summary \[TODO\]**
-========================
-
-TODO NEEDS TO BE WRITTEN. WORKING ON OUTLINE
+**5.0 Summary**
+===============
 
 5.1 Introduction
 ----------------
 
-Briefly state the purpose of this chapter (to interpret the results
-presented in Chapter 4, discuss their theoretical and practical
-implications, acknowledge limitations, lay out future research and
-provide a concluding statement).
+In this section I will add interpretive analysis to the findings of the
+paper. First, the key findings will be summarized and synthesized. Next,
+follows a discussion of the results as to understand the causal effects
+of the findings. When possible this interpretation will be connected
+back to the theoretical literature cited in the literature review.
 
-Also consider this thesis very much an exploration. Hence the wide set
-of methods and broad research questions. Trying to understand what among
-AI use actually influences grades. To some degree, I seem to have
-figured that out.
+The findings from this study will be contextualized within the
+literature. Facets of my research that support, contradict, or extend
+the current research landscape will be identified. The contribution of
+this research to the overall academic zeitgeist will be identified.
 
-5.2 Discussion of Findings
---------------------------
+The latter part of this chapter will focus on how my research can be
+actualized.First, a critical analysis of the limitations of this study
+will be proposed. Next, the practical and theoretical implications of
+this research will be discussed. Finally, a synthesis of the limitations
+and implications of my research will be used to formulate suggestions
+for future research in this area and beyond.
 
-For each of these:
+The chapter concludes with a final summary of the thesis, complete with
+salient points and overall themes.
 
--   Recap the findings
+### 5.1.1 Key Findings At a Glance
 
--   Explain how to interpret the findings - what do the results mean?
+The following key findings were synthesized from my research:
 
--   Link back to literature - corroborate your findings with that which
-    > is out there to either support your findings, or explain why your
-    > method yielded different results. For example my findings are
-    > opposite paper X but I did use a different method and then why
-    > does that matter.
+**Finding 1:** The mutual suppression effect evident in RQ1 justified
+the importance of accounting for both usage patterns in the analysis.
 
-CENTRAL THEME:
+**Finding 2:** Participants engaged in task completion sessions
+demonstrated a statistically significant negative correlation with
+midterm exam scores and computational literacy instruments.
 
--   Matter of LLM engagement matters more than frequency of use
+**Finding 3:** Participants who engaged in learning-focused sessions
+demonstrated a statistically significant positive correlation with
+midterm exam scores.
 
--   Task completion type activities suppress exam performance (RQ1),
-    > hides the benefits received through use of better AI tools (RQ2)
-    > and hinders building of computational literacy skills.
+**Finding 4:** \[TODO: MAYBE - DEPENDS ON FEEDBACK FROM DR. STANTON\]
+Context-aware AI significantly improved student learning performance,
+providing a meaningful performance advantage independent of usage
+patterns, which suggests a quality-based mechanism.
 
--   Learning session activities led to an improvement in exam scores
-    > (RQ1)
+5.2 Finding 1: Mutual Suppression
+---------------------------------
 
--   In-context AI as a form of better AI tooling provides learning
-    > benefits independent of the matter in which the participant
-    > engaged with the AI.
+### 5.2.1 Discussion of Finding 1
 
-### 5.2.1 RQ1
+The mutual suppression effect between learning session count and task
+completion count is a critical statistical finding that emerged from the
+analysis of RQ1. The effect meant the actual, independent relationship
+of each predictor variable (learning session count and task completion
+session count) was masked or obscured when their analysis with the
+dependent variable was examined initially. The effect is based on the
+idea that the two predictors share variance that is irrelevant to the
+dependent variable (E1), yet each also possesses unique variance that is
+predictive. When both variables are included in the model as part of the
+multiple regression, they statistically control for this shared,
+irrelevant variance, allowing their true, independent contributions to
+emerge.
 
-Type of use matters more than quantity of use. In fact, overall quantity
-of use did not reveal any statistical significance with regards to
-midterm exam scores. The two usage patterns when both taken into
-account, identified did reveal a medium sized effect with respect to
-exam scores.
+For RQ1, the inclusion of both variables led to a more complete and
+accurate model. The multiple regression model (Model 3) explained 18.9%
+of the variance in E1, which was a substantial increase compared to the
+variance explained by the best single-predictor model (Model 1, which
+explained 12.7%). This demonstrated both session types contributed
+non-redundancy information to the model. In addition, the inclusion of
+most variables transformed learning session count from non-significant
+(p=0.435) to significant (p=0.013), strengthening the divergent effects.
+The finding underscores that the type of LLM engagement significantly
+predicts academic performance, and is more influential than just
+frequency of use.
 
-Both learning session count and task completion session count were
-divergent effects, which matches intuition. This supports the idea that
-how we choose to use the LLM does have an impact on learning.
+A clear interpretation of mutual suppression in this case suggests
+students who engaged in more task completion sessions also tended to
+engage differently (in ways irrelevant to the outcome) with learning
+sessions, and vice versa. For example, this might have manifested as
+individual differences in general LLM usage frequency, experience with
+LLM usage, such as experience with prompting or interpreting results, or
+overall comfort with technology. The end result, and important take away
+is that only by modeling both patterns simultaneously can researchers
+isolate their independent effects on performance.
 
-In addition, the mutual suppression effect between learning session
-count and task completion session count helps to reveal the true
-relationships between those independent variables and the dependent
-variable E1. Each variable suppresses the irrelevant variance in the
-other enhancing their predictive effect. The negative task completion
-coefficient (b = -0.54???) is masking the less effective learning
-session count (b = 0.21)
+As to the interpretation of the task completion and learning behaviors
+themselves, findings show task completion (β = -0.54) had 2.6 times more
+impact on learning performance than learning-oriented behaviors. (β =
+0.21). The negative effect of task completion was quite impactful
+despite accounting for just 35% of all sessions in the dataset. Students
+using LLMs for task completion are likely bypassing activities crucial
+for knowledge and skill development, as supported by the findings.
 
-\"These findings provide strong empirical support for rejecting the null
-hypothesis that LLM usage patterns are unrelated to academic outcomes.
-The results demonstrate that large language model use does indeed
-influence student learning performance, but the direction and magnitude
-of this influence depends critically on how students engage with these
-tools.\"
+Conversely, learning oriented interactions such as seeking explanations
+of understanding and exploring conceptual relationships seem to foster a
+deeper understanding that manifests as improved exam performance. As for
+why this positive relationship was not as profound as the negative one,
+this can be explained by several mechanisms. First for sessions labeled
+learning, we cannot account for whether the student critically evaluated
+the response. Second, more common predictors of academic success such as
+prior knowledge, intrinsic motivation, study habits, and other external
+support were not included in the RQ1 model. In RQ3, where baseline
+scores in C1 accounted for 65.8% of the variance in C2 points to the
+importance of the identification of common predictors of academic
+success.
 
-\"This study conclusively demonstrates that the type of LLM
-engagement---not merely the frequency of use---significantly predicts
-academic performance. The research question \'How does large-language
-model use influence student learning performance?\' is answered:
-learning-focused engagement supports academic success, while
-task-completion-focused engagement undermines it.\"
+### 5.2.2 Contextualization of Finding 1
 
-TODO: point this back to literature on why forming a deep connection to
-the material is important to learning and retention.
+The mutual suppression finding provides strong empirical support for the
+central theme that the manner in which we use the LLM matters more than
+the frequency of use. This thesis asserted the overall quantity of use
+did not reveal any statistical significance with regards to midterm exam
+scores. This contradicts the finding by [Sheese et al.,
+(2024)](https://www.zotero.org/google-docs/?k2F7JI) which established a
+statistically significant positive correlation between the quantity of
+AI tool use and course performance in an introductory programming course
+(N=52,r=0.35,p=0.0147). My findings suggest contradiction may be due to
+methodological differences in accounting for answer-seeking behavior.
 
-Implications of RQ1: Consider Using or building socratic AI's like
-"Gemini's Guided Learning"\
-[[https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/]{.underline}](https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/)
-which do not support answer-seeking behaviors. Educate students to the
-dangers of task-completion activities and provide an examples of use.
+The mutual suppression effect significantly extends the existing
+research on LLM engagement by providing a methodological framework that
+accounts for competing behavioral patterns. When studying complex
+learning behaviors, my findings suggest researchers should account for
+all effects in their model, not just the desired effect from the
+hypothesis. Scoping the study to a specific task or behavior may produce
+unexplainable results due the confounding interdependence among
+independent variables.
 
-### 5.2.2 RQ2
+5.3 Finding 2: Negative Implications of AI use for Task Completion
+------------------------------------------------------------------
 
-Lack of moderation and mediation points to the importance of a higher
-quality AI.Context aware AI did not lead to more task completion
-sessions or learning sessions. It did not amplify or reduce exam scores,
-until how the AI was being used was incorporated. Basically the
-treatment worked, regarless of task-complection or learning. Our
-findings suggest that, at least for AI-assisted learning, improving the
-quality of the learning tool may be more impactful than trying to change
-how students use it.
+### 5.3.1 Discussion of Finding 2
 
-This points towards a lack of importance for usage analysis (session
-counts, time on tasks) for evaluating AI effectiveness to more subtle
-actions like quality and relevant responses. (fewer misleading results,
-better tailored responses, more accurate information)
+Task completion session counts were a statistically significant negative
+predictor of academic outcomes and the long-term skill development of
+computational literacy. This was demonstrated by the distinct effects on
+both midterm exam performance (E1) and post-midterm computational
+literacy scores (C2).
 
-Additional context matters. AI quality matters. We didn't see it until
-adjusting for usage patterns due to classical suppression. Mediation and
-moderation tests show the treatment did not change or amplify learning
-behavior, meaning the treatment worked independent of usage type.
+The correlational study in RQ1 explored the effects of counts of
+learning sessions and task completion sessions on midterm exam (E1)
+scores. Task completion session count was a statistically significant
+negative predictor of exam scores (β = -0.54 *p* \< .001) when modeled
+with learning session count, as opposed to modeling alone (β = -0.41 *p*
+= .001) - a 31% increase.. The observed mutual suppression effect
+implied the two usage patterns were competing, a finding that aligns
+with intuition. The multivariate model also had a higher degree of
+explainability (r-squared = 0.189) as opposed to just task completion
+(r-squared = 0.127) accounting for a 49% increase in explainability.
 
-The treatment likely works because the help provided was useful due to
-the context. Students, whether engaged in task completion or learning
-behaviors received helpful information in the treatment LLM that
-resulted in a 2.74 point increase on exam score versus the control
-group.
+In the analysis of covariance (ANCOVA) model for RQ3, task completion
+session count remained a significant negative predictor of post-test
+computational literacy scores (C2). This relationship was robust,
+yielding a coefficient of (β = -0.17 *p* = .012), even after controlling
+for baseline computational literacy (C1) and learning session count. The
+finding suggests that task-oriented LLM use predicted lower final
+computational literacy gains than would be expected given participants\'
+initial competency levels.
 
-Behaviorally, to get a 2.74 point increase a participant would have to
-avoid 5 task completion sessions to participate in 12 learning sessions.
-In contrast, that is a significant increase from the treatment alone.
+Distilling this finding as a key performance indicator, when holding
+learning session counts constant and accounting for baseline
+computational literacy, each additional task completion session was
+associated with decreases in midterm exam score (E1) by 0.54 units, and
+post-test computational literacy score (C2) by 0.17 units.
 
-TODO: Point this back to learning theories in literature about studying
-the teachers' notes is better than searching the web for an explanation.
+### 5.3.2 Contextualization of Finding 2
 
-Implications of RQ2: Building context aware AI at the subject or lesson
-level can have an impact on learning. Changing habits helps but better
-tools help even more.
+Finding 2 was consistent with other findings in literature spanning
+several different concepts. The negative correlation I found was
+supported by literature concerning cognitive offloading, where
+overreliance on AI capabilities leads to a reduction in critical
+thinking and subsequently negatively impacts learning performance
+[(Abbas et al., 2024; Pons, 2023; Rahman & Watanobe,
+2023)](https://www.zotero.org/google-docs/?JYUH2A). When students
+engaged in superficial learning, such as generating answers to
+assignments, they actively circumvented the learning process . The task
+completion identified in the study and its subsequent negative outcomes
+aligns other studies [(Becker et al., 2023; Margulieux et al.,
+2024)](https://www.zotero.org/google-docs/?GsB0Ng).
 
-### 5.2.3 RQ3
+Theoretically, the task completion behavior observed was a form of
+executive help seeking, as the intention is to have someone else (in
+this case something else - the LLM) achieve a goal on behalf of the
+learner. This is an undesirable characteristic with negative long term
+effects on learning [(Nelson-Le Gall, 1981; Newman,
+1994)](https://www.zotero.org/google-docs/?5gQ1Fv), and the negative
+effects were observed in the findings with regards to midterm exam
+scores and computational literacy gains.
 
-This final question addresses computational literacy - the acquisition
-of skills necessary to become an independent learner in computing.
+[(Moradi Dakhel et al., 2023; Peng et al.,
+2023)](https://www.zotero.org/google-docs/?o0CfW5) claimed inconclusive
+evidence of the benefits of LLM use for novices. I concluded through
+empirical evidence that task-oriented LLM use is detrimental to
+learning. These contradictory findings point back to Finding 1. It is
+important to characterize how the LLM is being used, and a persons'
+Intentions behind their use matter more than the use alone.
 
-Computational literacy was not taught as part of the 6 week
-intervention. It was expected students will gain a better understanding
-of it through exposure to programming in practice, as an outcome of the
-course. The computational literacy instruments gauge participants
-ability to think abstractly about the course material and transfer their
-learning to different contexts. It\'s a measure of problem solving
-ability independent of the language taught.
+5.4 Finding 3: Positive Implications of AI use for Learning
+-----------------------------------------------------------
 
-I isolated the effect of LLM usage in addition to their initial ability
-level. The negative effect was persistent here impacting computational
-literacy scores.
+### 5.4.1 Discussion of Finding 3
 
-Students who engaged in task completion had lower literacy score
-improvement when adjusted for the baseline score. Makes sense as
-computational literacy is a form of problem solving and if you are
-regularly outsourcing your problem solving to AI your skills will not
-improve. Denying yourself the mental effort required to build good
-computational literacy.
+Learning session counts were a statistically significant positive
+predictor of academic learning outcomes as measured via midterm exam
+scores (E1). This finding comes with the same important caveat as the
+previous finding: mutual suppression effect mandated that to realize
+this finding I had to control for task completion activity.
 
-5.3 Theoretical and Practical Implications
-------------------------------------------
+The correlational study in RQ1, which studied the effects of counts of
+learning sessions and task completion sessions on midterm exam scores is
+responsible for this finding. When controlling for task completion
+sessions, the learning session count was a statistically significant
+positive predictor of exam scores (β = 0.21 *p* = .013,
+r-squared=0.189). When accounting for only learning session count the
+model was not significant (β = 0.06 *p* = .435, r-squared=0.007), once
+again supporting the pattern of mutual suppression as only through both
+variables was significance able to emerge. Practically speaking this
+implies that when keeping task completion constant, the greater the
+number of sessions classified as learning higher scores on the midterm
+exam. These learning sessions included behaviors such as scaffolding,
+seeking code explanations, and questioning concepts.
 
-What are the impacts for teaching ? Learning? LLM use in pedagogical
-strategies? How can a more effective AI be designed?
+When considering Findings 1,2 and 3 together, an obvious divergent
+strategy emerges. Learning sessions are characterized by a positive
+effect on midterm exam scores, while task completion sessions contribute
+to a negative effect. This confirms an obvious assumption - these are
+competing strategies for achieving academic success. Furthermore these
+two variables suppress each other meaning they control the variance of
+each other that does not help explain the model. My theory to explain
+this mutual suppression is there was considerable shared irrelevant
+variance between these two variables which has not been accounted for
+such as prior experience with programming or AI usage.
 
--   Prioritizing quality interactions with AI over quantity. Educating
-    > students of the harmful and beneficial methods of using AI for
-    > learning. Actively discourage and where practical manage
-    > offloading behaviors.
+### 5.4.2 Contextualization of Finding 3
 
--   Context-aware AI provides an added benefit. It helps students engage
-    > with AI in a relevant and meaningful way that has positive
-    > implications for learning.
+This finding is strongly supported by research that highlights the
+beneficial roles of LLM use for constructive activities like active
+learning, explanation, and the clarification of concepts. The positive
+correlation supports the view that LLMs can function effectively as a
+24/7 subject-matter expert tutor, teacher, or code debugger [(Cambaz &
+Zhang, 2024; Finnie-Ansley et al., 2022; Prather et al.,
+2019)](https://www.zotero.org/google-docs/?R9pmHo). The learning
+sessions identified behaviors such as scaffolding, seeking code
+explanations, and questioning concepts, which align with the definition
+of LLMs being used as a source of expertise to help students understand
+and apply complex concepts [(Hassan et al., 2025; Prather, Reeves,
+Denny, et al., 2024)](https://www.zotero.org/google-docs/?GTt6l4).
 
--   So train students to use the imperfect tools more effectively to
-    > design better tools?
+From a theoretical lens the learning sessions, which embody behaviors
+such as scaffolding and questions, represent adaptive help seeking. This
+is part of foundational work laid by Nelson-Le Gall (1981) and later on
+Newman (1994). Within this context the LLM is serving as an intelligent
+tutoring system [(Aleven et al.,
+2016)](https://www.zotero.org/google-docs/?ZBocMn), with similar
+adaptive constructs to the CodeHelp tool deployed by [Kazemitabaar et
+al., (2024)](https://www.zotero.org/google-docs/?qSPPil).
 
-Some thoughts here:
+5.5 Implications and Recommendations
+------------------------------------
 
-Theoretical Implications: How do your findings advance academic theory?
+The findings offer crucial insights for instructors, course designers
+and students as to how LLMs should be used to foster positive learning
+outcomes and mitigate negative ones for novice programmers.
 
-Example: Your finding on the mutual suppression effect provides a new
-model for understanding complex, multivariate digital learning
-behaviors, suggesting researchers must account for both positive and
-negative engagement simultaneously. TODO research this - did anyone else
-figure this out?
+### 5.5.1 Theoretical Implications
 
-Practical/Pedagogical Implications: How should educators, policymakers,
-or developers act based on your results?
+The results of this study contribute to the theoretical understanding of
+help-seeking behavior, computational literacy development, and
+methodological approaches in the context of generative AI.
 
-Example: Educational institutions must shift from simple bans to
-guidance and training that promotes \'learning\' interactions over
-\'task completion.\' Instructors should design assignments that are
-difficult to complete via simple cognitive offloading.
+The categorical content analysis provided empirical evidence supporting
+the distinction between beneficial and detrimental forms of help
+solicitation within LLM interactions. The task completion sessions,
+where participants asked the AI to complete tasks or generate answers,
+aligns with executive or maladaptive help seeking. As predicted by
+foundational help-seeking literature, this undesirable behavior
+demonstrated a robust negative correlation with academic performance
+(E1) and computational literacy skill development (C2).
 
-Since off the shelf AI is here to stay and there's a conflicting
-dichotomy between these companies and their use cases versus academic
-use cases, devising learning strategies are more important than tooling.
-Students need to be taught how to use AI to maximize their learning but
-minimize their cognitive offloading. Since tools will not always be
-present, effective education / learning how to learn with an LLM at your
-fingertips is important.
+Conversely, learning sessions, which encompass questioning and
+scaffolding behaviors, align with adaptive help seeking. The resulting
+significant positive correlation with E1 scores confirms that when LLMs
+function as a form of an intelligent tutoring system, they facilitate
+adaptive learning strategies. This research extends the applicability of
+the help-seeking framework (Nelson-Le Gall, 1981; Newman, 1994) to the
+domain of human-AI interaction in programming education.
 
-That being said, constructing or using an AI tool that fosters critical
-thinking and socratic methods to avoid task-completion and learning
-avoidance behaviors would be helpful for future experiments.
+The strong negative correlation found between task complexion sessions
+and post-test computational literacy scores (C2) (β = -0.17, p = .012,
+when controlling for baseline C1) highlights a crucial theoretical risk
+of LLM use on long term skill acquisition of computational literacy.
 
-5.4 Limitations of the Study
-----------------------------
+Task completion constitutes a form of cognitive offloading. This study
+in RQ3 suggests that regularly outsourcing problem-solving via task
+completion denies learners the mental effort required to build abstract
+problem-solving abilities. Since computational literacy is defined as
+the ability to formulate and solve problems systematically, independent
+of the programming language itself, the finding reinforces the concern
+that instrumental LLM use constrains the development of this core skill
+essential to computing education.
 
-THINGS TO CONSIDER:
+The analysis of RQ1 yielded a critical methodological finding of a
+mutual suppression effect. This effect obscured the true effect until
+both learning sessions and task completion sessions were both accounted
+for in the modeling. This finding provides a necessary methodological
+caution, suggesting that research designs focusing solely on one facet
+of LLM use such as the perceived benefits, or the dangers of use, may
+yield inconclusive or misleading results due to confounding
+interdependence among usage types. Researchers should account for all
+potentially competing behaviors within their models, This finding
+suggests a framework for achieving robust statistical clarity in complex
+LLM behavioral analysis.
 
-Methodological Limitations: (e.g., sample size, duration of the
-intervention, reliance on trace data which may not fully capture
-internal cognitive processes).
+In summary, these findings illustrate that LLMs are not a passive tool
+whose impact is determined solely by frequency; rather the intent behind
+use plays an important role. Usage patterns provided clarity in the
+analytical findings which was not apparent when accounting for usage
+alone.
 
-We don't know why they were engaged in task completion - time pressures?
-Motivation ?
+### 5.5.2 Practical Implications for Instructors
 
-Generalizability Limitations: (e.g., the study focused on a specific
-subject/context, limiting its application to other domains or student
-populations).
+This study empirically demonstrated the negative repercussions of task
+completion behaviors and benefits of learning behaviors when using LLM
+as part of an introductory programming course. Since it is not practical
+to ban use of AI in the classroom, educators must learn how to adapt to
+this changing landscape. I offer three practical implications for
+instructors.
 
-Acknowledge Complexity: Reiterate that the LLM landscape is rapidly
-evolving, and your findings are a snapshot in time.
+First, course instructors should actively work to identify and
+discourage task-completion behaviors among their students, emphasizing
+these behaviors short-circuit the learning process crucial for knowledge
+and skill development. This superficial learning manifests itself
+through quality assignments but poor exam scores. Instructors who allow
+AI use in their courses should employ more frequent knowledge checks so
+students can self-identify when they are outsourcing their thinking to
+AI. These knowledge checks can be simple diagnostic quizzes or more
+summative assessments.
 
-I just gave students a tool. Did not try to teach or explain how to use
-it. Some students already realized that some students understood the
-negative and positive impacts AI use can have on learning already.
+To encourage learning with AI, which demonstrates a positive correlation
+with exam scores, course instructors should dedicate time to teach
+students how to use AI effectively. This should include demonstrations
+or lab activities which show students how to scaffold their learning
+with AI; asking it to explain concepts, provide examples, and confirm
+the students' own understanding of the concept. For example, a lab
+activity with a debugging session would walk the student through how to
+use the AI to not only diagnose the problem, but help to understand the
+cause of it. This helps build good habits where the student learns to
+leverage the LLM as a 24/7 tutor or teacher to support and justify their
+own thinking.
 
-5.5 Recommendations for Future Research
----------------------------------------
+Finally, and more broadly, instructors teach the importance of feeding
+the LLM context. Specifically, rather than just asking a question,
+framing the question around a context. LLMs are trained on a wide
+variety of text and the prompts we provide need framing to help scope
+the generative output. For example the prompt "Help me write a factorial
+function in python" will generate a solution and an explanation, but the
+prompt "Help me write a factorial function in python. Do not write the
+code for me, instead explain what I should do and why." Will not
+generate code but instead provide instructions for the student to follow
+as they write the code. This encourages scaffolding and will help the
+learner form deeper connections with the underlying concepts.
 
-THINGS TO CONSIDER:
+### 5.5.3 Practical Implications for Institutions
 
-Example: Future research should employ qualitative methods (e.g.,
-think-aloud protocols) to better understand the cognitive processes
-underlying the \'task completion\' interaction style.
+For institutions not comfortable with allowing off the shelf AI use, or
+that desire more institutional control. I recommend investing effort
+into creating or deploying a tailored, context-aware AI. This can simply
+be context tuned with a system prompt that discourages task-completion
+behaviors, such an example was provided in the previous section. This
+will help to prevent students from employing task-completion behaviors,
+by not allowing the LLM to generate answers.
 
-Or perhaps a validated survey instrument which can attempt to identify
-motivational or time-pressure factors similar to Abbas 2024.
+Google research has deployed a Socratic AI based on this principle,
+called "Gemini Guided Learning", or LearnLM.
+[[https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai]{.underline}](https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai).
+The AI is designed to use the Socratic method and does not support
+answer seeking behaviors. At the time of the publishing of this paper,
+LearnLM was not available via an API, which means it is not practical to
+create your own custom chatbot LLM from it.
 
-Example: A longitudinal study is needed to see if the suppression
-effects persist or change over a full academic year as students become
-more familiar with LLMs and proper usage patterns
+### 5.5.4 Practical Implications for Students
 
-Separate Study with a clear intervention which provides an AI that will
-not permit task completion or answer-seeking behavior.
+Many of the implications for instructors also apply for students.
+Students need to be aware of the dangers of cognitively offloading their
+learning to LLM's through asking it to complete tasks on their behalf.
+Students must learn to identify when they are engaged in task-completion
+behaviors and self-correct. Frequent self-assessment is a good way to
+accomplish this and LLMs are good at helping formulate questions around
+concepts.
 
-Since off the shelf AI is here to stay and there's a conflicting
-dichotomy between these companies and their use cases versus academic
-use cases, its imperative that educators continue research effectual and
-ineffectual uses of AI for learning and
+A theme among the findings in this student was that the type of
+engagement matters more than the mere frequency of LLM use when
+predicting academic outcomes. Students should recognize that while LLMs
+offer convenience, superficial use for task completion undermines
+learning. Once again context is important here. Asking an LLM for
+"Example midterm questions" lacks the necessary context for the
+generative output to be helpful in this case. This is why AI education
+is so important, it unravels the mystery of what generative AI is doing,
+helping us to not anthropomize it.
 
-More clear research on AI and computational literacy (need to think
-about what this might look like).
+5.6 Limitations
+---------------
 
-5.6 Conclusion
+This study presents several limitations future research should address.
+The findings of this study seem impactful and applicable to the broader
+educational space regarding the impacts of LLM use on learning. However,
+I caution against a broad generalization to other academic disciplines
+or student populations. This study was conducted over a six-week period
+and participants were non-computer science majors enrolled in an
+introductory Python for information professionals course. The study was
+six weeks because only half of this course covers foundational
+computational literacy concepts evident in most introductory programming
+courses. The remainder of the course focused on data analytics.
+
+The CT-Test used in RQ3 for computational literacy only measures
+computational concepts such as program flow and data structures. It is
+not an appropriate instrument for broader concepts in computational
+literacy such as problem framing, or task decomposition. There are
+limited validated instruments in this space which presents an
+opportunity for further research.
+
+Unlike RQ3, RQ1, which examined the relationship between LLM usage and
+midterm exam scores, did not include a pre-intervention measure of
+baseline ability. Thus the study as designed could not control for prior
+knowledge or other initial differences in baseline understanding of the
+course material. This made it difficult to isolate true learning gains
+from any pre--existing competency. Additionally, RQ1 did not account for
+other known predictors of academic success such as motivation or study
+habits.
+
+Categorical content analysis of the initial coding sample of 50 chat
+sessions was performed by a single human rater. Although the subsequent
+LLM classification achieved high inter-coder reliability (Krippendorff's
+alpha = 0.873131), utilizing multiple independent human raters would
+have strengthened the validation of the human baseline. This would also
+reduce the risk of potential single rater bias from coding the chat
+sessions.
+
+The marginal statistical significance found for learning session counts
+in RQ3 (p=0.078) suggests a potential false negative (Type II error).
+This implies that with a larger sample size the model might reach
+statistical significance. The potential benefits of this finding warrant
+further investigation with a larger sample size.
+
+\[TODO Depends on what Prof. Stanton says\]
+
+The significant treatment effect in RQ2 (Model 1) was only revealed
+after controlling for AI usage patterns (learning and task completion
+session counts). These usage variables were measured post-treatment
+assignment but pre-outcome measurement. Conditioning on these
+post-treatment variables introduces uncertainty and potential bias in
+causal interpretation.
+
+5.7 Future Research
+-------------------
+
+Based on the implications and limitations outlined in the previous
+sessions, here are some suggestions for future research. I have
+organized these into three into three different areas. The first area
+explores how LLM designs might promote adaptive help seeking and in turn
+positively impact learning. The second area seeks to deepen the
+understanding of usage patterns, and the final area considers
+methodological refinements.
+
+This thesis has established that the type of engagement is an important
+factor when it comes to learning performance and LLM use. This
+highlights the first area of future research involving the design of
+interventions to study how LLM designs impact learning. Similar to RQ2,
+controlled experiments could be conducted with the treatment being LLMs
+designed to avoid task-completion behaviors. This can be accomplished
+through the use of Socratic LLMs like Google\' s LearnLM, with extensive
+rules added to the system prompt, or both. Such research could identify
+whether LLM design can foster adaptive help seeking behavior which in
+turn improves learning. In addition, this research could be extended to
+other subjects beyond learning computer programming.
+
+A second area of future research centers on the current findings on the
+mutual suppression effect (RQ1) and the marginal significance in
+computational literacy gains (RQ3). These point towards necessary
+methodological extensions to strengthen these findings in future
+research. First, a pre-test for E1, controlling for initial differences
+in baseline understanding and prior knowledge (similar to RQ3) would
+allow researchers to better isolate learning gains and account for the
+substantial importance of initial ability on final outcomes.
+
+To further understand the implications of task completion and learning
+sessions on exam performance, future research designs should account for
+other known predictors of academic success such as motivation and
+self-efficacy. Motivation plays an important role in self-regulated
+learning [(Pintrich, 2003)](https://www.zotero.org/google-docs/?9XmRoS).
+To measure motivation of participants, an instrument such as the
+intrinsic motivation inventory can be used [(Ryan,
+1982)](https://www.zotero.org/google-docs/?MwDVFj). Also, a recognized
+gap in the existing literature is the relationship between
+overconfidence and self-efficacy as related to AI use. The generalized
+self-effacy scale can be used to establish as a baseline measure of
+participant self-efficacy prior to intervention [(Schwarzer & Jerusalem,
+1995)](https://www.zotero.org/google-docs/?RSRsLy). This would allow
+future researchers to observe the impacts of usage patterns on learning
+when controlling for these two characteristics with known influences on
+learning.
+
+Finally, future research should focus on strengthening the
+methodological rigor and broadening the scope of the study. The
+categorical content analysis of the initial coding sample relied on a
+single human rater. Future studies should aim for higher internal
+validation by utilizing multiple independent human raters to strengthen
+the validation of the human baseline and reduce the risk of potential
+single rater bias from coding the chat sessions.
+
+The CT-Test used in RQ3 measured only algorithmic thinking such as
+program flow and data structures. Future research should seek to use or
+develop validated instruments that measure broader concepts in
+computational literacy, such as problem framing or task decomposition.
+It should be noted that validated instruments exist to survey
+participants\' computational thinking, such as the computational
+thinking scale [(Tsai et al.,
+2021)](https://www.zotero.org/google-docs/?qyMsei) but these are not
+assessments. Additionally there are non-validated assessments out there
+such as the Bebras challenges which have been used to measure
+computational literacy in literature [(Araujo et al., 2019; Dagienė &
+Sentance, 2016; Zapata-Cáceres et al.,
+2024)](https://www.zotero.org/google-docs/?qV2IN8).
+
+It has been well established that LLM use in education is not isolated
+to computer programming alone. To address the caution against broad
+generalization, future studies should investigate LLM use in other
+academic disciplines or for different student populations. RQ1 from this
+study can be replicated easily to help identify if these findings are
+transferable to different academic contexts.
+
+5.8 Conclusion
 --------------
 
-Wrap it all up in a tight bow:
+This thesis investigated the impact of Large Language Models (LLMs) use
+on student learning performance and computational literacy within an
+introductory Python programming course. The LLS is a disruptive
+innovation in education. It is capable of serving both a legitimate
+learning aid, and a means to completely circumvent learning. The core
+objective was to move beyond the question of allowing or banning AI use.
+Instead, the study sought to answer which specific LLM usage patterns
+are beneficial to learning and which are harmful.
 
-Reiterate the Main Argument: State the study\'s overall contribution in
-2-3 powerful sentences. (e.g., \"In summary, this thesis conclusively
-demonstrates that the impact of LLM integration is not determined by the
-tool\'s presence, but by the intentionality of the user\'s engagement,
-creating a clear mandate for pedagogy centered on promoting active
-learning behaviors.\")
+To address these questions, the study employed a mixed-methods approach,
+utilizing quantitative correlational and experimental designs based on
+systematically categorized student interaction data. Student
+interactions with a course-provided LLM (GPT4o-mini) were captured and
+categorized via categorical content analysis into two primary, competing
+strategies: Learning sessions which incorporated scaffolding and
+questioning and Task Completion behaviors such as seeking answers,
+cognitive offloading through delectation. In the content analysis, these
+usage patterns were quantified and analyzed for their correlation with
+academic outcomes, specifically midterm exam scores (E1) and
+computational literacy scores (C2).
 
-Final Statement: End with a strong, forward-looking sentence about the
-future of LLMs in education.
+The findings revealed a complex relationship between LLM engagement and
+academic success, demonstrating that the type of engagement matters far
+more than the frequency of use. Task completion activities revealed a
+negative correlation with midterm exam and computational literacy
+scores, while learning session activities revealed a positive
+correlation with midterm exam score only. \[TODO - talk about RQ2\]
+Analysis demonstrated a powerful mutual suppression effect between the
+two usage patterns, confirming the necessity of modeling both types of
+interaction simultaneously to isolate their true, independent effects.
 
-NOTE: Important not to draw too broad a conclusion from the findings.
-Consider the scope and participant audience. This study took place over
-1 semester due to an accelerated timeline. Further study is required to
-better understand the nuances observed.
+The research validates help-seeking theory within the domain of human-AI
+interaction. Task completion aligns with executive help seeking, which
+is the undesirable intent to have the LLM achieve a goal on the
+learner\'s behalf. Conversely, learning sessions represent adaptive help
+seeking, positioning the LLM as an effective intelligent tutoring system
+that supports academic success.
 
-For the most part the findings are promising and demonstrate a true
-effect.between understanding the chat interactions and performing the
-analysis. Plans to continue this study in future semesters to strengthen
-these findings further.
-
- 
+Given the demonstrated negative repercussions of task completion, a
+primary takeaway is the urgent need for pedagogical adaptation. Since AI
+use is not receding, educators must shift their focus from policing the
+technology to teaching students how to use AI effectively and
+constructively. While there are benefits to creating custom LLMs to
+mitigate maladaptive help-seeking, it is not practical to control
+off-the-shelf AI. Therefore, the next step in computing education must
+involve empowering students to become sophisticated, adaptive users of
+this powerful technology.
 
 **References**
 ==============
@@ -3278,11 +3859,42 @@ these findings further.
 > linear models. *arXiv Preprint
 > arXiv:2211.15661*.](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Aleven, V., McLaren, B., Roll, I., & Koedinger, K. (2006). Toward
+> Meta-cognitive Tutoring: A Model of Help Seeking with a Cognitive
+> Tutor. *International Journal of Artificial Intelligence in
+> Education*, *16*,
+> 101--128.](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Aleven, V., Roll, I., McLaren, B. M., & Koedinger, K. R. (2016). Help
+> Helps, But Only So Much: Research on Help Seeking with Intelligent
+> Tutoring Systems. *International Journal of Artificial Intelligence in
+> Education*, *26*(1), 205--223.
+> https://doi.org/10.1007/s40593-015-0089-1](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Aleven, V., Stahl, E., Schworm, S., Fischer, F., & Wallace, R.
+> (2003). Help Seeking and Help Design in Interactive Learning
+> Environments. *Review of Educational Research*, *73*(3), 277--320.
+> https://doi.org/10.3102/00346543073003277](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Allam, H., Dempere, J., Akre, V., Parakash, D., Mazher, N., & Ahamed,
 > J. (2023). Artificial Intelligence in Education: An Argument of
 > Chat-GPT Use in Education. *2023 9th International Conference on
 > Information Technology Trends (ITT)*,
 > 151--156.](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Andrej Karpathy \[\@karpathy\]. (2025, February 2). *There's a new
+> kind of coding I call "vibe coding", where you fully give in to the
+> vibes, embrace exponentials, and forget that the code even exists.
+> It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are
+> getting too good. Also I just talk to Composer with SuperWhisper*
+> \[Tweet\]. Twitter.
+> https://x.com/karpathy/status/1886192184808149383](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Araujo, A. L. S. O., Andrade, W. L., Guerrero, D. D. S., & Melo, M.
+> R. A. (2019). How Many Abilities Can We Measure in Computational
+> Thinking?: A Study on Bebras Challenge. *Proceedings of the 50th ACM
+> Technical Symposium on Computer Science Education*, 545--551.
+> https://doi.org/10.1145/3287324.3287405](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Baidoo-Anu, D., & Owusu Ansah, L. (2023). Education in the era of
 > generative artificial intelligence (AI): Understanding the potential
@@ -3345,6 +3957,9 @@ these findings further.
 > multiple regression/correlation analysis for the behavioral sciences*.
 > Routledge.](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Collins. (2025). *Collins---The Collins Word of the Year 2025 is\...*
+> https://www.collinsdictionary.com/woty](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Compeau, D. R., & Higgins, C. A. (1995). Computer Self-Efficacy:
 > Development of a Measure and Initial Test. *MIS Quarterly*, *19*(2),
 > 189.
@@ -3361,6 +3976,13 @@ these findings further.
 > [Cronbach, L. J., & Furby, L. (1970). How we should measure\"
 > change\": Or should we? *Psychological Bulletin*, *74*(1),
 > 68.](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Dagienė, V., & Sentance, S. (2016). It's Computational Thinking!
+> Bebras Tasks in the Curriculum. In A. Brodnik & F. Tort (Eds.),
+> *Informatics in Schools: Improvement of Informatics Knowledge and
+> Perception* (Vol. 9973, pp. 28--39). Springer International
+> Publishing.
+> https://doi.org/10.1007/978-3-319-46747-4\_3](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Denny, P., Kumar, V., & Giacaman, N. (2023). Conversing with Copilot:
 > Exploring Prompt Engineering for Solving CS1 Problems Using Natural
@@ -3426,6 +4048,10 @@ these findings further.
 > *Overview of the Transformer-based Models for NLP Tasks*. 179--183.
 > https://doi.org/10.15439/2020F20](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Github, I. G. (2023, June 13). Survey reveals AI's impact on the
+> developer experience. *The GitHub Blog*.
+> https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience/](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Gorson, J., & O'Rourke, E. (2020). Why do CS1 Students Think They're
 > Bad at Programming?: Investigating Self-efficacy and Self-assessments
 > at Three Universities. *Proceedings of the 2020 ACM Conference on
@@ -3464,6 +4090,11 @@ these findings further.
 > have to say about AI? - Christensen Institute*.
 > https://www.christenseninstitute.org/blog/what-does-disruptive-innovation-say-about-ai/](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Hou, W., & Ji, Z. (2025). Comparing Large Language Models and Human
+> Programmers for Generating Programming Code. *Advanced Science*,
+> *12*(8), 2412279.
+> https://doi.org/10.1002/advs.202412279](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Hsu, H.-P. (2025). From Programming to Prompting: Developing
 > Computational Thinking through Large Language Model-Based Generative
 > Artificial Intelligence. *TechTrends*.
@@ -3479,7 +4110,12 @@ these findings further.
 > Literacy. *Journal of Computer Science Integration*, *1*(1).
 > https://doi.org/10.26716/jcsi.2018.01.1.1](https://www.zotero.org/google-docs/?q7bqaa)
 >
-> [Jošt, G., Taneski, V., & Karakatič, S. (2024). The Impact of Large
+> [Jošt, G., Taneski, V., & Karakatič, S. (2024a). The Impact of Large
+> Language Models on Programming Education and Student Learning
+> Outcomes. *Applied Sciences*, *14*(10), 4115.
+> https://doi.org/10.3390/app14104115](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Jošt, G., Taneski, V., & Karakatič, S. (2024b). The Impact of Large
 > Language Models on Programming Education and Student Learning
 > Outcomes. *Applied Sciences*, *14*(10), 4115.
 > https://doi.org/10.3390/app14104115](https://www.zotero.org/google-docs/?q7bqaa)
@@ -3498,6 +4134,13 @@ these findings further.
 > on Supporting Novice Learners in Introductory Programming.
 > *Proceedings of the 2023 CHI Conference on Human Factors in Computing
 > Systems*, 1--23.](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Kazemitabaar, M., Ye, R., Wang, X., Henley, A. Z., Denny, P., Craig,
+> M., & Grossman, T. (2024). CodeAid: Evaluating a Classroom Deployment
+> of an LLM-based Programming Assistant that Balances Student and
+> Educator Needs. *Proceedings of the CHI Conference on Human Factors in
+> Computing Systems*, 1--20.
+> https://doi.org/10.1145/3613904.3642773](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Kinnunen, P., & Simon, B. (2012). My program is ok -- am I? Computing
 > freshmen's experiences of doing programming assignments. *Computer
@@ -3534,6 +4177,10 @@ these findings further.
 > ACM Conference on International Computing Education Research*,
 > 252--265.
 > https://doi.org/10.1145/3446871.3469740](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Lohr, S. (2025, June 30). How Do You Teach Computer Science in the
+> A.I. Era? *The New York Times*.
+> https://www.nytimes.com/2025/06/30/technology/computer-science-education-ai.html](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Lu, J. J., & Fletcher, G. H. L. (2009). Thinking About Computational
 > Thinking. *Association for Computing
@@ -3580,8 +4227,17 @@ these findings further.
 > Software*, *203*, 111734.
 > https://doi.org/10.1016/j.jss.2023.111734](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Nelson-Le Gall, S. (1981). Help-seeking: An understudied
+> problem-solving skill in children. *Developmental Review*, *1*(3),
+> 224--246.
+> https://doi.org/10.1016/0273-2297(81)90019-8](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Neuendorf, K. A. (2017). *The content analysis guidebook*.
 > sage.](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Newman, R. S. (1994). *Adaptive help seeking: A strategy of
+> self-regulated learning.* Lawrence Erlbaum Associates,
+> Inc.](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Olga, A., Saini, A., Zapata, G., Searsmith, D., Cope, B., Kalantzis,
 > M., Castro, V., Kourkoulou, T., Jones, J., da Silva, R. A., & others.
@@ -3619,6 +4275,11 @@ these findings further.
 > to machine: Assessing the efficacy of large language models in content
 > analysis. *Communication Research Reports*, *41*(2),
 > 61--70.](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Pintrich, P. R. (2003). A motivational science perspective on the
+> role of student motivation in learning and teaching contexts. *Journal
+> of Educational Psychology*, *95*(4),
+> 667.](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Pons, A. (2023). *Generative AI in the classroom: From hype to
 > reality?*](https://www.zotero.org/google-docs/?q7bqaa)
@@ -3681,6 +4342,11 @@ these findings further.
 > Applied Learning & Teaching*, *6*(1).
 > https://doi.org/10.37074/jalt.2023.6.1.9](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Ryan, R. M. (1982). Control and information in the intrapersonal
+> sphere: An extension of cognitive evaluation theory. *Journal of
+> Personality and Social Psychology*, *43*(3),
+> 450.](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Sarsa, S., Denny, P., Hellas, A., & Leinonen, J. (2022). Automatic
 > generation of programming exercises and code explanations using large
 > language models. *Proceedings of the 2022 ACM Conference on
@@ -3694,6 +4360,11 @@ these findings further.
 > Education Research V.1*, 78--92.
 > https://doi.org/10.1145/3568813.3600142](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Schwarzer, R., & Jerusalem, M. (1995). Generalized self-efficacy
+> scale. *J. Weinman, S. Wright, & M. Johnston, Measures in Health
+> Psychology: A User's Portfolio. Causal and Control Beliefs*, *35*(37),
+> 82--003.](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Shanahan, M. (2024). Talking about Large Language Models.
 > *Communications of the ACM*, *67*(2), 68--79.
 > https://doi.org/10.1145/3624724](https://www.zotero.org/google-docs/?q7bqaa)
@@ -3702,6 +4373,12 @@ these findings further.
 > normality. *Biometrika*, *52*(3),
 > 591--611.](https://www.zotero.org/google-docs/?q7bqaa)
 >
+> [Sheese, B., Liffiton, M., Savelka, J., & Denny, P. (2024). Patterns
+> of Student Help-Seeking When Using a Large Language Model-Powered
+> Programming Assistant. *Proceedings of the 26th Australasian Computing
+> Education Conference*, 49--57.
+> https://doi.org/10.1145/3636243.3636249](https://www.zotero.org/google-docs/?q7bqaa)
+>
 > [Shein, E. (2024). The Impact of AI on Computer Science Education.
 > *Communications of the ACM*, *67*(9), 13--15.
 > https://doi.org/10.1145/3673428](https://www.zotero.org/google-docs/?q7bqaa)
@@ -3709,6 +4386,15 @@ these findings further.
 > [Shute, V. J., Sun, C., & Asbell-Clarke, J. (2017). Demystifying
 > computational thinking. *Educational Research Review*, *22*, 142--158.
 > https://doi.org/10.1016/j.edurev.2017.09.003](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Stiffler, L. (2025, July 10). Coding is dead: UW computer science
+> program rethinks curriculum for the AI era. *GeekWire*.
+> https://www.geekwire.com/2025/coding-is-dead-uw-computer-science-program-rethinks-curriculum-for-the-ai-era/](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Tsai, M.-J., Liang, J.-C., & Hsu, C.-Y. (2021). The Computational
+> Thinking Scale for Computer Literacy Education. *Journal of
+> Educational Computing Research*, *59*(4), 579--602.
+> https://doi.org/10.1177/0735633120972356](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Vaithilingam, P., Zhang, T., & Glassman, E. L. (2022). Expectation
 > vs. Experience: Evaluating the Usability of Code Generation Tools
@@ -3763,6 +4449,12 @@ these findings further.
 > for programming learning. *Computers in Human Behavior: Artificial
 > Humans*, *1*(2), 100005.
 > https://doi.org/10.1016/j.chbah.2023.100005](https://www.zotero.org/google-docs/?q7bqaa)
+>
+> [Zapata-Cáceres, M., Marcelino, P., El-Hamamsy, L., & Martín-Barroso,
+> E. (2024). A Bebras Computational Thinking (ABC-Thinking) program for
+> primary school: Evaluation using the competent computational thinking
+> test. *Education and Information Technologies*.
+> https://doi.org/10.1007/s10639-023-12441-w](https://www.zotero.org/google-docs/?q7bqaa)
 >
 > [Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y.,
 > Zhang, B., Zhang, J., Dong, Z., Du, Y., Yang, C., Chen, Y., Chen, Z.,
