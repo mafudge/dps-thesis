@@ -1,5 +1,5 @@
 ---
-title: '[]{#_zu8mi3lpl4n .anchor}📚 Draft-Thesis'
+title: '[]{#_vxh8veww71sx .anchor}📚 Draft-Thesis'
 ---
 
 **Contents**
@@ -28,16 +28,16 @@ title: '[]{#_zu8mi3lpl4n .anchor}📚 Draft-Thesis'
 > 14](#llms-as-a-disruptive-innovation-for-software-development)
 >
 > [2.2.1 Impacts on Developer Productivity
-> 15](#impacts-on-developer-productivity)
+> 16](#impacts-on-developer-productivity)
 >
 > [2.2.2 Conversations on the Future of Programming
-> 16](#conversations-on-the-future-of-programming)
+> 17](#conversations-on-the-future-of-programming)
 >
 > [2.3 Large-Language Model use in Higher Education
 > 17](#large-language-model-use-in-higher-education)
 >
 > [2.4 LLM Use in Programming Education
-> 18](#llm-use-in-programming-education)
+> 19](#llm-use-in-programming-education)
 >
 > [2.4.1 Framing Novices and Programming Difficulties
 > 19](#framing-novices-and-programming-difficulties)
@@ -74,193 +74,197 @@ title: '[]{#_zu8mi3lpl4n .anchor}📚 Draft-Thesis'
 >
 > [3.2 Study Design 34](#study-design)
 >
-> [3.2.1 Overview 34](#overview)
+> [3.2.1 Overview 35](#overview)
 >
-> [3.2.2 Participant Funnel 37](#participant-funnel)
+> [3.2.2 Participant Funnel 38](#participant-funnel)
 >
 > [3.2.2.1 Population 1: Chatbot participants
-> 38](#population-1-chatbot-participants)
+> 39](#population-1-chatbot-participants)
 >
 > [3.2.2.1 Population 2: Chatbot participants with Survey Responses
 > 39](#population-2-chatbot-participants-with-survey-responses)
 >
 > [3.2.3 Computational Literacy Instrument (C1/C2)
-> 39](#computational-literacy-instrument-c1c2)
+> 40](#computational-literacy-instrument-c1c2)
 >
-> [3.2.4 Chatbot Design 41](#chatbot-design)
+> [3.2.4 Chatbot Design 42](#chatbot-design)
 >
-> [3.2.4.1 LLM Selection 41](#llm-selection)
+> [3.2.4.1 LLM Selection 42](#llm-selection)
 >
-> [3.2.4.2 Random Assignment 42](#random-assignment)
+> [3.2.4.2 Random Assignment 43](#random-assignment)
 >
-> [3.2.4.3 Control Group (T1) 42](#control-group-t1)
+> [3.2.4.3 Control Group (T1) 44](#control-group-t1)
 >
-> [3.2.4.4 Treatment Group (T2) 43](#treatment-group-t2)
+> [3.2.4.4 Treatment Group (T2) 45](#treatment-group-t2)
 >
-> [3.2.5 Midterm Exam (E1) 45](#midterm-exam-e1)
+> [3.2.5 Midterm Exam (E1) 46](#midterm-exam-e1)
 >
-> [3.2.6 Questionnaire (Q1) 46](#questionnaire-q1)
+> [3.2.6 Questionnaire (Q1) 47](#questionnaire-q1)
 >
-> [3.2.7 Chatbot Trace Data (D1) 46](#chatbot-trace-data-d1)
+> [3.2.7 Chatbot Trace Data (D1) 48](#chatbot-trace-data-d1)
 >
-> [3.3 Data Analysis 48](#data-analysis)
+> [3.3 Data Analysis 50](#data-analysis)
 >
-> [3.3.1 Overview 48](#overview-1)
+> [3.3.1 Overview 50](#overview-1)
 >
-> [3.3.2 Tools 49](#tools)
+> [3.3.2 Tools 51](#tools)
 >
 > [3.3.3 Operationalizing D1 Chatbot Trace Data
-> 50](#operationalizing-d1-chatbot-trace-data)
+> 52](#operationalizing-d1-chatbot-trace-data)
 >
 > [3.3.4 Model Selection Reliability Testing
-> 52](#model-selection-reliability-testing)
+> 54](#model-selection-reliability-testing)
 >
-> [3.3.5 Categorical Content Analysis 54](#categorical-content-analysis)
+> [3.3.5 Categorical Content Analysis 56](#categorical-content-analysis)
 >
 > [3.4 Hypothesis Formulation and Methodology
-> 55](#hypothesis-formulation-and-methodology)
+> 57](#hypothesis-formulation-and-methodology)
 >
 > [3.4.1 RQ1 Hypothesis and Methodology
-> 55](#rq1-hypothesis-and-methodology)
+> 57](#rq1-hypothesis-and-methodology)
 >
 > [3.4.2 RQ2 Hypothesis and Methodology
-> 57](#rq2-hypothesis-and-methodology)
+> 59](#rq2-hypothesis-and-methodology)
 >
 > [3.4.3 RQ3 Hypothesis and Methodology
-> 59](#rq3-hypothesis-and-methodology-todo)
+> 61](#rq3-hypothesis-and-methodology)
 >
 > [3.4.4 Satisfying Assumptions of Linear Regressions
-> 61](#satisfying-assumptions-of-linear-regressions)
+> 63](#satisfying-assumptions-of-linear-regressions)
 
-[**4.0 Results 62**](#results)
+[**4.0 Results 64**](#results)
 
-> [4.1 Introduction 62](#introduction-2)
+> [4.1 Introduction 64](#introduction-2)
 >
-> [4.2 Findings for RQ1 64](#findings-for-rq1)
+> [4.2 Findings for RQ1 65](#findings-for-rq1)
 >
-> [4.2.1 Model Overview for RQ1 64](#model-overview-for-rq1)
+> [4.2.1 Model Overview for RQ1 65](#model-overview-for-rq1)
 >
 > [4.2.2 Regression Assumption Tests of the Model for RQ1
-> 65](#regression-assumption-tests-of-the-model-for-rq1)
+> 67](#regression-assumption-tests-of-the-model-for-rq1)
 >
 > [4.2.3 Hierarchical Regression Analysis for the RQ1 Model
-> 68](#hierarchical-regression-analysis-for-the-rq1-model)
+> 70](#hierarchical-regression-analysis-for-the-rq1-model)
 >
-> [4.2.3.1 Model 1: E1 \~ Task Complection Session Count
-> 69](#model-1-e1-task-complection-session-count)
+> [4.2.3.1 Model 0: E1 \~ Session Count 71](#model-0-e1-session-count)
 >
-> [4.2.3.2 Model 2: E1 \~ Learning Session Count
-> 69](#model-2-e1-learning-session-count)
+> [4.2.3.2 Model 1: E1 \~ Task Complection Session Count
+> 72](#model-1-e1-task-complection-session-count)
 >
-> [4.2.3.3 Model 3: E1 \~ Learning Session Count + Task Completion
+> [4.2.3.3 Model 2: E1 \~ Learning Session Count
+> 73](#model-2-e1-learning-session-count)
+>
+> [4.2.3.4 Model 3: E1 \~ Learning Session Count + Task Completion
 > Session Count
-> 70](#model-3-e1-learning-session-count-task-completion-session-count)
+> 74](#model-3-e1-learning-session-count-task-completion-session-count)
 >
-> [4.2.4 Summary of Findings for RQ1 72](#summary-of-findings-for-rq1)
+> [4.2.4 Summary of Findings for RQ1 75](#summary-of-findings-for-rq1)
 >
-> [4.2.5 Conclusion for RQ1 73](#conclusion-for-rq1)
+> [4.2.5 Conclusion for RQ1 76](#conclusion-for-rq1)
 >
-> [4.3 Findings for RQ2 74](#findings-for-rq2)
+> [4.3 Findings for RQ2 77](#findings-for-rq2)
 >
-> [4.3.1 Model Overview for RQ2 74](#model-overview-for-rq2)
+> [4.3.1 Model Overview for RQ2 77](#model-overview-for-rq2)
 >
 > [4.3.2 Regression Assumption Tests for the RQ2 Model
-> 75](#regression-assumption-tests-for-the-rq2-model)
+> 78](#regression-assumption-tests-for-the-rq2-model)
 >
 > [4.3.3 Regression Analysis for the RQ2
-> 76](#regression-analysis-for-the-rq2)
+> 79](#regression-analysis-for-the-rq2)
 >
-> [4.3.3.1 Model 0: Treatment Effects on E1
-> 76](#model-0-treatment-effects-on-e1)
+> [4.3.3.1 Model 1: Total Effect for RQ2
+> 79](#model-1-total-effect-for-rq2)
 >
-> [4.3.3.1 Model 1: Multiple Regression with usage as Covariates for RQ2
-> 78](#model-1-multiple-regression-with-usage-as-covariates-for-rq2)
+> [4.3.3.2 Models 2 a/b: Mediation Analysis for RQ2
+> 81](#models-2-ab-mediation-analysis-for-rq2)
 >
-> [4.3.3.2 Model 2 a/b: Mediation Analysis for RQ2
-> 80](#model-2-ab-mediation-analysis-for-rq2)
+> [4.3.3.3 Models 3 a/b: Moderation Analysis for RQ2
+> 82](#models-3-ab-moderation-analysis-for-rq2)
 >
-> [4.3.3.3 Model 3 a/b: Moderation Analysis for RQ2
-> 81](#model-3-ab-moderation-analysis-for-rq2)
+> [4.3.3.4 Model 4: Identification of the Treatment Effect via
+> Suppression Analysis
+> 84](#model-4-identification-of-rq2-treatment-effect-via-suppression-analysis)
 >
-> [4.3.4 Summary of Findings for RQ2 83](#summary-of-findings-for-rq2)
+> [4.3.4 Summary of Findings for RQ2 86](#summary-of-findings-for-rq2)
 >
-> [4.3.5 Conclusion for RQ2 84](#conclusion-for-rq2)
+> [4.3.5 Conclusion for RQ2 88](#conclusion-for-rq2)
 >
-> [4.4 Findings for RQ3 85](#findings-for-rq3)
+> [4.4 Findings for RQ3 89](#findings-for-rq3)
 >
-> [4.4.1 Model Overview for RQ3 85](#model-overview-for-rq3)
+> [4.4.1 Model Overview for RQ3 89](#model-overview-for-rq3)
 >
 > [4.4.2 Regression Assumption Tests for the RQ3 Model
-> 86](#regression-assumption-tests-for-the-rq3-model)
+> 90](#regression-assumption-tests-for-the-rq3-model)
 >
 > [4.4.3 Model 1: Regression Analysis for RQ3 Accounting for test-retest
-> 90](#model-1-regression-analysis-for-rq3-accounting-for-test-retest)
+> 93](#model-1-ancova-for-rq3-accounting-for-baseline-literacy)
 >
 > [4.4.3.1 Model 1a: Supplementary Analysis Change in Scores
-> 92](#model-1a-supplementary-analysis-change-in-scores)
+> 95](#model-1a-supplementary-analysis-change-in-scores)
 >
-> [4.4.4 Summary of Findings for RQ3 93](#summary-of-findings-for-rq3)
+> [4.4.4 Summary of Findings for RQ3 96](#summary-of-findings-for-rq3)
 >
-> [4.4.5 Conclusion for RQ3 94](#conclusion-for-rq3)
+> [4.4.5 Conclusion for RQ3 97](#conclusion-for-rq3)
 >
-> [4.5 Overall Summary of Findings 95](#overall-summary-of-findings)
+> [4.5 Overall Summary of Findings 98](#overall-summary-of-findings)
 
-[**5.0 Summary 97**](#summary-1)
+[**5.0 Summary 100**](#summary-1)
 
-> [5.1 Introduction 97](#introduction-3)
+> [5.1 Introduction 100](#introduction-3)
 >
 > [5.1.1 Research and Key Findings At a Glance
-> 98](#research-and-key-findings-at-a-glance)
+> 101](#research-and-key-findings-at-a-glance)
 >
-> [5.2 Finding 1: Mutual Suppression 99](#finding-1-mutual-suppression)
+> [5.2 Finding 1: Mutual Suppression
+> 102](#finding-1-the-essentiality-of-usage-classification)
 >
-> [5.2.1 Discussion of Finding 1 99](#discussion-of-finding-1)
+> [5.2.1 Discussion of Finding 1 102](#discussion-of-finding-1)
 >
 > [5.2.2 Contextualization of Finding 1
-> 101](#contextualization-of-finding-1)
+> 104](#contextualization-of-finding-1)
 >
 > [5.3 Finding 2: Negative Implications of AI use for Task Completion
-> 102](#finding-2-negative-implications-of-ai-use-for-task-completion)
+> 105](#finding-2-the-negative-impact-of-executive-help-seeking)
 >
-> [5.3.1 Discussion of Finding 2 102](#discussion-of-finding-2)
+> [5.3.1 Discussion of Finding 2 105](#discussion-of-finding-2)
 >
 > [5.3.2 Contextualization of Finding 2
-> 103](#contextualization-of-finding-2)
+> 106](#contextualization-of-finding-2)
 >
 > [5.4 Finding 3: Positive Implications of AI use for Learning
-> 104](#finding-3-positive-implications-of-ai-use-for-learning)
+> 107](#finding-3-the-positive-impact-of-adaptive-help-seeking)
 >
-> [5.4.1 Discussion of Finding 3 104](#discussion-of-finding-3)
+> [5.4.1 Discussion of Finding 3 107](#discussion-of-finding-3)
 >
 > [5.4.2 Contextualization of Finding 3
-> 105](#contextualization-of-finding-3)
+> 108](#contextualization-of-finding-3)
 >
-> [5.5.1 Discussion of Finding 4 105](#discussion-of-finding-4)
+> [5.5.1 Discussion of Finding 4 108](#discussion-of-finding-4)
 >
 > [5.5.2 Contextualization of Finding 4
-> 105](#contextualization-of-finding-4)
+> 108](#contextualization-of-finding-4)
 >
 > [5.5 Implications and Recommendations
-> 106](#implications-and-recommendations)
+> 109](#implications-and-recommendations)
 >
-> [5.5.1 Theoretical Implications 106](#theoretical-implications)
+> [5.5.1 Theoretical Implications 109](#theoretical-implications)
 >
 > [5.5.2 Practical Implications for Instructors
-> 108](#practical-implications-for-instructors)
+> 111](#practical-implications-for-instructors)
 >
 > [5.5.3 Practical Implications for Institutions
-> 109](#practical-implications-for-institutions)
+> 112](#practical-implications-for-institutions)
 >
 > [5.5.4 Practical Implications for Students
-> 109](#practical-implications-for-students)
+> 112](#practical-implications-for-students)
 >
-> [5.6 Limitations 110](#limitations)
+> [5.6 Limitations 113](#limitations)
 >
-> [5.7 Future Research 111](#future-research)
+> [5.7 Future Research 114](#future-research)
 >
-> [5.8 Conclusion 113](#conclusion)
+> [5.8 Conclusion 116](#conclusion)
 
-[**References 115**](#references)
+[**References 118**](#references)
 
  
 
@@ -1445,7 +1449,7 @@ in computational literacy.
 ----------------
 
 ![A diagram of the study
-design](./publish/thesis2/md/media/image5.png){width="6.5in"
+design](./publish/thesis2/md/media/image16.png){width="6.5in"
 height="3.2916666666666665in"}\
 *Figure1: An overview of the study design.*
 
@@ -1500,14 +1504,14 @@ A key feature of the AI tutor interface was a context-selection
 drop-down menu (see Figure 2). For the control group (T1), selecting an
 assignment from this menu provided no additional data to the model.
 
-![](./publish/thesis2/md/media/image11.png){width="5.09375in"
+![](./publish/thesis2/md/media/image9.png){width="5.09375in"
 height="5.614583333333333in"}\
 *Figure 2: Context-Selection from the IST256 AI Tutor*
 
 For the treatment group (T2), selecting an assignment automatically
 injected the specific lab or assignment instructions into the LLM's
 context (see Figure 3).\
-![](./publish/thesis2/md/media/image3.png){width="6.5in"
+![](./publish/thesis2/md/media/image8.png){width="6.5in"
 height="4.0in"}\
 *Figure 3: The treatment group (T2) is aware of the selected content.*
 
@@ -1543,7 +1547,7 @@ thereby generating the trace data (D1) required for interaction
 analysis. This group included *n* = 87 participants, with 48 assigned to
 the control group (T1) and 39 to the treatment group (T2).
 
-![](./publish/thesis2/md/media/image22.png){width="6.5in"
+![](./publish/thesis2/md/media/image11.png){width="6.5in"
 height="3.5833333333333335in"}*Figure 4: The Participant Funnel for
 Chatbot Use (n = 87)*
 
@@ -1557,7 +1561,7 @@ for analyses requiring survey-derived covariate data. Among these 77
 participants, 41 were in the control group and 36 were in the treatment
 group.
 
-![](./publish/thesis2/md/media/image10.png){width="6.5in"
+![](./publish/thesis2/md/media/image7.png){width="6.5in"
 height="3.0555555555555554in"}*Figure 5: The Participant Funnel
 Integrating Survey Responses (n = 77)*
 
@@ -1602,7 +1606,7 @@ responses as to minimize the practice effect.
 The following figure is an example question from the CT-Test. The entire
 instrument can be found in appendix A.
 
-![](./publish/thesis2/md/media/image15.png){width="6.5in"
+![](./publish/thesis2/md/media/image17.png){width="6.5in"
 height="3.1666666666666665in"}\
 *Figure 6: A Sample Question from The CT-Test*
 
@@ -1694,7 +1698,7 @@ iterative evaluation process, a final prompt configuration was selected
 to optimize the balance between objective achievement and token
 efficiency. This configuration served as the baseline model for the
 control group (T1)\
-![](./publish/thesis2/md/media/image23.png){width="6.5in"
+![](./publish/thesis2/md/media/image13.png){width="6.5in"
 height="2.0in"}\
 *Figure 7: System Prompt Configuration for the Control Group (T1)*
 
@@ -1717,7 +1721,7 @@ The following prompt template was employed to integrate this metadata
 into the conversation:
 
 ![A black screen with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image21.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image15.jpg){width="6.5in"
 height="1.3472222222222223in"}
 
 *Figure 8: Treatment T2 Context Prompt Template*
@@ -1727,7 +1731,7 @@ readiness to assist with the specific assignment, demonstrating
 immediate context awareness.
 
 ![A black background with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image1.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image5.jpg){width="6.5in"
 height="1.3611111111111112in"}
 
 *Figure 9: AI Response to Context Selection in the Treatment Condition
@@ -2159,7 +2163,7 @@ utilized as an independent variable to evaluate its impact on student
 outcomes, specifically the E1 midterm exam and the C1/C2 computational
 thinking assessments.
 
-![](./publish/thesis2/md/media/image2.png){width="5.234375546806649in"
+![](./publish/thesis2/md/media/image22.png){width="5.234375546806649in"
 height="3.900122484689414in"}
 
 *Figure 10: Distribution of Chat Session Classifications From the D1
@@ -2192,7 +2196,7 @@ midterm exam scores (E1).
 -   ***H*~1b~ :**There is a negative correlation between the quantity of
     > sessions classified as Task Completion and midterm exam scores.
 
-**Null Hypothesis (*H*~0~):** There is no statistically significant
+**Null Hypothesis (*H*~01~):** There is no statistically significant
 relationship between the quantity of participant sessions (regardless of
 classification) and midterm exam scores (E1).
 
@@ -2206,7 +2210,10 @@ collective impact on exam scores. The beta coefficients (𝛽) indicate the
 direction (positive or negative) and magnitude of the relationship
 between the predictors and the outcome variable.
 
-The analysis followed a three-step model progression:
+The analysis followed a four-step model progression:
+
+**Model 0 (E1 \~ Session Count):** E1 was regressed on Session Count
+without classification into Learning or Task Completion.
 
 **Model 1 (E1 \~ Task Completion Session Count):** E1 was regressed on
 Task Completion session count session count to establish its individual
@@ -2238,7 +2245,7 @@ Statistical significance was defined at the 𝛼 = .05 level.
 -   ***H*~1b~ Support:** A positive *β* coefficient for Task Completion
     > sessions with a *p* \< .05.
 
-The null hypothesis (***H*~0~**) was rejected only if both conditions
+The null hypothesis (***H*~01~**) was rejected only if both conditions
 were satisfied, indicating that the duality of LLM use (Learning vs.
 Task Completion) significantly predicts academic outcomes.
 
@@ -2249,7 +2256,7 @@ assignment instructions (in-context learning), what is the impact on
 student learning performance?
 
 This question investigated the impact of in-context learning (ICL) on
-student performance as measured by midterm exam scores (**E1**). In this
+student performance as measured by midterm exam scores (E1). In this
 study, ICL was operationalized by injecting assignment-specific
 instructions and scaffolding into the LLM's context for participants in
 the treatment group.
@@ -2259,7 +2266,7 @@ performance score (E1) for the treatment group (context-aware AI) will
 be statistically significantly higher than the mean score for the
 control group.
 
-**Null Hypothesis (*H*~0~):** There is no statistically significant
+**Null Hypothesis (*H*~02~):** There is no statistically significant
 difference in the mean student learning performance scores (E1) between
 the treatment and control groups.
 
@@ -2279,14 +2286,9 @@ approach was employed to identify suppression, mediation, and moderation
 effects [(Edwards & Lambert,
 2007)](https://www.zotero.org/google-docs/?xe6s9J).
 
-**Model 0 Total Effect (E1 \~ Treatment):** E1 was regressed on the
+**Model 1: Total Effect (E1 \~ Treatment):** E1 was regressed on the
 dummy-coded treatment variable to identify the mean difference in exam
 performance between the control and treatment groups.
-
-**Model 1 Suppression Analysis (E1 \~ Learning Session Count + Task
-Completion Session Count)** This model examined whether the inclusion of
-AI usage patterns altered the treatment effect observed in Model 0,
-thereby identifying possible suppression.
 
 **Model 2: Mediation Analysis:** This stage explored whether the
 treatment effect operated through changes in student usage behaviors:
@@ -2310,105 +2312,114 @@ usage patterns and exam performance (interaction effects):
     > tested if context-aware AI moderated the impact of task-completion
     > engagement on E1.
 
-### 3.4.3 RQ3 Hypothesis and Methodology \[TODO\]
+**Model 4: Suppression Analysis (E1 \~ Learning Session Count + Task
+Completion Session Count)** This model examined whether the inclusion of
+AI usage patterns altered the treatment effect observed in Model 0,
+thereby identifying possible suppression.
 
-Research Question 3 states:
+### 3.4.3 RQ3 Hypothesis and Methodology
 
-*RQ3: What is the relationship between large language model use and
-computational literacy?*
+**Research Question 3 (RQ3)***:* What is the relationship between large
+language model use and computational literacy?
 
-This question investigated the relationship between the quantity of
-participant sessions classified as "learning" and "task completion" from
-the D1 dataset and their computational literacy scores (C1, C2).
+This question investigates the relationship between the frequency of
+participant sessions classified as Learning and Task Completio**n**
+(from the D1 dataset) and their computational literacy scores as
+measured by the CT-Test (C1 and C2).
 
-**Alternate Hypothesis for H3**
+**Alternate Hypothesis (*H*~3~):** The quantity and classification of
+participant sessions in the D1 dataset are significantly associated with
+computational literacy scores (C1, C2).
 
-The quantity and classification of participant sessions in the D1
-dataset are significantly correlated with their computational literacy
-scores (C1, C2). Specifically:
-
-1.  There is a positive correlation between the quantity of sessions
-    > classified as "learning" and computational literacy scores.
-
-2.  There is a negative correlation between the quantity of sessions
-    > classified as \"task completion\" and computational literacy
+-   ***H*~3a~ :** There is a positive correlation between the quantity
+    > of sessions classified as Learning and computational literacy
     > scores.
 
-**Null Hypothesis for H3**
+-   ***H*~3b~ :** There is a negative correlation between the quantity
+    > of sessions classified as Task Completion and computational
+    > literacy scores.
 
-There is no statistically significant correlation between the quantity
-of participant sessions from the D1 dataset, whether classified as
-\"learning\" or \"task completion,\" and their computational literacy
-scores (C1, C2).
+**Null Hypothesis for (*H*~03~):** There is no statistically significant
+relationship between the quantity of participant sessions (regardless of
+classification) and computational literacy scores (C1, C2).
 
 **Methodology**
 
-To measure test-retest reliability a Pearson correlation will be
-measured against C1 and C2 [(Vaz et al.,
-2013)](https://www.zotero.org/google-docs/?sedsAX). To account for
-baseline computational literacy and test-retest effects from repeated
-administration of the same assessment from C1 to C2, I employed an
-analysis of covariance (ANCOVA). Specifically, I used linear regression
-with midterm computational literacy scores (C2) as the dependent
-variable with the baseline scores (C1), task completion session count,
-and learning session count as the independent variables [(Huitema,
-2011)](https://www.zotero.org/google-docs/?lwb3sB). This approach
-controls for individual differences in prior knowledge as measured on C1
-while examining whether usage patterns predict final outcomes beyond
-what would be expected from baseline ability alone ([Maxwell et al.,
-2017](https://www.zotero.org/google-docs/?2QVeNI)).
+To establish the reliability of the assessment instrument across
+administrations, a Pearson correlation (*r*) was calculated between the
+pre-test (C1) and post-test (C2) scores [(Vaz et al.,
+2013)](https://www.zotero.org/google-docs/?sedsAX).
 
-I also conducted a supplementary analysis using the change in diagnostic
-scores (C2 - C1) as the dependent variable to examine whether LLM usage
-patterns predicted the magnitude of improvement. This was a
-complementary approach as change scores low reliability when pre- and
-post-test correlations are high [(Cronbach & Furby,
-1970)](https://www.zotero.org/google-docs/?m6FKwM). Both analyses
-together offered a comprehensive understanding of the relationship
-between LLM usage and computational literacy development.
+**Model 1: ANCOVA (C2 \~ Learning Session Count + Task Completion
+Session Count + C1)**
 
-Methodological analysis with respect to H1:
+To account for baseline computational literacy and potential test-retest
+effects, an Analysis of Covariance (ANCOVA) was employed using a linear
+regression framework [(Huitema,
+2011)](https://www.zotero.org/google-docs/?lwb3sB). In this model, the
+post-test score (C2) served as the dependent variable. The baseline
+score (C1) was included as a covariate to control for individual
+differences in prior knowledge, while Task Completion and Learning
+session counts served as the primary independent variables ([Maxwell et
+al. 2017](https://www.zotero.org/google-docs/?2QVeNI)). This approach
+allowed for the examination of whether LLM usage patterns predicted
+learning outcomes beyond what would be expected from baseline ability
+alone.
 
-1.  The \"learning\" beta coefficient being positive with a p-value \<
-    > 0.05, would indicate statistical significance. This implies there
-    > would be a positive correlation between the quantity of sessions
-    > classified as "learning" and computational literacy scores (C2).
+**Model 1a: (C2-C1 \~ Learning Session Count + Task Completion Session
+Count)**
 
-2.  The "task completion" beta coefficient being negative with a p-value
-    > \< 0.05 would imply a negative correlation between the quantity of
-    > sessions classified as \"task completion\" and computational
-    > literacy scores (C2).
+Additionally, a supplementary analysis was conducted using gain scores
+(*ΔC = C2 - C1*) as the dependent variable to examine if usage patterns
+predicted the magnitude of improvement. Recognizing that gain scores can
+exhibit lower reliability when pre- and post-test correlations are high
+[(Cronbach & Furby, 1970)](https://www.zotero.org/google-docs/?m6FKwM),
+this was used as a complementary measure to ensure a comprehensive
+understanding of the relationship between LLM usage and literacy
+development.
 
-Both conditions 1 and 2 must be satisfied to reject the null hypothesis
-for H3.
+**Criteria for Hypothesis Testing**
+
+Statistical significance was defined at the 𝛼 = .05 level.
+
+-   ***H*~3a~ Support:** A positive *β* coefficient for Learning
+    > sessions with a *p* \< .05 in the ANCOVA model.
+
+-   ***H*~3b~ Support:** A positive *β* coefficient for Task Completion
+    > sessions with a *p* \< .05 in the ANCOVA model.
+
+The null hypothesis (***H*~03~**) was rejected only if both conditions
+were satisfied.
 
 ### 3.4.4 Satisfying Assumptions of Linear Regressions
 
-For every linear regression, tests for linear assumptions were applied
-to ensure the reliability of the results [(Cohen et al., 2013; Osborne &
-Waters, 2002)](https://www.zotero.org/google-docs/?Z880H3) . Residual
-plots and regression plots were observed for linearity. To determine if
-the variance of the residuals were constant across all levels of the
-independent variables, the Breusch-Pagan test for homoscedasticity was
-used [(Breusch & Pagan,
-1979)](https://www.zotero.org/google-docs/?8K0xlP). The Durbin-Watson
-statistic was calculated to check for autocorrelation [(Durbin & Watson,
-1971)](https://www.zotero.org/google-docs/?uQj75M). To verify the
-residuals were normally distributed, Shapiro-Wilk test was performed
-[(Shaphiro & Wilk, 1965)](https://www.zotero.org/google-docs/?XBdLM8).
-And finally, to check for conditions of multicollinearity [(Farrar &
-Glauber, 1967)](https://www.zotero.org/google-docs/?4mopcJ) among
-independent variables, the variance inflation factor metric was
-calculated .
+For every linear regression model, formal diagnostic tests for
+Gauss-Markov assumptions were conducted to ensure the validity and
+reliability of the statistical inferences [(Cohen et al., 2013; Osborne
+& Waters, 2002)](https://www.zotero.org/google-docs/?Z880H3). Linearity
+was assessed through the visual inspection of residual and regression
+plots. Residual plots and regression plots were observed for linearity.
+To determine if the variance of the residuals were constant across all
+levels of the independent variables, the Breusch-Pagan test for
+homoscedasticity was used [(Breusch & Pagan,
+1979)](https://www.zotero.org/google-docs/?8K0xlP).
 
-Diagnostic testing that revealed heteroscedasticity, or non-constant
-error variance across the range of fitted values, would be regressed
-with robust standard errors. This ensured valid statistical inference in
-the presence of heteroscedasticity [(MacKinnon & White,
-1985)](https://www.zotero.org/google-docs/?m8VdRu). This approach
-provides robust hypothesis tests without requiring the homoscedasticity
-assumption, yielding accurate *p*-values and confidence intervals even
-when error variance is non-constant.
+The independence of observations was verified using the Durbin-Watson
+statistic to check for potential autocorrelation [(Durbin & Watson,
+1971)](https://www.zotero.org/google-docs/?uQj75M). To ensure the
+residuals were normally distributed, the Shapiro-Wilk test was performed
+[(Shaphiro & Wilk, 1965)](https://www.zotero.org/google-docs/?XBdLM8).
+Finally, to identify potential multicollinearity among independent
+variables, Variance Inflation Factor (VIF) metrics were calculated
+[(Farrar & Glauber, 1967)](https://www.zotero.org/google-docs/?4mopcJ).
+
+In instances where diagnostic testing revealed heteroscedasticity
+(non-constant error variance), models were re-estimated using
+heteroscedasticity-robust standard errors (MacKinnon & White, 1985).
+This approach facilitated valid statistical inference by providing
+accurate *p*-values and confidence intervals, ensuring that the
+hypothesis tests remained robust even when the homoscedasticity
+assumption was violated.
 
 **4.0 Results**
 ===============
@@ -2416,609 +2427,621 @@ when error variance is non-constant.
 4.1 Introduction
 ----------------
 
-This chapter presents the quantitative findings of this empirical study.
-I investigated the influence of Large Language Model (LLM) use on
-student learning performance and computational literacy. The analysis
-was structured around the three primary research questions that guided
-this investigation:\
-RQ1: How does large-language model use influence student learning
-performance?
+This chapter presents the quantitative findings of this empirical
+investigation into the influence of Large Language Model (LLM) usage on
+student learning performance and computational literacy. The analysis is
+structured around the three primary research questions:
 
-RQ2: When the large-language model prompt is adjusted to include
-assignment instructions (in-context learning) what is the impact on
-student learning performance?
+-   **RQ1:**How does Large Language Model (LLM) influence student
+    > learning performance?
 
-RQ3: What is the relationship between large language model use and
-computational literacy?
+-   **RQ2:** When the prompt is adjusted to include assignment
+    > instructions (in-context learning), what is the impact on student
+    > learning performance?
 
-As detailed in the methodology (Chapter 3), the data analysis involved a
-content analysis of the student-LLM trace interactions. Interactions
-categorized as either learning or task completion were factored into the
-analysis. Learning interactions demonstrated behaviors conducive to
-learning such as attempts to understand or clarify concepts.
-Task-completion behaviors were the opposite - interactions where
-participants sought to complete a task or shortcut their learning.
-Counts of interaction types were formulated at the participant level so
-that multivariate regression analyses could be performed to weigh the
-relative impacts of these interactions against student outcomes.
+-   **RQ3:** What is the relationship between large language model use
+    > and computational literacy?
 
-The findings revealed a nuanced and complex relationship between the
-mode of LLM engagement and academic outcomes. The relationship was
-characterized by mutual suppression effects requiring consideration of
-multiple engagement variables before revealing the underlying
-statistical relationship.
+As detailed in Chapter 3, the analysis utilized a categorical content
+analysis of the student-LLM trace logs, classifying interactions as
+either Learning (adaptive help-seeking) or Task Completion (executive
+help-seeking). These classifications were aggregated to the participant
+level to facilitate multivariate regression analyses, weighing the
+relative impacts of these interaction types against academic outcomes.
 
-The first research question utilized a non-experimental, observational,
-design to examine associations between the naturally occurring LLM
-engagement patterns of participants and their academic performance on
-the midterm exam. Categorizations of trace data from LLM logs were
-analyzed alongside archival exam score data using hierarchical multiple
-regression. Through the correlational approach I was able to examine the
-extent to which predictor variables (task completion and learning
-session counts) explained the variance in the dependent variable
-(midterm exam scores). The hierarchical structure used in the analysis
-revealed both predictors contributed unique information beyond their
-individual effects.
+The findings reveal a nuanced relationship between the mode of LLM
+engagement and student performance. This relationship is characterized
+by mutual suppression effects, necessitating the simultaneous
+consideration of multiple engagement variables to uncover the underlying
+statistical relationships.
 
-The second research question employed a between-subjects randomized
-controlled trial to explore the potential effects of in-context aware
-LLMs on student performance. Since the context-aware AI was able to
-answer specifics about assignments, the key question was would use of
-this capability reflect itself in midterm exam scores, and if so, how?
-While the treatment alone showed no effect, a more comprehensive
-analysis revealed a similar suppressive dynamic when controlling for LLM
-usage with task completion and learning session counts. Specifically,
-the treatment when combined with the learning and task completion
-independent variables was statistically significant, indicating the
-relationship was only discernible when accounting for these factors.
-Interestingly, this improvement in the treatment effect was independent
-of how the LLM was used, suggesting that the mere existence of the
-learning and task completion behaviors in the population improved the
-signaling of the in-context effect.
+For RQ1, a non-experimental, observational design was used to examine
+associations between naturally occurring LLM engagement patterns and
+midterm exam scores (E1). Utilizing hierarchical multiple regression,
+this analysis revealed that Learning and Task Completion behaviors
+provided unique, contrasting information regarding the variance in
+student performance.
 
-The third research question utilized a non-experimental design with a
-pretest and posttest analysis to better understand the relationship
-between LLM use and computational literacy. Similar to the other
-research questions the analysis revealed the relationship depends on how
-students use the LLM. The pretest / posttest analysis indicated that
-participants, overall, made slight but statistically significant gains
-in computational literacy scores. However, when accounting for the
-pretest scores as a covariate, the relationship with specific LLM
-interaction types was asymmetrical. The analysis found a negative
-correlation between the task completion sessions counts and
-post-intervention computational literacy scores. While the correlation
-between learning session counts and literacy scores was outside the
-threshold for statistical significance.
+For RQ2, a between-subjects randomized controlled trial was employed to
+evaluate the effects of the context-aware LLM treatment (T2). While the
+treatment showed no initial main effect, a comprehensive multi-stage
+analysis revealed a suppressive dynamic. This relationship became
+statistically significant only when controlling for Learning and Task
+Completion session counts, which served as concurrent measures of
+participant engagement during the intervention. This finding suggests
+that the impact of context-aware AI on learning performance is only
+discernible when accounting for the variance introduced by students\'
+specific interaction patterns as they occurred throughout the study.
 
-The sections in this chapter outline the results of the analysis and key
-findings for each research question and their subsequent hypothesis.
+For RQ3, a non-experimental pre-test/post-test design was utilized to
+assess changes in computational literacy (C1, C2). While overall gains
+in literacy were statistically significant, an Analysis of Covariance
+(ANCOVA) revealed an asymmetrical relationship between usage types and
+outcomes. A significant negative correlation was found between Task
+Completion frequency and post-intervention literacy scores, while the
+relationship with Learning sessions did not reach the threshold for
+statistical significance.
+
+The subsequent sections detail the results of these analyses and provide
+a formal evaluation of each corresponding hypothesis.
 
 4.2 Findings for RQ1
 --------------------
 
 ### 4.2.1 Model Overview for RQ1
 
-This research question investigated whether the quantity and
-classification of student sessions with large language models predicted
-midterm exam performance (E1). Specifically, I examined whether learning
-session count and task completion sessions count were differentially
-associated with academic outcomes (*N* = 87).
+Research Question 1 (RQ1) investigated whether the frequency and
+classification of student interactions with Large Language Models (LLMs)
+predicted performance on the midterm exam (E1). Specifically, this
+analysis examined the extent to which Learning session counts and Task
+Completion session counts were differentially associated with academic
+outcomes for the *N = 87* participants.
 
-The regression model used to test the hypothesis had learning session
-count and task completion count as independent variables, with midterm
-exam E1 as the dependent variable.
+The primary analysis utilized a multiple linear regression model where
+the frequency of each interaction type served as the independent
+variables and the E1 score served as the dependent variable:
 
 **Model 3: E1 \~ Learning Session Count + Task Completion Session
 Count**
 
-**Alternate Hypothesis for H1**
+**Hypothesis for H1**
 
-The quantity and classification of participant sessions in the D1
-dataset are significantly correlated with their midterm exam scores
-(E1). Specifically:
+**Alternative Hypothesis (*H*~1~):** The quantity and classification of
+participant sessions in the D1 dataset are significantly associated with
+midterm exam scores (E1).
 
-1.  There is a positive correlation between the quantity of sessions
-    > classified as "learning" and midterm exam scores.
+-   ***H*~1a~ :** There is a positive correlation between the frequency
+    > of sessions Learning sessions and midterm exam scores.
 
-2.  There is a negative correlation between the quantity of sessions
-    > classified as \"task completion\" and midterm exam scores.
+-   ***H*~1b~ :**There is a negative correlation between the quantity of
+    > Task Completion sessions and midterm exam scores.
 
-**Null Hypothesis for H1**
+**Null Hypothesis (*H*~01~):** There is no statistically significant
+relationship between the quantity of participant sessions, regardless of
+classification, and midterm exam scores (E1).
 
-There is no statistically significant correlation between the quantity
-of participant sessions from the D1 dataset, whether classified as
-\"learning\" or \"task completion,\" and their midterm exam scores (E1).
-
-Both conditions 1 and 2 must be satisfied to reject the null hypothesis
-for H1.
+To reject the null hypothesis (***H*~01~**), both conditions
+(***H*~1b\ ~**and ***H*~1b~**) must reach statistical significance at
+the 𝛼 = .05 level.
 
 ### 4.2.2 Regression Assumption Tests of the Model for RQ1
 
-A comprehensive assessment of ordinary least squares (OLS) regression
-assumptions was conducted prior to interpreting the findings of the
-model for RQ1. These checks ensured validity and reliability of the
-model estimates.
+Prior to interpreting the results for RQ1, a comprehensive assessment of
+Ordinary Least Squares (OLS) regression assumptions was conducted to
+ensure the validity and reliability of the model estimates.
 
-To check for linearity, partial regression plots were examined to assess
-the linear relationship between the dependent variable (E1) and each
-predictor variable while controlling for other predictors in the model.
+Linearity was evaluated through the examination of partial regression
+plots, which assess the relationship between the dependent variable (E1)
+and each predictor while controlling for other variables in the model.
 Visual inspection of these plots indicated approximate linear
-relationships, supporting the use of linear regression for analysis.
-Both independent variables had fewer observations as the counts of the
-participants' sessions increased. This was expected for session-oriented
-data which is commonly right-skewed, where most participants have few
-sessions and few participants have several
-sessions..![](./publish/thesis2/md/media/image13.png){width="6.5in"
+relationships, supporting the application of linear regression. As is
+common with session-oriented trace data, both independent variables
+exhibited a right-skewed distribution, where the majority of
+participants engaged in few sessions and a smaller subset engaged in
+many.
+
+![](./publish/thesis2/md/media/image23.png){width="6.5in"
 height="4.486111111111111in"}\
-*Figure ??: Partial regression plots when holding the other constant of
+*Figure 11: Partial regression plots when holding the other constant of
 E1 \~ Task Completion Session Count + Learning Session Count.*
 
-The plot of residuals versus fitted values showed symmetrical, randomly
-scattered points with no obvious pattern. The Locally Estimated
-Scatterplot Smoothing (LOESS) curve was relatively flat and close to the
-horizontal. The end of the LOESS curve does indicate a slight uptick
-likely due to lack of observations in that region.
+The assumption of independence was satisfied, as the Durbin-Watson
+statistic (*DW* = 2.09) fell within the acceptable range near the ideal
+value of 2.0. To evaluate homoscedasticity, the Breusch-Pagan test was
+performed, yielding a non-significant result (*𝝌*^2^= 0.29, *p* = .867).
+This indicates that the assumption of constant error variance was met.
+These findings were corroborated by the plot of residuals versus fitted
+values, which displayed a symmetrical, random scatter with a relatively
+flat Locally Estimated Scatterplot Smoothing (LOESS) curve, suggesting
+no discernible funneling or non-linear patterns. The end of the LOESS
+curve does indicate a slight uptick likely due to lack of observations
+in that region.
 
-![](./publish/thesis2/md/media/image6.png){width="5.229166666666667in"
+![](./publish/thesis2/md/media/image12.png){width="5.229166666666667in"
 height="3.46875in"}\
-*Figure ??: Residuals vs Fitted Values for E1 \~ Learning Session Count
+*Figure 12: Residuals vs Fitted Values for E1 \~ Learning Session Count
 + Task Completion Session Count*
 
-The Durbin-Watson statistic (*DW* = 2.09) was within the acceptable
-range, falling close to the ideal value of 2.0. This indicated no
-substantial autocorrelation among residuals, thereby satisfying
-assumption of independence.
+The residuals demonstrated close adherence to a normal distribution, as
+evidenced by a non-significant Shapiro-Wilk test (*W* = 0.99, *p* =
+.679). Visual inspection of the residuals histogram and the Q-Q plot
+further confirmed normality, with data points closely following the
+theoretical diagonal line.
 
-The Breusch-Pagan test for heteroscedasticity yielded a non-significant
-result (*Chi^2^* = 0.29, *p* = .867). I interpreted this as the
-assumption of constant error variance across levels of the predictor
-variables was met. This was further supported by visual inspection of
-the residuals versus fitted values plot, which showed no clearly
-discernible pattern or funnel shape.
-
-The Shapiro-Wilk test indicated that residuals were normally distributed
-(*W* = 0.99, *p* = .679). Since *p* \>=0.05 we fail to reject the null
-hypothesis of normality. This was corroborated visually via a histogram
-of residuals and the Q-Q plot, both of which demonstrated close
-adherence to the normal distribution.
-
-![](./publish/thesis2/md/media/image20.png){width="6.5in"
+![](./publish/thesis2/md/media/image4.png){width="6.5in"
 height="2.3055555555555554in"}\
-*Figure ??: Evidence of normality among the residuals of E1 \~ Task
+*Figure 13: Evidence of normality among the residuals of E1 \~ Task
 Completion Session Count + Learning Session Count.*
 
-To check for multicollinearity, the variance inflation factor (VIF) test
-was performed. Values for both predictor variables were well below
-conventional thresholds of concern (*VIF* = 1.19 for both task
-completion session count and learning session count), indicating no
-problematic multicollinearity.
+Multicollinearity was assessed using the Variance Inflation Factor
+(VIF). Both predictor variables yielded a *VIF* of 1.19, well below the
+conventional threshold of concern (typically \> 5.0) and close to the
+target value of 1.0. This indicates that Learning and Task Completion
+session counts provide sufficiently unique information to the model.
 
-Given that all diagnostic tests indicated satisfaction of OLS regression
+Given that all diagnostic tests indicated the satisfaction of OLS
 assumptions, the model was deemed appropriate for interpretation. The
-model explained 18.9% of the variance in E1 (*R^2^* = .189, *adjusted
-R^2^* = .169), and was statistically significant overall (*F(2, 84)* =
-9.76, *p* \< 0.001).
+overall model was statistically significant, *F(2, 84)* = 9.76, *p* \<
+.001, and explained 18.9% of the variance in E1 (*R^2^* = .189,
+*adjusted R^2^* = .169).
 
 ### 4.2.3 Hierarchical Regression Analysis for the RQ1 Model
 
-Prior to testing the entire regression model, bivariate relationships
-between predictor variables and midterm exam scores (E1) were examined
-through simple linear regression analyses. This preliminary step allows
-for assessment of individual predictor effects before examining their
-combined contribution as a means to gain a better understanding of each
-independent variables' contribution to the model.
+Prior to evaluating the full multivariate model, bivariate relationships
+between each predictor variable and midterm exam scores (*E1*) were
+examined through simple linear regression. This preliminary analysis
+allowed for the assessment of individual predictor effects and
+established a baseline understanding of each independent variable's
+isolated contribution to the model before accounting for their combined
+influence.
 
-#### 4.2.3.1 Model 1: E1 \~ Task Complection Session Count
+#### 4.2.3.1 Model 0: E1 \~ Session Count
 
-A simple linear regression revealed that task completion session count
-was a significant negative predictor of E1 (*F(1, 85)* = 12.35, *p* \<
-0.001). The model explained 12.7% of variance in exam scores (*R^2^* =
-.127, *adjusted R^2^* = .117). The model met statistical power
-assumptions for a power of 0.8 and an alpha of 0.05, with Cohen\'s f^2^
-exceeding the target. (Actual *Cohen's f^2^* = .145 \> Target *Cohen's
-f^2\ ^*= .092). Each additional task completion session resulted in an
-E1 decrease by 0.41 units (*B* = -0.41, *SE* = 0.12, *t* = -3.52, *p* =
-.001, 95% *CI* \[-0.65, -0.18\]). This bivariate relationship confirmed
-greater engagement with task completion sessions was independently
-associated with lower exam scores.\
-![](./publish/thesis2/md/media/image17.png){width="6.5in"
-height="3.638888888888889in"}
+The initial stage of the analysis involved a simple linear regression of
+the total session count on the dependent variable *E1*. This established
+a baseline to determine if the raw quantity of AI usage, regardless of
+classification, impacted exam performance.
 
-*Figure ??: Forestplot of E1 \~Task Completion Session Count*
+A post-hoc power analysis revealed that the model did not achieve the
+conventional target of .80 power at an *⍺* = .05 level (Actual Cohen's
+*f^2^* = .012, Target *f^2^* = .092). The regression model was not
+statistically significant, *F(1, 85)* = 1.01, *p* = .317, with the total
+number of sessions explaining only 1% of the variance in *E1* scores
+(*R^2\ ^*= .012, *adjusted R^2^* = .000). The regression coefficient was
+negative but failed to reach statistical significance (*ꞵ* = -0.06, *SE*
+= 0.06, *t* = -1.00, *p* = .317, 95% *CI* \[-0.17, 0.06\]).
+Consequently, total session count was not a significant predictor of
+exam performance.
 
-#### 4.2.3.2 Model 2: E1 \~ Learning Session Count
+![](./publish/thesis2/md/media/image10.png){width="6.5in"
+height="4.125in"}\
+*Figure 14: Forestplot of E1 \~ Session Count*
 
-In contrast, a simple linear regression with learning session count as
-the sole predictor yielded a less interesting story. The model did not
-achieve the assumptions of statistical power on 0.8 with an alpha of
-0.05 (Actual *Cohen's f^2\ ^*= .007 \< Target *Cohen's f^2\ ^*= 0.092).
-The model model (*F(1,85)* = 0.62, *p* = .435) was not statistically
-significant. In addition, the sessions classified as learning explained
-less than 1% of variance in E1 (*R^2\ ^*= .007, *adjusted R^2^* =
--.004). The regression coefficient was positive but not statistically
-significant (*B*= 0.06, *SE* = 0.08, *t* = 0.79, *p* = .435, 95% *CI*
-\[-0.10, 0.23\]). Learning session count was not a predictor of exam
-performance when considered in isolation.
+#### 4.2.3.2 Model 1: E1 \~ Task Complection Session Count
 
-![](./publish/thesis2/md/media/image16.png){width="6.5in"
-height="3.8472222222222223in"}\
-*Figure ??: Forestplot of E1 \~ Learning Session Count*
+A simple linear regression revealed that Task Completion session count
+was a significant negative predictor of E1, *F(1, 85)* = 12.35, *p* \<
+.001. The model explained 12.7% of the variance in exam scores (*R^2^* =
+.127, *adjusted R^2^* = .117). The model satisfied statistical power
+requirements for a target of .80 at an *⍺* = .05 level, as the observed
+effect size exceeded the required threshold (Actual Cohen's *f^2\ ^*=
+.145, Target *f^2^*= .092).
 
-#### 4.2.3.3 Model 3: E1 \~ Learning Session Count + Task Completion Session Count
-
-A different pattern emerged when both task completion count and learning
-session count were factored into the multiple regression model. The full
-model was statistically significant (*F(2, 84)* = 9.76, *p* \< 0.001),
-and met assumptions for statistical power (Actual *Cohen's f^2^* = 0.233
-\> Target *Cohen's f^2^* = 0.115). The multivariate model explained
-18.9% of the variance in E1 (*R^2^* = .189, *adjusted R^2^* = .169),
-this was 48.8% more than Model 1 alone (*R^2^* = 0.127, *adjusted
-R^2\ ^*= 0.117). In addition both effects were enhanced when compared to
-their bivariate analyses, becoming significant predictors of E1 when
-included together in the model.
-
-Task completion session counts (*B* = -0.54, *SE* = 0.125, *t* = -4.33,
-*p* \< .000, 95% *CI* \[-0.79, -0.292) showed a 31% increase in effect
-size compared to model 1 (*B* = -0.41). For Learning session counts (*B*
-= 0.206, *SE* = 0.081, *t* = -2.53, *p* = 0.013, 95% *CI* \[0.044,
-0.367), there was no significant effect present in Model 2. Learning
-session counts were significant in Model 3 and the beta coefficient went
-from 0.06 to 0.206, representing an over 200% increase. Considering the
-change in *R^2^* from Model 1 to Model 3 was significant (*ΔR^2^* =
-0.189 - 0.127 = 0.062) indicating that the addition of learning session
-counts provided 6% more unique explanatory power beyond task completion
-sessions alone.
-
+The regression coefficient indicated that each additional Task
+Completion session was associated with a 0.41-unit decrease in E1 score
+(*ꞵ* = -0.41, *SE* = 0.12, *t* = -3.52, *p* = .001, 95% *CI* \[-0.65,
+-0.18\]). This bivariate relationship confirmed that higher engagement
+in behaviors categorized as Task Completion was independently associated
+with lower exam performance.\
 ![](./publish/thesis2/md/media/image18.png){width="6.5in"
 height="3.638888888888889in"}
 
-*Figure ??: Forestplot of E1 \~ Task Completion Session Count + Learning
+*Figure 15: Forestplot of E1 \~Task Completion Session Count*
+
+#### 4.2.3.3 Model 2: E1 \~ Learning Session Count
+
+In contrast, the bivariate relationship between Learning session count
+and E1 scores presented a different dynamic. This simple linear
+regression model did not meet the assumptions of statistical power for a
+target of .80 at an *⍺* = .05 level (Actual *Cohen's f^2\ ^*= .007 \<
+Target *Cohen's f^2\ ^*= .092). The model was not statistically
+significant, *F(1, 85)* = 0.62, *p* = .435, with sessions classified as
+Learning explaining less than 1% of the variance in E1 (*R^2\ ^*= .007,
+*adjusted R^2^* = -.004)
+
+The regression coefficient was positive but failed to reach statistical
+significance (*ꞵ*= 0.06, *SE* = 0.08, *t* = 0.79, *p* = .435, 95% *CI*
+\[-0.10, 0.23\]). These results indicate that Learning session count,
+when considered in isolation, was not a significant predictor of exam
+performance.![](./publish/thesis2/md/media/image20.png){width="6.5in"
+height="3.8472222222222223in"}\
+*Figure 16: Forestplot of E1 \~ Learning Session Count*
+
+#### 4.2.3.4 Model 3: E1 \~ Learning Session Count + Task Completion Session Count
+
+A distinct and more robust pattern emerged when Task Completion and
+Learning session counts were analyzed simultaneously within a multiple
+regression framework. The full multivariate model was statistically
+significant, *F(2, 84)* = 9.76, *p* \< .001, and satisfied the
+requirements for statistical power for a target of .80 at an *⍺* = .05
+level (Actual Cohen's *f^2^* = .233, Target *f^2^* = .115). This model
+explained 18.9% of the total variance in *E1* scores (*R^2^* = .189,
+Adjusted *R^2^* = .169), representing a 48.8% increase in explanatory
+power over the Task Completion bivariate model alone (*R^2^*= .127).
+
+A comparison of the bivariate and multivariate results reveals a mutual
+suppression effect, where the predictive power of both variables was
+enhanced when included together in the model.
+
+-   Task Completion: The negative impact of Task Completion sessions
+    > increased by 31% compared to Model 1 (*ꞵ* = -0.54, *SE* = 0.125,
+    > *t* = -4.33, *p* \< .001, 95% *CI* \[-0.79, -0.29).
+
+-   Learning: While Learning sessions were non-significant when
+    > considered in isolation (Model 2), they became a significant
+    > positive predictor of E1 in the full model (*ꞵ* = 0.21, *SE* =
+    > 0.081, *t* = 2.53, *p* = .013, 95% *CI* \[0.04, 0.37\]). The
+    > standardized coefficient increased from 0.06 to 0.21, representing
+    > a magnitude increase of over 200%.
+
+The change in *R^2^* from the Task Completion model to the full model
+was statistically significant (*ΔR^2^* = .062), indicating that the
+addition of Learning session counts provided 6% of unique explanatory
+power beyond what was explained by Task Completion sessions alone. These
+results suggest that the relationship between LLM usage and exam
+performance is obscured unless both adaptive (Learning) and executive
+(Task Completion) help-seeking behaviors are accounted for
+simultaneously.
+
+![](./publish/thesis2/md/media/image21.png){width="6.5in"
+height="3.638888888888889in"}
+
+*Figure 17: Forestplot of E1 \~ Task Completion Session Count + Learning
 Session Count*
 
 ### 4.2.4 Summary of Findings for RQ1
 
 The comparison across models revealed a mutual suppression effect
-between task completion session counts and learning session counts when
-predicting midterm exam scores (E1). The predictors shared variance that
-obscures their individual relationships with the outcome when considered
-in isolation. As explained earlier, the *B* coefficient for task
-completion sessions increased in magnitude from -0.41 to -0.54, while
-learning sessions transformed from a non-significant predictor (*p* =
-.435) to a significant one (*p* = .013), with the coefficient increasing
-more than threefold (from 0.06 to 0.206). This pattern indicates that
-each predictor shares variance with the other that was irrelevant to
-predicting E1, but each also possessed unique variance that was
-predictive.
+between Task Completion and Learning session counts when predicting
+midterm exam scores (E1). The predictors shared variance that obscured
+their individual relationships with the outcome when considered in
+isolation. As demonstrated in the transition from bivariate to
+multivariate analysis, the *ꞵ* coefficient for Task Completion sessions
+increased in magnitude from -0.41 to -0.54. Simultaneously, Learning
+sessions transformed from a non-significant predictor (*p* = .435) to a
+significant one (*p* = .013), with the *ꞵ* coefficient increasing more
+than threefold from 0.06 to 0.21.
 
-When included in the same model, they suppress each other\'s irrelevant
-variance while allowing their unique contributions to emerge. The
-substantial increase in explained variance, that is the change in *R^2^*
-from Model 1 to Model 3 = 0.062 and from Model 2 to Model 3 = .182,
-demonstrates that both session types contributed non-redundant
-information about exam performance. This mutual suppression effect could
-be interpreted as participants who engaged in more task completion
-sessions tended to have fewer learning sessions and vice versa.
+This pattern indicates that each predictor accounted for irrelevant
+variance in the other, effectively clearing the signal for their unique
+predictive contributions to emerge. The significant increase in
+explained variance, specifically *ΔR^2^* of .062 when adding Learning to
+the Task Completion model, demonstrates that both session types provided
+non-redundant information regarding exam performance.
 
-  ------------------------------------------------------------------------------------------------------
-  **Model**   **Independent\               **R^2^**   **Adj. R^2^**   **F**   **p**      ***ΔR^2^**^\
-              Variables**                                                                ^***Model 1**
-  ----------- ---------------------------- ---------- --------------- ------- ---------- ---------------
-  1           Task Completion              0.127      0.117           12.35   \< 0.001   ---
+  ------------------------------------------------------------------------------------------------------------------
+  **Model**   **Independent\                     ***R*^2^**   **Adj. *R*^2^**   ***F***   ***p***    ***ΔR^2^**^\
+              Variables**                                                                            ^***Model 1**
+  ----------- ---------------------------------- ------------ ----------------- --------- ---------- ---------------
+  0           Session Count (SC)                 0.012        0.000             1.011     0.317      ---
 
-  2           Learning                     0.007      -0.004          0.62    = 0.435    ---
+  1           Task Completion SC                 0.127        0.117             12.35     \< 0.001   ---
 
-  3           Task Completion + Learning   0.189      0.169           9.76    \< 0.001   \+ 0.062
-  ------------------------------------------------------------------------------------------------------
+  2           Learning SC                        0.007        -0.004            0.62      = 0.435    ---
 
-*Table ??: Hierarchical Model Comparison*
+  3           Task Completion SC + Learning SC   0.189        0.169             9.76      \< 0.001   \+ 0.062
+  ------------------------------------------------------------------------------------------------------------------
 
-Moreover, the effects were in opposition to one another. The learning
-session counts had a positive effect (*B* = 0.206) while the task
-completion count had a negative effect (*B*= -0.54) that was more than
-twice as influential as learning session counts. This provides evidence
-to the obvious: these are competing strategies for academic success.
+*Table 5: Hierarchical Model Comparison*
 
-The significant negative relationship observed between task completion
-session counts and midterm exam scores (E1) suggests participants who
-focus more on task completion tend to perform worse on exams. This
-aligns with the notion that surface-level engagement activities such as
-answer seeking are less effective for deep learning and retention.
-
-Conversely, the significant positive relationship that existed between
-learning session counts and midterm exam scores (E1) suggests that
-students who engage more in learning-oriented sessions, exhibiting
-adaptive help seeking behaviors, tend to perform better on exams. The
-effect size for learning session counts is smaller than that for task
-completion session counts. This may be due other confounding factors not
-accounted for in this study, such as prior knowledge, inclination to
-grasp the material, study habits, external support such as tutoring, or
-test anxiety.
+The observed effects were in direct opposition: Learning sessions
+exerted a positive influence ( *ꞵ* = 0.21, while Task Completion
+sessions exerted a negative influence ( *ꞵ* = -0.54) that was more than
+twice as influential. This suggests that these behaviors represent
+competing strategies for academic engagement. The negative relationship
+for Task Completion aligns with the theory that surface-level engagement
+(executive help-seeking) is less effective for deep learning, while the
+positive relationship for Learning sessions reflects the benefits of
+adaptive help-seeking.
 
 ### 4.2.5 Conclusion for RQ1
 
-The multiple regression analysis of model E1 \~ Task Completion Count +
-Learning Session Count (*F(2, 84)* = 9.76, *p* \<0.001) provided strong
-statistical evidence to reject the null hypothesis. Both hypothesized
-relationships were confirmed: learning sessions positively predicted
-exam performance (*B* = 0.21, *p* = .013), while task completion
-sessions negatively predicted performance (B = -0.54, *p* \< .001).
+The multivariate regression analysis of model 3: E1 \~ Task Completion
+Count + Learning Session Count (*F(2, 84)* = 9.76, *p* \< .001) provided
+sufficient statistical evidence to reject the null hypothesis
+(***H*~01~**). Both hypothesized directional relationships were
+confirmed: Learning sessions positively predicted exam performance (*ꞵ*
+= 0.21, *p* = .013), while Task Completion sessions negatively predicted
+performance (*ꞵ* = -0.54, *p* \< .001).
 
-I can conclude the type of LLM engagement and not merely the frequency
-of use predicts academic performance. Learning-focused engagement, as
-demonstrated through adaptive help seeking behaviors, supports academic
-success as measured through exam scores, while task-completion-focused
-engagement as an executive help seeking behavior, undermines it.
-Although the findings did reject the null hypothesis and establish
-significant correlations between LLM usage patterns and midterm exam
-performance, we cannot conclude that task completion causes lower exam
-performance or that learning sessions contribute to higher exam scores,
-as this was a correlational study. Regardless,. opposing directional
-relationships when combined with the mutual suppression effect provide
-strong evidence that the way we engage with LLMs has unique associations
-with learning outcomes.
+Consequently, the nature of LLM engagement, rather than the mere
+frequency of use, is a significant predictor of academic performance.
+Although the correlational nature of this study precludes causal claims,
+such as the premise that task completion causes lower scores, the
+opposing directional relationships combined with the mutual suppression
+effect provide robust evidence that distinct modes of LLM interaction
+are uniquely associated with learning outcomes.
 
 4.3 Findings for RQ2
 --------------------
 
 ### 4.3.1 Model Overview for RQ2
 
-This research question investigated the impact of in-context learning on
-midterm exam scores (E1) via a between-subjects experimental design.
-Participants were randomized to the control (*N*=48) or treatment group
-(*N*=39) during the six week intervention. The assignment instructions
-were added to LLM's context of participants in the treatment group,
-meaning the LLM was aware of assignment-related questions. Specifically,
-I examined whether the treatment improved with academic outcomes on the
-exam.
+Research Question 2 (RQ2) utilized a between-subjects experimental
+design to investigate the impact of in-context learning (ICL) on midterm
+exam scores (E1). During the six-week intervention, participants were
+randomly assigned to either the control group (*n* = 48) or the
+treatment group (*n* = 39). The treatment group utilized an LLM
+contextually aware of specific assignment instructions and thus was
+capable of scaffolding dialog based on those instructions. The analysis
+examined whether this treatment resulted in improved academic
+performance on the summative assessment.
 
-The regression model used to test the hypothesis where the
-control/treatment groups were coded with a dummy variable (control=0,
-treatment=1).
+To evaluate the impact of the intervention, a linear regression model
+was employed using a dummy-coded independent variable (*0 = control, 1 =
+treatment*), with E1 scores as the dependent variable:
 
-**Model 0: E1 \~ Treatment**
+**Model 0: E1 \~ Treatment (Total Effect)**
 
-**Alternate Hypothesis for H2**
+**Hypothesis for RQ2**
 
-The mean student learning performance score (E1) for the treatment
-group, which used the context-aware AI, will be statistically
-significantly higher than the mean score for the control group.
+-   **Alternative Hypothesis (*H*~2~):** The mean student learning
+    > performance score (E1) for the treatment group (context-aware AI)
+    > will be statistically significantly higher than the mean score for
+    > the control group.
 
-**Null Hypothesis for H2**
-
-There is no statistically significant difference in the mean student
-learning performance scores (E1) between the treatment group and the
-control group.
+-   **Null Hypothesis (*H*~02~):** There is no statistically significant
+    > difference in the mean student learning performance scores (E1)
+    > between the treatment and control groups.
 
 ### 4.3.2 Regression Assumption Tests for the RQ2 Model
 
-An assessment of ordinary least squares (OLS) regression assumptions was
-conducted prior to interpreting the findings of the model for RQ2. These
-checks ensured validity and reliability of the model estimates. Because
-the independent variable was binary (control vs treatment) the linearity
-assumption was satisfied. Linear regression estimates the difference in
-means between control and treatment which was a linear relationship.
+Prior to interpreting the results for the RQ2 total effect model, an
+assessment of Ordinary Least Squares (OLS) regression assumptions was
+conducted to ensure the validity and reliability of the model estimates.
 
-The Durbin-Watson statistic (*DW* = 2.11) falls within the acceptable
-range and is sufficiently close to the ideal value of 2.0, indicating no
-evidence of autocorrelation. This confirms that the residuals are
-independent, which is expected given the cross-sectional nature of the
-data where each student\'s exam score represents an independent
-observation.
+Because the independent variable is binary *(0 = control, 1 =
+treatment)*, the assumption of linearity is inherently satisfied. The
+regression effectively estimates the difference in means between the two
+groups, which is a linear relationship by definition. The Durbin-Watson
+statistic (*DW* = 2.11) fell within the acceptable range near 2.0,
+indicating no evidence of autocorrelation and confirming the
+independence of residuals.
 
-To check for homoscedasticity, or constant variance the Breusch-Pagan
-was administered. The test yielded a non-significant result (*Chi^2^* =
+To evaluate the assumption of constant variance, the Breusch-Pagan test
+was administered. The test yielded a non-significant result (*𝝌*^2^ =
 0.081, *p* = .776), indicating that the residuals exhibited
 homoscedasticity across the range of fitted values. This suggests that
 the variance of exam scores (E1) remained constant across both the
 control and treatment groups.
 
-To check for normality of residuals, a Shapiro-Wilk test for normality
-was performed. The test result was non-significant (*W* = 0.98, p =
-0.167), suggesting that the residuals approximated a normal
-distribution. This finding was corroborated visually via a histogram of
-residuals and a Q-Q plot to observe adherence to a normal distribution.
+The Shapiro-Wilk test was utilized to verify the normality of residuals.
+The result was non-significant (*W* = 0.98, *p* = .167), suggesting that
+the residuals approximated a normal distribution. This finding was
+corroborated visually through a histogram of residuals and a Q-Q plot,
+both of which demonstrated close adherence to the theoretical normal
+distribution line.
 
-![](./publish/thesis2/md/media/image9.png){width="6.5in"
+![](./publish/thesis2/md/media/image6.png){width="6.5in"
 height="2.3055555555555554in"}\
-*Figure ??: Evidence of normality among the residuals of E1 \~
+*Figure 18: Evidence of normality among the residuals of E1 \~
 Treatment*
 
-The variance inflation factor (VIF) for the predictor variable was 1.00,
-indicating the complete absence of multicollinearity. This makes sense
-as multicollinearity is primarily a concern in multiple regression
-models. This diagnostic confirmed no issues with the single predictor in
-the current model.\
-Given that all diagnostic tests indicated satisfaction of OLS regression
-assumptions, the model was deemed appropriate for interpretation.
+The Variance Inflation Factor (VIF) for the treatment variable was 1.00.
+This indicates a complete absence of multicollinearity, as expected in a
+simple linear regression model with a single predictor.
 
-### 4.3.3 Regression Analysis for the RQ2 
+Given that all diagnostic tests indicated the satisfaction of OLS
+regression assumptions, the model was deemed appropriate for formal
+interpretation.
 
-#### 4.3.3.1 Model 0: Treatment Effects on E1
+### 4.3.3 Regression Analysis for the RQ2
 
-The regression model revealed the control group achieved a mean E1 score
-of 30.23 points (*SE* = 0.87) while participants in the treatment group,
-who had access to the context-aware AI, scored an average of 2.05 points
-higher than the control group (*B* = 2.05, *SE* = 1.30). However, this
-difference did not reach statistical significance (*p* = .119, 95% *CI*
-\[-0.54, 4.64\]). In addition, the confidence interval crossed the zero
-boundary, further indicating that the true population difference could
-plausibly be null.
+#### 4.3.3.1 Model 1: Total Effect for RQ2
 
-![](./publish/thesis2/md/media/image8.png){width="6.5in"
+The total effect was for RQ2 was represented by the following Model:
+
+**Model 1: E1 \~ Treatment**
+
+The initial regression model examined the total effect of the treatment
+on midterm exam performance. The control group (*n* = 48) achieved a
+mean *E1* score of 30.23 points (*SE* = 0.87). Participants in the
+treatment group (*n* = 39), who utilized the context-aware AI, scored an
+average of 2.05 points higher than the control group (*ꞵ* = 2.05, SE =
+1.30). However, this mean difference did not reach statistical
+significance (*p* = .119, 95% *CI* \[-0.54, 4.64\]). The 95% confidence
+interval crossed the zero boundary, indicating that the null hypothesis
+of no difference between the population means could not be rejected at
+this stage.
+
+![](./publish/thesis2/md/media/image3.png){width="6.5in"
 height="3.9722222222222223in"}\
-*Figure ??: Forestplot of E1 \~ Treatment*
+*Figure 19: Forestplot of E1 \~ Treatment*
 
-The overall model fit was weak, with the group assignment variable
-accounting for only 2.8% of the variance in E1 scores (*R^2^* = 0.028,
-*adjusted R^2\ ^*= .017). The *F*-statistic for the model was not
-significant (*F(1, 85)* = 2.485, *p* = .119), indicating that the model
-did not explain a statistically significant proportion of variance in
-exam performance.
+The overall model fit was weak, with group assignment accounting for
+only 2.8% of the variance in E1 scores (*R^2^* = .028, Adjusted *R^2^* =
+.017). The *F*-statistic was not significant, *F(1, 85)* = 2.49, *p* =
+.119, indicating that the model did not explain a statistically
+significant proportion of the variance in exam performance. Furthermore,
+the model did not meet the conventional threshold for statistical power
+(Actual Cohen's *f^2^* = .029, Target *f^2^* = .092). This effect size
+falls below the threshold for a small effect, suggesting that the
+practical significance of the group differences was minimal in
+isolation.
 
-Finally the model did not meet statistical power assumptions for a power
-of 0.8 and an alpha of 0.05, with *Cohen's f^2^* failing to meet the
-target (Actual *Cohen's f^2\ ^*= 0.029 \< Target *Cohen's f^2^* =
-0.092). In addition, Cohen\'s *Cohen's f^2\ ^*= 0.029 falls below the
-threshold for a small effect size, meaning even if the results were
-statistically significant, the practical significance of the group
-differences would be minimal.
+These findings suggest that providing an AI assistant with
+assignment-specific context did not immediately translate into
+measurably improved exam performance. The lack of a significant main
+effect may indicate that the in-context learning (ICL) manipulation did
+not sufficiently alter learning outcomes in ways captured by the
+summative assessment alone, potentially due to unaccounted factors such
+as prior domain expertise or AI-prompting proficiency.
 
-The findings suggest that making the AI assistant aware of
-assignment-related questions through in-Context learning did not
-translate into measurably improved exam performance for students in this
-sample (*N* = 87, Control=48, Treatment=39). The lack of significant
-effect may indicate that the in-context learning manipulation, while
-theoretically sound, did not sufficiently alter student learning
-behaviors or outcomes in ways that manifested on the midterm
-examination. There could be several other factors at play which were not
-accounted for in the analysis such as prior experience with the subject
-matter or expertise in prompting a LLM.
+However, given the significant relationships established in RQ1 between
+usage patterns and performance, a more granular examination of these
+factors as process variables was warranted. The following sections
+explore how the treatment interacted with Learning and Task Completion
+behaviors through mediation and moderation analyses to reveal the
+underlying impact of the intervention.
 
-Given the findings of RQ1, specifically the impact of learning session
-count and task completion counts on midterm exam scores, a more
-comprehensive examination of variables was warranted. In the next
-sections I attempt to identify the impacts of the LLM use as independent
-variables as covariates, in a mediation analysis, in a moderation
-analysis and then finally summarizing a clear picture of the impact of
-the treatment on midterm exam scores.
+#### 4.3.3.2 Models 2 a/b: Mediation Analysis for RQ2
 
-#### 4.3.3.1 Model 1: Multiple Regression with usage as Covariates for RQ2
+The findings from RQ1 established that AI-mediated help-seeking
+behaviors, specifically Learning and Task Completion sessions,
+significantly influence midterm exam performance (E1). To explore
+whether the treatment effect operated through changes in these student
+behaviors, a mediation analysis was conducted. This analysis sought to
+determine if the context-aware intervention in the treatment influenced
+exam scores by altering the frequency of Learning or Task Completion
+interactions with the AI. This required two additional regression models
+to test the \"a-path\" of the mediation framework:
 
-To investigate whether usage patterns might be obscuring or influencing
-the treatment effect, a multiple regression analysis was conducted
-including learning session count and task completion session count as
-additional predictors alongside treatment condition.
+-   **Model 2a: Learning Session Count \~ Treatment**
 
-**Model 1: E1 \~ Treatment + Learning Session Count + Task Completion
-Session Count**
+-   **Model 2b: Task Completion Session Count \~ Treatment**
 
-The multiple regression model was statistically significant (*F(3, 83)*
-= 8.641, *p* \< .001) and explained 23.8% of variance in E1 scores
-(*R^2^* = 0.238, *adjusted R^2^* = 0.210). This represents a substantial
-improvement over the simple regression model 0, confirming as we did in
-RQ1 that AI usage patterns account for considerable variance in exam
-performance. *Cohen's f^2^* = 0.312 indicates a medium-to-large effect
-size for the overall model, and was above the threshold of statistical
-power at 0.8 with alpha 0.05 (Target *Cohen's f^2^* = 0.131).
+For Model 2a, the linear regression revealed that treatment group
+assignment did not significantly predict Learning session counts (*ꞵ* =
+-1.79, *SE* = 1.73, *t(85)* = -1.04, *p* = .304, *R^2^* = .012).
+Furthermore, the model did not achieve the target statistical power
+(Actual Cohen's *f^2^* = .013 vs. Target *f^2^* = .092). Descriptively,
+control group students engaged in more learning sessions (*M* = 7.79,
+*SD* = 8.18) compared to treatment group students (*M* = 6.00, *SD* =
+7.85), though this difference was not statistically significant.
 
-When controlling for learning session count and task completion count,
-the treatment effect became statistically significant (*B* = 2.74, *SE*
-= 1.18, *t*(83) = 2.32, *p* = .023, 95% *CI* \[0.39, 5.09\]).
-Participants in the treatment group scored approximately 2.74 points
-higher on the midterm exam E1 compared to control group students with
-equivalent LLM usage patterns. This is an important caveat that must be
-emphasized. Assume participant A in the control group and B in the
-treatment group have the same learning session and task completion
-counts, then, and only then, does the 2.74 increase in treatment apply.
-
-Both learning session count and task completion count demonstrated
-significant relationships with exam performance when controlling for the
-treatment. As expected considering the findings from RQ1, learning
-session count remained a significant positive predictor (*B* = 0.232,
-*SE* = 0.08, *t*(83) = 2.90, *p* = 0.005, 95% *CI* \[0.73, -0.39\]),
-while task completion count demonstrated a significant negative
-relationship (*B* = -0.569, *SE* = 0.12, *t*(83) = -4.65, *p* \< 0.001,
-95% CI \[-0.81, -0.33\]).
-
-![](./publish/thesis2/md/media/image19.png){width="6.5in"
-height="3.5833333333333335in"}\
-*Figure ??: Forestplot of E1 \~ Treatment + Learning Session Count +
-Task Completion Session Count*
-
-The emergence of statistical significance after controlling for
-covariates indicates another suppression effect. Although AI usage
-patterns themselves were not significantly affected by treatment, their
-inclusion as covariates removed confounding variance that had masked the
-true treatment effect. In other words, the treatment did matter but its
-effect was hidden until we controlled for usage.This pattern suggests
-the treatment\'s impact on exam performance operates independently of
-behavioral AI usage patterns indicated by learning session count and
-task completion count.
-
-#### 4.3.3.2 Model 2 a/b: Mediation Analysis for RQ2
-
-By answering RQ1, I discovered that AI adaptive and maladaptive help
-seeking through the measurement of learning and task completion sessions
-influenced midterm exam scores. To explore whether the treatment effect
-operated through changes in student AI usage behaviors, specifically
-learning session count and task completion count, a mediation analysis
-was employed. So for the mediation analysis we would need two additional
-regressions to complete the story:
-
-**Model 2a: Learning Session Count \~ Treatment**
-
-**Model 2b: Task Completion Count \~ Treatment**
-
-For Model 2a, the linear regression revealed treatment group assignment
-did not significantly predict learning session counts (*B* = -1.79, *SE*
-= 1.73, *t(85)* = -1.04, *p* = .304, *R^2^* = 0.012). In addition,
-*Cohen's f^2^* = 0.126 failed to reach its target of 0.0923.
-Descriptively, control group students engaged in more learning sessions
-(*M*= 7.79, *SD* = 8.18) compared to treatment group students (*M* =
-6.00, *SD* = 7.85), though this difference was not statistically
-reliable.
-
-Model 2b was also found to be statistically insignificant. Treatment
-group assignment did not significantly predict task completion session
-counts (*B* = 0.47, *SE* = 1.14, *t(85*) = 0.42, *p* = .678, *R^2\ ^*=
-0.002). Descriptively, treatment group students demonstrated slightly
-higher task completion activity (*M* = 4.41, *SD* = 5.30) relative to
-control group students (*M* = 3.93, *SD* = 5.24), but once again this
-difference was not statistically significant.
+Model 2b was also found to be statistically non-significant. Treatment
+group assignment did not significantly predict Task Completion session
+counts (*ꞵ* = 0.47, *SE* = 1.14, *t(85)* = 0.42, *p* = .678, *R^2^* =
+.002). Descriptively, treatment group students demonstrated slightly
+higher task-completion activity (*M* = 4.41, *SD* = 5.30) relative to
+control group students (*M* = 3.93, *SD* = 5.24).
 
 The absence of significant relationships between treatment assignment
-and AI usage patterns as indicated by models 2a and 2b precludes
-mediation. According to established mediation frameworks [(Hayes,
+and AI usage patterns in Models 2a and 2b precludes the existence of a
+mediation effect. According to established mediation frameworks [(Hayes,
 2009)](https://www.zotero.org/google-docs/?yKu1Fr) an indirect effect
-cannot exist without the predictor significantly affecting the proposed
-mediator. Therefore, the treatment effect on exam performance does not
-operate through changes in student usage behaviors as indicated through
-task competition session count and learning session count.
+requires the predictor to significantly influence the proposed
+mediators. Therefore, these results indicate that the treatment's impact
+on exam performance did not operate through a quantitative shift in
+student usage behaviors.
 
-#### 4.3.3.3 Model 3 a/b: Moderation Analysis for RQ2
+#### 4.3.3.3 Models 3 a/b: Moderation Analysis for RQ2
 
-To complete the picture, two moderation analyses examined whether
-treatment conditions altered the strength of relationships between AI
-usage patterns and exam performance. The following regression models
-tested whether the treatment moderated the relationship between learning
-sessions and exam performance, and task completion sessions and exam
-performance respectively.
+To further investigate the intervention\'s mechanics, two moderation
+analyses were conducted to determine whether the treatment condition
+altered the strength or direction of the relationship between AI usage
+patterns and exam performance. These models tested whether the
+interaction between group assignment and session classification
+significantly predicted E1 scores.
 
-**Model 3a: E1 \~ Treatment + Learning Session Count + Treatment x
-Learning Session Count**
+**Model 3a: Interaction of Treatment and Learning Sessions**
 
-**Model 3b: Model 3a: E1 \~ Treatment + Task Completion Session Count +
-Treatment x Task Completion Session Count**
+The first moderation model examined whether context-aware AI moderated
+the relationship between Learning session frequency and exam
+performance:
 
-Model 3a tested whether context-aware AI moderated the relationship
-between learning session count and exam performance. The overall model
-was not statistically significant (*F(3, 83)* = 1.289, *p* = .284,
-*R^2^* = 0.045). The moderation term of treatment x learning session
-count was non-significant (*B* = 0.11, *SE* = 0.17, *t(83)* = 0.675, *p*
-= .502, 95% *CI* \[-0.22, 0.44\]), indicating that treatment did not
-moderate the learning session count relationship. Incidentally, neither
-the main effect of treatment (*B* = 1.44, *p* = .407) nor learning
-sessions (B = 0.03, *p* = .769) were significant in this model.
+**E1 \~ Treatment + Learning Session Count + Treatment x Learning
+Session Count**
 
-The second model 3b examined whether treatment moderated the
-relationship between task completion sessions and exam performance. The
-overall model was statistically significant (*F(3, 83)* = 5.350, *p* =
-0.002, *R^2^* = 0.162), but the moderation term of treatment x task
-completion session count remained non-significant (*B* = -0.07, *SE* =
-0.24, *t(83)* = -0.316, *p* = .753, 95% *CI* \[-0.54, 0.39\]). The model
-revealed a significant main effect for task completion sessions (*B* =
--0.39, *SE* = 0.16, *t(83)* = -2.470, *p* = .016), confirming the
-negative relationship with exam scores. The treatment main effect
-approached but did not reach significance (*B* = 2.56, *SE* = 1.57, *p*
-= .107).
+The overall model was not statistically significant, *F(3, 83)* = 1.29,
+*p* = .284, *R^2^* = .045. The interaction term (Treatment x Learning)
+was non-significant (*ꞵ* = 0.11, *SE* = 0.17, *t(83)* = 0.68, *p* =
+.502, 95% *CI* \[-0.22, 0.44\]), indicating that the treatment did not
+moderate the impact of learning behaviors. Additionally, neither the
+main effect of treatment (*ꞵ* = 1.44, *p* = .407) nor the main effect of
+Learning sessions (*ꞵ* = 0.03, *p* = .769) reached significance in this
+specific model.
 
-The absence of statistically significant moderation effects among
-treatment x learning session count and treatment x task completion count
-indicated the treatment condition did not moderate the relationships
-between AI usage patterns and exam performance. Learning sessions
-benefit participant exam scores equally regardless of control or
-treatment. Likewise, task completion session counts show a negative
-relationship with midterm exam score across both conditions.
+**Model 3b: Interaction of Treatment and Task Completion Sessions**
+
+The second moderation model examined whether the treatment moderated the
+relationship between Task Completion frequency and exam performance:
+
+**E1 \~ Treatment + Task Completion Session Count + Treatment x Task
+Completion Session Count**
+
+While the overall model was statistically significant (*F(3, 83)* =
+5.35, *p* = .002, *R^2^* = .162), the interaction term (Treatment x Task
+Completion) remained non-significant (*ꞵ* = -0.07, *SE* = 0.24, *t(83)*
+= -0.32, *p* = .753, 95% *CI* \[-0.54, 0.39\]). The model confirmed a
+significant negative main effect for Task Completion sessions (*ꞵ* =
+-0.39, *SE* = 0.16, *t(83)* = -2.47, *p* = .016), consistent with RQ1
+findings. The main effect for treatment approached but did not reach
+statistical significance (*ꞵ* = 2.56, *SE* = 1.57, *p* = .107).
+
+The lack of significant interaction effects in both models suggests that
+the treatment condition did not alter the fundamental relationship
+between usage patterns and academic outcomes. Learning sessions appear
+to support exam performance, and Task Completion sessions appear to
+hinder exam performance, with consistent intensity across both the
+control and treatment groups.
+
+#### 4.3.3.4 Model 4: Identification of RQ2 Treatment Effect via Suppression Analysis
+
+Having established that the intervention did not significantly shift the
+volume of AI usage (Mediation) or the nature of the relationship between
+usage and grades (Moderation), a final analysis was conducted to examine
+the treatment\'s impact while accounting for concurrent usage patterns.
+In this model, Learning and Task Completion sessions are treated as
+process variables. Because these behaviors occurred simultaneously with
+the intervention, they represent noise or confounding variance that may
+obscure the direct impact of the context-aware treatment. This analysis
+sought to determine if the treatment was effective when comparing
+students with equivalent levels of AI engagement.
+
+**E1 \~ Treatment + Task Completion Session Count + Learning Session
+Count**
+
+A multiple regression analysis was conducted including Treatment,
+Learning session count, and Task Completion session count as predictors
+of E1 performance. The model was statistically significant, *F(3, 83)* =
+8.64, *p* \< .001, and explained 23.8% of the variance in exam scores
+(*R^2^* = .238, Adjusted *R^2^* = .210). This represents a substantial
+increase in explanatory power over the baseline Model 1 (*R^2^* = .028).
+The observed effect size (Cohen's *f^2^* = .312) indicates a
+medium-to-large effect and exceeded the threshold for a statistical
+power of .80 (Target *f^2^* = .131).
+
+When controlling for the frequency of Learning and Task Completion
+sessions, the treatment effect became statistically significant (*ꞵ* =
+2.74, *SE* = 1.18, *t(83)* = 2.32, *p* = .023, 95% *CI* \[0.39, 5.09\]).
+On average, participants in the treatment group scored 2.74 points
+higher on the midterm exam than control group students with identical
+LLM usage patterns.
+
+This finding carries an important caveat: the 2.74-point advantage is a
+*conditional effect.* For example, if two participants---one from the
+control group and one from the treatment group---exhibited the exact
+same counts of learning and task-completion behaviors, the student in
+the treatment group would be predicted to score approximately 2.74
+points higher due to the context-aware enhancement of the AI.
+
+Both session types maintained significant relationships with exam
+performance after accounting for the treatment. Consistent with the
+findings in RQ1, Learning session counts remained a significant positive
+predictor (*ꞵ* = 0.23, *SE* = 0.08, *t(83)* = 2.90, *p* = .005\$), while
+Task Completion counts demonstrated a significant negative relationship
+(*ꞵ* = -0.57, *SE* = 0.12, *t(83)* = -4.65, *p* \< .001).
+
+![](./publish/thesis2/md/media/image1.png){width="6.5in"
+height="3.5833333333333335in"}\
+*Figure 20: Forestplot of E1 \~ Treatment + Learning Session Count +
+Task Completion Session Count*
+
+The emergence of statistical significance only after the inclusion of
+covariates indicates a suppression effect. Although the treatment did
+not significantly alter student usage volume, those usage patterns
+accounted for a large portion of the variance in exam scores. By
+including them in the model, the noise associated with individual
+student strategy (adaptive vs. executive help-seeking) was partitioned
+out, allowing the true signal of the treatment effect to be identified.
+The results indicate that the context-aware treatment (T2) provides a
+performance advantage that is independent of the frequency of
+engagement. While the intervention did not alter the quantity of
+student-AI interactions, it enhanced the efficacy of those interactions.
+This implies that the treatment\'s value lies in the quality of the
+scaffolding provided rather than in a fundamental shift in student
+help-seeking volume.
 
 ### 4.3.4 Summary of Findings for RQ2
 
@@ -3028,19 +3051,10 @@ The following table summarizes the analytical findings for RQ2.
 | **Model** | **Analysis      | **Key Finding** | **Conclusion**  |
 |           | Type**          |                 |                 |
 +===========+=================+=================+=================+
-| 0         | Simple          | Treatment not   | Initial null    |
-|           | Regression\     | significant     | finding. This   |
-|           | E1 \~ Treatment | p=0.119         | led to further  |
+| 1         | Total Effect\   | Treatment not   | Initial null    |
+|           | E1 \~ Treatment | significant     | finding. This   |
+|           |                 | p=0.119         | led to further  |
 |           |                 |                 | investigations. |
-+-----------+-----------------+-----------------+-----------------+
-| 1         | Multiple        | Treatment       | Suppression     |
-|           | Regression\     | significant     | effect revealed |
-|           | E1 \~ Treatment | when            | through         |
-|           | + Learning SC + | controlling for | covariates.     |
-|           | Task Completion | usage (beta =   | However this is |
-|           | SC              | 2.74, p =       | likely          |
-|           |                 | 0.023)          | post-treatment  |
-|           |                 |                 | bias.           |
 +-----------+-----------------+-----------------+-----------------+
 | 2a        | Mediation\      | No mediation    | Treatment       |
 |           | Learning SC\~   | path\           | doesn't change  |
@@ -3066,146 +3080,155 @@ The following table summarizes the analytical findings for RQ2.
 |           | Task Completion |                 |                 |
 |           | SC              |                 |                 |
 +-----------+-----------------+-----------------+-----------------+
+| 4         | Suppression\    | Treatment       | Suppression     |
+|           | E1 \~ Treatment | significant     | effect revealed |
+|           | + Learning SC + | when            | when            |
+|           | Task Completion | controlling for | controlling for |
+|           | SC              | usage (beta =   | patterns of     |
+|           |                 | 2.74, p =       | usage.          |
+|           |                 | 0.023)          |                 |
++-----------+-----------------+-----------------+-----------------+
 
-*Table ??: Analytical findings for RQ2. Note: SC is an abbreviation for
+*Table 6: Analytical findings for RQ2. Note: SC is an abbreviation for
 Session Count*
 
-The initial model 0 revealed a null effect. While there was an increase
-in means among the control and treatment of 2.05, the p value failed to
-me statistical significance (*p* = .119). In an exploratory analysis,
-when controlling for learning session count and task completion session
-count, which were identified as significant in RQ1, the model 1 was more
-precise accounting for 23.8% of variance in E1 scores, compared to just
-2.8% for model 0. However, because these usage patterns were measured
-after random assignment of the treatment groups, controlling for these
-variables introduces uncertainty about the causal interpretation. The
-mediation analysis revealed the treatment did not affect learning or
-task completion, further supporting the notion of potential bias when
-including usage patterns in the model.
+The initial assessment of the treatment effect (Model 1) revealed a null
+result. While the treatment group demonstrated a mean increase of 2.05
+points over the control group, this difference failed to reach
+statistical significance (*p* = .119). In the subsequent exploratory
+analysis (Model 4), which controlled for the Learning and Task
+Completion session counts identified in RQ1, the model's precision
+increased substantially. This multivariate approach accounted for 23.8%
+of the variance in *E1* scores, a significant improvement over the 2.8%
+explained by the baseline model.
 
-The conclusion of causality for Model 1 is uncertain. It could be a
-quality-based effect independent of usage patterns, or it may be
-post-treatment bias from unmeasured confounders such as motivation,or
-prior ability neither of which were measured. Further research with
-pre-registered analytical approaches is needed to definitively test
-whether a direct effect exists.
+However, because these usage patterns were observed and measured after
+the random assignment of treatment conditions, controlling for them
+introduces complexity regarding causal interpretation. While the
+mediation analysis confirmed that the treatment did not significantly
+influence the volume of Learning or Task Completion sessions, the
+inclusion of these post-treatment variables may still introduce bias.
+
+Controlling for post-randomization variables can lead to post-treatment
+bias, which complicates the isolation of a pure causal link. In this
+analysis, however, accounting for the massive variance in student
+help-seeking behaviors was necessary to identify the underlying signal
+of the intervention. Rather than providing a pure causal estimate of the
+\"Intent-to-Treat,\" Model 4 offers an estimate of the treatment's
+intrinsic efficacy when behavioral noise is partitioned out. Therefore,
+these findings are most responsibly interpreted as a conditional effect
+rather than a definitive causal one.
 
 ### 4.3.5 Conclusion for RQ2
 
-My analysis revealed a pattern which was methodologically complex. Model
-0, a simple regression of the dummy variable for the treatment group,
-revealed no significant effect (*p* = .119). Based on model 0 we must
-accept the null hypothesis: there is no statistically significant
-difference in the mean student learning performance scores (E1) between
-the treatment group and the control group.
+The multi-stage analysis of Research Question 2 (RQ2) provides the
+statistical basis to reject the null hypothesis (***H*~02~**). Although
+the initial baseline model 1 indicated no significant mean difference
+between groups, the inclusion of Learning and Task Completion session
+counts as process variables revealed a significant treatment effect. The
+multivariate regression *F(3, 83)* = 8.64, *p* \< .001) confirmed that
+when accounting for the variance in student usage patterns, participants
+in the treatment group outperformed those in the control group by an
+average of 2.74 points (*ꞵ* = 2.74, *p* = .023).
 
-Based on the findings in RQ1, the independent variables learning session
-count and task completion session count were considered as covariates.
-Mediation analysis (Models 2a/2b) revealed the treatment did not work
-through usage patterns of task completion or learning. This meant
-context-aware AI did not influence the number of task completion or
-learning sessions. Moderation analysis (Models 3a/3b) revealed the
-treatment effect did not vary by usage pattern, meaning the
-context-aware AI did not work differently for frequent or infrequent
-task completion or learning session users.
+These findings suggest that the impact of the context-aware intervention
+in this study was conditional upon usage behavior. Because the
+intervention did not significantly change the frequency of student
+interactions (Mediation) or the relationship between those interactions
+and E1 grades (Moderation), the treatment\'s value appears to be
+intrinsic to the quality of the AI\'s responses. Specifically, the
+treatment improved exam performance independently of how often a student
+used the tool; for any given level of engagement, the context-aware LLM
+provided a more effective learning support than the standard LLM.
 
-While Model 1, which controlled for usage patterns as covariates did
-reveal a significant effect (*p* = .023, *B* = 2.74). The appropriate
-interpretation depends on assumptions about post-treatment conditioning.
-A critical limitation of Model 1 is the temporal ordering of
-measurements. Usage patterns were measured post treatment assignment but
-before outcome assessment of E1. Standard causal inference principles
-caution against conditioning on post-treatment variables, as this can
-introduce bias even when treatment does not significantly affect those
-variables. However, usage patterns may also act as suppressors,
-obscuring a true treatment effect. We cannot definitively resolve this
-tension with the current data and therefore any claims of causality with
-regards to the treatment should be cautioned.
+Consequently, while the raw treatment effect was obscured by the high
+degree of variability in student engagement strategies, partitioning out
+that behavioral noise revealed that in-context learning (ICL)
+significantly improved exam scores when controlling for identical
+patterns of AI usage. Therefore, this effect should be interpresented as
+conditional instead of causal.
 
-4.4 Findings for RQ3
+4.4 Findings for RQ3 
 --------------------
 
 ### 4.4.1 Model Overview for RQ3
 
-This research question investigated the relationship between the
-quantity of participant sessions classified as "learning" and "task
-completion" from the D1 dataset and their computational literacy scores
-(C1, C2) among the participants (*N* = 87).
+Research Question 3 (RQ3) investigated the relationship between the
+frequency of Learning and Task Completion sessions and participants\'
+computational literacy outcomes (*N* = 87). This analysis sought to
+determine if AI engagement patterns predicted post-intervention literacy
+scores (C2) while controlling for baseline literacy levels (C1).
 
-The regression model used to test the hypothesis had learning session
-count and task completion count as independent variables, with the
-post-intervention computational literacy score C2 as the dependent
-variable. To account the impact of test-retest between C1 and C2, the
-pre-test C1 was added to the model as part of an analysis of covariance
-(ANOVA).
+To isolate the impact of AI engagement from prior knowledge and
+potential test-retest effects, an Analysis of Covariance (ANCOVA)
+approach was utilized. In this model, the pre-test score (C1) served as
+a covariate, with Learning and Task Completion session counts as the
+primary independent variables:
 
-**Model 1: C2 \~ Learning Session Count + Task Completion Count + C1**
+**Model 1: C2 \~ Learning Session Count + Task Completion Session Count
++ C1**
 
-In addition, I also conducted a supplementary analysis using the change
-in diagnostic scores (C2 - C1) as the dependent variable to examine
-whether LLM usage patterns predicted the magnitude of improvement.
-Because change scores often have low reliability when pre- and post-test
-correlations are high [(Cronbach & Furby,
-1970)](https://www.zotero.org/google-docs/?2wjkP7), this was considered
-a complementary approach.
+In addition to the ANCOVA, a supplementary analysis was conducted using
+the change score (ΔC = C2 - C1) as the dependent variable to examine
+whether LLM usage patterns predicted the magnitude of literacy
+improvement. Because change scores can exhibit lower reliability when
+pre- and post-test scores are highly correlated [(Cronbach & Furby,
+1970)](https://www.zotero.org/google-docs/?2wjkP7), this was treated as
+a complementary validation of the primary model:
 
 **Model 1a: C2-C1 \~ Learning Session Count + Task Completion Count**
 
-**Alternate Hypothesis for H3**
+**Hypothesis FOR RQ3**
 
-The quantity and classification of participant sessions in the D1
-dataset are significantly correlated with their computational literacy
-scores (C1, C2). Specifically:
+**Alternate Hypothesis (*H*~3~):** The frequency and classification of
+participant sessions are significantly associated with computational
+literacy outcomes.
 
-1.  There is a positive correlation between the quantity of sessions
-    > classified as "learning" and computational literacy scores.
-
-2.  There is a negative correlation between the quantity of sessions
-    > classified as \"task completion\" and computational literacy
+-   ***H*~3a~ :** There is a positive association between the quantity
+    > of sessions classified as Learning and computational literacy
     > scores.
 
-**Null Hypothesis for H3**
+-   ***H*~3b~ :** There is a negative association between the quantity
+    > of sessions classified as Task Completion and computational
+    > literacy scores.
 
-There is no statistically significant correlation between the quantity
-of participant sessions from the D1 dataset, whether classified as
-learning or task completion, and their computational literacy scores
-(C1, C2).
+**Null Hypothesis for (*H*~03~):** There is no statistically significant
+relationship between the frequency of participant sessions, regardless
+of classification, and computational literacy outcomes.
 
-Both conditions 1 and 2 must be satisfied to reject the null hypothesis
-for H3.
+To reject the null hypothesis (***H*~03~**), both directional conditions
+(***H*~3a\ ~**and ***H*~3b\ ~**) must reach statistical significance at
+the *⍺* = .05 level.
 
 ### 4.4.2 Regression Assumption Tests for the RQ3 Model
 
-A comprehensive assessment of ordinary least squares (OLS) regression
-assumptions was conducted prior to interpreting the findings of the
-model for RQ1. These checks ensured validity and reliability of the
-model estimates.
+Prior to interpreting the findings for RQ3, a comprehensive assessment
+of Ordinary Least Squares (OLS) regression assumptions was conducted to
+ensure the validity and reliability of the model estimates.
 
-Preliminary diagnostic testing revealed heteroscedasticity
-(Breusch-Pagan: *Chi^2^* = 12.58, p = .006), indicating non-constant
-error variance across the range of fitted values. This was confirmed
-visually in the regression plots which exhibit a cone-like shape visible
-in the figures below.. To ensure valid statistical inference in the
-presence of heteroscedasticity, I reported all regression results using
-heteroscedasticity-consistent standard errors. This approach provides
-robust hypothesis tests without requiring the homoscedasticity
-assumption and yielded accurate p-values and confidence intervals even
-when error variance was not constant.
+Preliminary diagnostic testing revealed a violation of the
+homoscedasticity assumption. The Breusch-Pagan test was significant
+(*𝝌*^2^ = 12.58, *p* = .006), indicating non-constant error variance
+across the range of fitted values. This was confirmed visually by the
+cone-like distribution of residuals in the diagnostic plots. To ensure
+valid statistical inference, heteroscedasticity-consistent (HC) robust
+standard errors were used for all regression results. This approach
+provides robust hypothesis tests and accurate *p*-values and confidence
+intervals, even when error variance is not constant.
 
-To check for linearity, partial regression plots were examined to assess
-the linear relationship between the dependent variable (C2) and each
-predictor variable while controlling for other predictors in the model.
-Visual inspection of these plots indicated approximate linear
-relationships with the heteroscedasticity visually apparent. The
-session-oriented independent variables had fewer observations as the
-counts of the participants' sessions increased, as was expected since
-this data is commonly right-skewed.
-
-![](./publish/thesis2/md/media/image4.png){width="6.5in"
+![](./publish/thesis2/md/media/image19.png){width="6.5in"
 height="4.486111111111111in"}\
-*Figure ??: Partial regression plots when holding the other constant of
+*Figure 21: Partial regression plots when holding the other constant of
 C2 \~ Task Completion Session Count + Learning Session Count. + C1 with
-visual confirmation of heteroscedasticity.*
+Visual Confirmation of Heteroscedasticity.*
+
+Linearity was evaluated via partial regression plots, which assess the
+relationship between the dependent variable (C2) and each predictor
+while controlling for others in the model. Visual inspection indicated
+approximate linear relationships, though heteroscedasticity remained
+visually apparent. As observed in previous models, the session-oriented
+independent variables exhibited a right-skewed distribution, with fewer
+observations at higher session counts.
 
 The plot of residuals versus fitted values showed symmetrical, randomly
 scattered points. Heteroscedasticity can be observed on the right end of
@@ -3214,123 +3237,132 @@ relatively flat and hovering about horizontal.
 
 ![](./publish/thesis2/md/media/image14.png){width="5.166666666666667in"
 height="3.46875in"}\
-*Figure ??: Residuals vs Fitted Values for C2 \~ Learning Session Count
+*Figure 22: Residuals vs Fitted Values for C2 \~ Learning Session Count
 + Task Completion Session Count + C1*
 
-Other than Breusch-Pagan, all other tests were satisfied. The
-Durbin-Watson statistic (*DW* = 2.22) was within the acceptable range,
-falling close to the ideal value of 2.0. This indicated no substantial
-autocorrelation among residuals, thereby satisfying the assumption of
-independence.
+The Durbin-Watson statistic (*DW* = 2.22) fell within the acceptable
+range near 2.0, indicating no substantial autocorrelation and satisfying
+the assumption of independence. The residuals demonstrated close
+adherence to a normal distribution, as evidenced by a non-significant
+Shapiro-Wilk test (*W* = 0.99, *p* = .551). This finding was
+corroborated visually by a histogram of residuals and a Q-Q plot, both
+of which showed the data points closely following the theoretical normal
+line.
 
-The Shapiro-Wilk test indicated that residuals were normally distributed
-(*W* = 0.99, *p* = .551). Since p\>=0.05 we fail to reject the null
-hypothesis of normality. This was corroborated visually via a histogram
-of residuals and the Q-Q plot, both of which demonstrated close
-adherence to the normal distribution.
-
-![](./publish/thesis2/md/media/image12.png){width="6.5in"
+![](./publish/thesis2/md/media/image24.png){width="6.5in"
 height="2.2777777777777777in"}\
-*Figure ??: Evidence of normality among the residuals of C2 \~ Task
+*Figure 23: Evidence of normality among the residuals of C2 \~ Task
 Completion Session Count + Learning Session Count + C1*
 
-The final check was for multicollinearity. The variance inflation factor
-(VIF) test was performed for all independent variables with and no
-variable reporting a *VIF* \> 1.27 indicating no problematic
-multicollinearity. The *VIF* for C1 was 1.07.
+Multicollinearity was assessed using the Variance Inflation Factor
+(VIF). All independent variables reported VIF values below 1.27, with
+the C1 covariate at 1.07. These values are well below the conventional
+threshold of concern, indicating that the predictors provide unique
+information to the model without problematic redundancy.
 
-### 4.4.3 Model 1: Regression Analysis for RQ3 Accounting for test-retest
+### 4.4.3 Model 1: ANCOVA for RQ3 Accounting for Baseline Literacy
 
-When observing descriptive statistics, computational literacy scores
-increased with statistical significance from pre-test (C1: *M*= 20.57,
-*SD* = 4.71) to post-test (C2: *M* = 21.44, *SD* = 4.78), paired *t(86)*
-= -2.67, *p* = .009, *Cohen\'s d* = 0.29. This indicates modest yet
-statistically significant learning gains from pre to post intervention.
-As expected with the same instrument, C1 and C2 scores were strongly
-correlated (*Pearson's r* = 0.79, *p* \< .001), suggesting high
-test-retest reliability and relative stability in individual rankings
-despite overall improvement. Statistically significant improvement
-combined with strong test-retest correlation justifies the analysis of
-covariance approach. This preserved information about individual
-trajectories while controlling for baseline differences.
+Descriptive statistics indicated that computational literacy scores
+increased significantly from pre-test (C1: *M* = 20.57, *SD* = 4.71) to
+post-test (C2: *M* = 21.44, *SD* = 4.78), paired *t(86)* = -2.67, *p* =
+.009, Cohen\'s *d* = 0.29. These results reflect modest yet
+statistically significant learning gains over the intervention period.
+As expected for a repeated measures instrument, C1 and C2 scores were
+strongly correlated (*r* = .79, *p* \< .001), suggesting high
+test-retest reliability. This combination of significant improvement and
+strong correlation justifies the Analysis of Covariance (ANCOVA)
+approach, which preserves individual trajectories while controlling for
+baseline differences.
 
-Model 1: C2 \~ Task Completion Session Count + Learning Session Count +
-C1 was highly significant, *F(3, 83)* = 54.66, *p* \< 0.001, and
-explained 65.8% of variance in post-test (C2) scores (*R^2^* = 0.658,
-*adjusted R^2^* = 0.646). The effect size was large by *Cohen's f^2^*
-measures (*Cohen's f^2^* = 1.93), and well above the target (*Cohen's
-f^2\ ^*= 0.1314) for statistical power at 0.8 with an alpha of 0.05.
+**Model 1: C2 \~ Task Completion + Learning+ C1**
 
-As expected, baseline computational literacy was a strong predictor of
-post-test scores (*B* = 0.76, *SE* = 0.08, *z* = 10.07, *p* \< .001, 95%
-*CI* \[0.61, 0.91\]), accounting for the majority of explained variance
-in the model. For every 1-point increase in baseline scores, post-test
-scores increased by 0.76 points on average, when holding task completion
-session count and learning session count constant.
+This model was highly significant, *F(3, 83)* = 54.66, *p* \< .001, and
+explained 65.8% of the variance in post-test scores (*R^2^* = .658\$,
+Adjusted *R^2^* = .646). The effect size was large (Cohen's *f^2^* =
+1.93) and exceeded the target threshold for .80 statistical power
+(*f^2^* = .131).
 
-After controlling for baseline ability in C1, task completion session
-count remained a significant negative predictor (*B* = -0.17, *SE* =
-0.07, *z* = -2.52, *p* = 0.012, 95% *CI* \[-0.30, -0.04\]). Each
+As anticipated, baseline computational literacy was the strongest
+predictor of post-test performance (*ꞵ* = 0.76, *SE* = 0.08, *z* =
+10.07, *p* \< .001, 95% *CI* \[0.61, 0.91\]). For every 1-point increase
+in C1, post-test scores increased by an average of 0.76 points when
+holding session counts constant.
+
+After controlling for baseline ability (C1), Task Completion session
+count remained a significant negative predictor (*ꞵ* = -0.17, *SE* =
+0.07, *z* = -2.52, *p* = .012, 95% *CI* \[-0.30, -0.04\]). Each
 additional task completion session was associated with a 0.17-point
-decrement in post-test computational literacy scores, when holding
-baseline literacy (C1) and learning sessions counts constant. This
-suggests that greater task-oriented LLM use predicted lower final
-achievement than would be expected given participants\' initial
-competency levels. Notably, this effect remained statistically
-significant after correction for heteroscedasticity via robust-standard
-errors, demonstrating its robustness.
+decrement in final computational literacy scores, suggesting that
+executive help-seeking behaviors predicted lower final achievement than
+would be expected based on initial competency levels. This effect
+remained significant after the application of heteroscedasticity-robust
+standard errors, confirming the stability of the finding.
 
-Learning session count showed a positive relationship that approached
-but did not achieve conventional statistical significance (*B* = 0.07,
-*SE* = 0.04, *z* = 1.76, *p* = .078, 95% *CI* \[-0.01, 0.14\]). The
-direction of the relationship aligned with the hypothesized positive
-effect in addition to the findings in RQ1 and RQ2. The marginal p-value
-suggests a potential beneficial relationship between learning-oriented
-LLM usage and computational literacy that warrants investigation with
-larger samples or more sensitive measures.
+Learning session count demonstrated a positive relationship that
+approached but did not achieve conventional statistical significance
+(*ꞵ* = 0.07, *SE* = 0.04, *z* = 1.76, *p* = .078, 95% *CI* \[-0.01,
+0.14\]). While this directional relationship aligns with the findings in
+RQ1 and RQ2, the marginal *p*-value suggests that the beneficial impact
+of learning-oriented LLM usage on computational literacy may require a
+larger sample size or more granular measurement to confirm
+statistically.
 
-![](./publish/thesis2/md/media/image7.png){width="6.5in"
+![](./publish/thesis2/md/media/image2.png){width="6.5in"
 height="3.5972222222222223in"}\
-*Figure ??: Forestplot of C2 \~ Learning Session Count + Task Completion
+*Figure 24: Forestplot of C2 \~ Learning Session Count + Task Completion
 Session Count + C1*
 
 #### 4.4.3.1 Model 1a: Supplementary Analysis Change in Scores
 
-This supplementary analysis examined whether LLM usage patterns
-predicted the magnitude of improvement rather than final standing
-relative to baseline. I ran a supplementary regression analysis with
-change scores (C2 - C1) as the dependent variable and learning session
-count and task completion session count as the independent variables.
-This approach measures the average change from C1 to C2, without
-adjusting for baseline differences as in model 1.
+A supplementary regression analysis was conducted to examine whether LLM
+usage patterns predicted the absolute magnitude of improvement rather
+than final performance adjusted for baseline standing. In this model,
+the change score (ΔC = C2 - C1) served as the dependent variable, with
+Learning and Task Completion session counts as the predictors. Unlike
+the ANCOVA approach in Model 1, this analysis focuses on the raw
+variance in student gains without adjusting for initial baseline
+differences.
 
 **Model 1a: C2 - C1 \~ Learning Session Count + Task Completion Count**
 
-This model satisfied all regression assumptions (Breusch-Pagan: *p* =
-0.75; Durbin-Watson: *DW* = 1.97; Shapiro-Wilk: *p* = 0.64;
-Multicollinearity: *VIF* scores = 1.19) but was not statistically
-significant overall, *F(2, 84)* = 1.57, *p* = .214, *R^2\ ^*= 0.036,
-*adjusted R^2\ ^*= .013.
+Model 1a satisfied all OLS regression assumptions, including
+homoscedasticity (Breusch-Pagan: (*𝝌*^2^ = 0.56, *p* = .752),
+independence of residuals (Durbin-Watson: *DW* = 1.97), and normality of
+residuals (Shapiro-Wilk: *p* = .643\$). Multicollinearity was not a
+concern, with VIF scores remaining at 1.19. However, the overall model
+was not statistically significant, *F(2, 84)* = 1.57, *p* = .214,
+accounting for only 3.6% of the variance in gain scores (*R^2^* = .036,
+Adjusted *R^2^* = .013).
 
-Neither task completion session count (*B* = -0.11, *SE* = 0.07, *t* =
--1.67, *p* = .099, 95% *CI* \[-0.25, 0.02\]) nor learning session count
-(*B* = 0.05, *SE* = 0.04, *t* = 1.22, *p* = .225, 95% *CI* \[-0.03,
-0.14\]) significantly predicted gain scores (C2 - C1). While task
-completion trended in the negative direction and learning sessions
-trended positive which was consistent with other models, neither
-relationship reached statistical significance.
+Neither Task Completion session count (*ꞵ* = -0.11, *SE* = 0.07, *t* =
+-1.67, *p* = .099, 95% *CI* \[-0.25, 0.02\]) nor Learning session count
+(*ꞵ* = 0.05, *SE* = 0.04, *t* = 1.22, *p* = .225, 95% *CI* \[-0.03,
+0.14\]) significantly predicted the change in computational literacy
+scores. While the direction of these relationships remained consistent
+with the findings in Model 1---with task completion trending negatively
+and learning sessions trending positively---neither effect reached
+statistical significance in this absolute-change framework.
 
-The goal of the supplemental analysis was to determine if the divergence
-between the Model 1 (ANCOVA) and Model 1a (Change in Scores) provided
-important interpretive information. For example, a scenario where task
-completion session count usage predicted where participants ended up
-relative to their baseline potential (Model 1) but not how much they
-improved in absolute terms (Model 1a). This finding did not materialize
-because Model 1a was not statistically significant.
+The objective of this supplementary analysis was to determine if usage
+patterns impacted absolute improvement differently than relative
+standing. The results suggest that while Task Completion sessions were
+significantly associated with lower post-test outcomes when adjusting
+for baseline ability (Model 1), they did not significantly predict the
+raw magnitude of score changes from C1 to C2. The lack of significance
+in Model 1a highlights the importance of the ANCOVA approach in Model 1,
+as controlling for baseline variance was necessary to identify the
+subtle relationships between AI interaction types and literacy
+development.
 
 ### 4.4.4 Summary of Findings for RQ3
 
-The following table summarizes the analytical findings for RQ2.
+The findings for Research Question 3 (RQ3) demonstrate that the
+relationship between LLM engagement and computational literacy is highly
+dependent on the nature of the interaction. While Model 1 (ANCOVA)
+provided significant insights by controlling for baseline ability, the
+supplementary change-score model (Model 1a) was non-significant,
+suggesting that usage patterns primarily influenced relative final
+standing rather than absolute growth magnitude.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Model**               **Independent Variables**            **Dependent Variables**   **Findings**
@@ -3342,127 +3374,168 @@ The following table summarizes the analytical findings for RQ2.
                           Task Completion Session Count                                  
   ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Table ??: Summary of Findings for RQ3
+Table 7: Summary of Findings for RQ3
 
-Research Question 3 asked: \"What is the relationship between large
-language model use and computational literacy?\" The analysis from model
-1 provided a nuanced answer as the relationship depends on how students
-use LLMs**.** Task Completion sessions demonstrated a robust negative
-association with computational literacy (*B* = -0.17, *p* = .012).
-Participants who engaged in more task completion sessions achieved lower
-C2 scores than would be predicted from their baseline ability. This
-suggests that instrumental LLM use may constrain computational literacy
-relative to potential.
+The analysis from Model 1 reveals that Task Completion sessions have a
+robust negative association with computational literacy (*ꞵ* = -0.17,
+*p* = .012\$). Participants who engaged in higher frequencies of
+executive help-seeking achieved lower C2 scores than predicted by their
+baseline competency. This suggests that instrumental or
+shortcut-oriented LLM use may constrain the development of computational
+literacy relative to a student\'s potential.
 
-In the same model 1, learning session counts showed a positive trend
-(*B* = 0.07, *p* = .078) yet did not reach statistical significance.
-While this finding is inconclusive, the direction aligns with
-theoretical predictions and suggests that exploratory engagement may
-support computational literacy development in ways that instrumental
-task completion does not.
-
-A supplemental analysis of change in scores between C1 and C1 revealed
-no statistical significance (*R^2^* = 0.036, *p* = .214), indicating
-learning session count and task completion session count have no
-influence in the change in scores.
+Conversely, Learning session counts exhibited a positive trend (*ꞵ* =
+0.07, *p* = .078) but did not reach the threshold for statistical
+significance. While this finding is statistically inconclusive, the
+direction of the effect aligns with theoretical expectations and the
+results from RQ1 and RQ2, suggesting that exploratory engagement may
+support literacy development in ways that instrumental use does not.
 
 ### 4.4.5 Conclusion for RQ3
 
-The alternate hypothesis (H3) proposed that LLM usage patterns would be
-significantly correlated with computational literacy scores,
-specifically predicting a negative correlation for task completion
-sessions and a positive correlation for learning sessions. H3 was
-partially supported.
+The alternative hypothesis (*H*~3~) proposed that LLM usage patterns
+would significantly correlate with computational literacy scores,
+specifically predicting a negative correlation for Task Completion
+sessions and a positive correlation for Learning sessions. Based on the
+results of Model 1, *H*~3~ was partially supported.
 
-The predicted negative relationship between task completion session
-count and computational literacy was confirmed (B = -0.17, *p* = 0.012),
-and this effect remained significant after controlling for baseline
-ability and correcting for heteroscedasticity. I therefore rejected the
-null hypothesis about task completion sessions.
+The predicted negative relationship between Task Completion session
+frequency and computational literacy was confirmed (*ꞵ* = -0.17, *p* =
+.012). This effect remained significant after controlling for baseline
+ability (C1) and utilizing heteroscedasticity-robust standard errors.
+Therefore, the null hypothesis regarding Task Completion sessions is
+rejected.
 
-However, the predicted positive relationship between learning sessions
+However, the predicted positive relationship between Learning sessions
 and computational literacy did not achieve statistical significance at
-the conventional alpha = .05 threshold (*B* = 0.07, *p* = .078). While
-the direction of the relationship was aligned with predictions and other
-analysis as part of RQ1 and RQ2, the marginal p-value suggests a
-possible effect, I cannot reject the null hypothesis with respect to
-learning sessions at conventional significance levels. The relationship
-remains suggestive and warrants further investigation with perhaps
-larger samples.
+the conventional *⍺* = .05 threshold (*ꞵ* = 0.07, *p* = .078). Although
+the direction of the relationship was consistent with the experimental
+findings in RQ1 and RQ2, the marginal *p*-value precludes the rejection
+of the null hypothesis for Learning sessions.
 
-Given that the overall regression of model 1 was highly significant
-(*F(3, 83)* = 54.66, *p* \< .001) and task completion demonstrated a
-robust relationship, we conclude that LLM usage patterns are
-significantly related to computational literacy, though the nature of
-this relationship varies by usage type.
+In summary, because the overall multivariate model was highly
+significant (*F(3, 83)* = 54.66, *p* \< .001) and Task Completion
+demonstrated a robust predictive relationship, it can be concluded that
+LLM usage patterns are significantly related to computational literacy
+outcomes. However, the strength and direction of these associations are
+contingent upon whether the student utilizes the AI for executive task
+completion or adaptive learning.
 
 4.5 Overall Summary of Findings
 -------------------------------
 
-For RQ1, the overall model (model 3) that included both independent
-variables of learning session count and task completion session count
-demonstrated strong statistical significance (*F(2, 84)* = 9.76, *p* \<
-.001) providing sufficient evidence to reject the null hypothesis. With
-a medium effect size (Cohen\'s f-squared = 0.23), the model explained
-18.9% of variance in midterm exam performance. Both hypothesized
-relationships were confirmed: learning sessions positively predicted
-exam performance (*B* = 0.21, *p* = .013), while task completion
-sessions negatively predicted performance (*B* = -0.54, *p* \< .001).
-Hierarchical regression revealed a mutual suppression effect where both
-independent variables together offered the best model for explaining
-midterm exam performance when compared to each variable independently.
+This chapter presented the results of a multi-method investigation into
+the relationships between LLM interaction types, experimental
+context-aware interventions, and learning outcomes. By partitioning AI
+usage into Learning (adaptive) and Task Completion (executive) sessions,
+this study identified distinct pathways through which Generative AI
+influences academic performance.
 
-For RQ2, the relationship between in-context learning and exam
-performance exhibited a similar suppression effect. Simple regression
-analysis failed to detect a significant treatment effect (*p* = .119).
-However, when controlling for student usage patterns similar to model 3
-of RQ1, the multiple regression model (model 1) was statistically
-significant (*F(3, 83)* = 8.641, *p* \< .001) and the treatment effect
-became statistically significant (*B*= 2.74, *p* = .023). Simply put,
-participants in the treatment group scored approximately 2.74 points
-higher on the midterm exam E1 compared to control group students with
-equivalent LLM usage patterns.
+RQ1 explored the dual nature of AI engagement and its impact on
+learning, as measured by the midterm exam (E1). The analysis established
+that usage classification---specifically the intent behind the
+help-seeking behavior---rather than aggregate usage volume, is the
+primary driver of learning outcomes.
 
-The suppression pattern suggests that usage behaviors (task completion
-session count and learning season count), while not significantly
-affected by treatment, created statistical noise that masked the direct
-treatment benefit. In other words, participants achieved exam scores not
-because they used the AI differently, but because treatment assisted
-them more effectively when they did use AI. These suppressors were not
-mediators or moderators as indicated in the analysis of models 2 a/b and
-3 a/b.
+The comprehensive model (Model 3), which included both Learning and Task
+Completion session counts as independent variables, demonstrated strong
+statistical significance (*F(2, 84)* = 9.76, *p* \< .001), providing
+sufficient evidence to reject the null hypothesis. With a medium effect
+size (Cohen's *f^2^* = 0.23), the model explained 18.9% of the variance
+in midterm exam performance (*R^2^* = .189).
 
-A critical limitation of RQ2 Model 1 is the temporal ordering of
-learning session counts and task completion counts. These were measured
-post treatment assignment but before outcome assessment of E1. Because
-standard causal inference principles caution against conditioning on
-post-treatment variables, we must fail to reject the null hypothesis
-that there is no statistically significant difference in the mean
-student learning performance scores (E1) between the treatment group and
-the control group.
+Both hypothesized relationships were confirmed:
 
-RQ3 investigated the relationship between AI usage and computational
-literacy. H3 was partially supported. The predicted negative
-relationship between task completion sessions and computational literacy
-was confirmed (*B* = -0.17, *p* = .012), and this effect remained
-significant after controlling for baseline ability from C1 score and
-correcting for heteroscedasticity. I therefore rejected the null
-hypothesis with respect to task completion sessions.
+-   Learning sessions positively predicted exam performance (*ꞵ* = 0.21,
+    > *p* = .013), indicating that adaptive help-seeking supports
+    > knowledge acquisition.
 
-However, the predicted positive relationship between learning sessions
-and computational literacy did not achieve statistical significance at
-the conventional alpha = .05 threshold (*B* = 0.07, *p* = .078). While
-the direction of the relationship was aligned with predictions and the
-marginal p-value suggests a possible effect, I cannot reject the null
-hypothesis with respect to learning sessions at conventional
-significance levels. The relationship remains suggestive and warrants
-further investigation with larger samples.
+-   Task Completion sessions negatively predicted performance (*ꞵ* =
+    > -0.54, *p* \< .001), suggesting that executive help-seeking (e.g.,
+    > shortcutting) hinders academic achievement.
 
-Given that the overall regression model was highly significant (*F(3,
-83)* = 54.66, *p* \< .001) and task completion demonstrated a robust
-relationship, I concluded LLM usage patterns were significantly related
-to computational literacy The caveat here is the nature of this
-relationship varied by usage type.
+Hierarchical regression revealed a mutual suppression effect, where the
+inclusion of both independent variables together yielded the most
+precise model for explaining midterm exam performance compared to models
+analyzing each variable independently. By accounting for the
+countervailing effects of these usage types, the analysis isolated the
+unique contribution of each to student success. Ultimately, these
+findings provided the necessary behavioral framework to interpret the
+subsequent experimental results in RQ2 and RQ3.
+
+RQ2 investigated the impact of a context-aware AI intervention on
+midterm performance through a randomized controlled trial. While the
+initial \"Intent-to-Treat\" analysis (Model 1) demonstrated a null
+result, the subsequent suppression analysis (Model 4) identified a
+significant treatment effect (*ꞵ* = 2.74, *p* = .023) once student usage
+behaviors were included as covariates. This suggests that the treatment
+did not fundamentally alter the *volume* of AI engagement, but rather
+enhanced the *quality* and efficacy of those interactions.
+
+The suppression pattern indicates that usage behaviors as materialized
+through Learning and Task Completion session counts, accounted for a
+large portion of the variance in exam scores without being influenced by
+the treatment itself. By controlling for these variables, the noise of
+individual student help-seeking strategies was partitioned out,
+revealing the treatment\'s underlying benefit. In addition, the fact
+that these variables did not function as mediators (the treatment
+didn\'t change the amount of use) or moderators (the treatment didn\'t
+change the nature of the relationship between use and grades) strongly
+supports the interpretation that the treatment provided an independent,
+qualitative benefit.
+
+Ultimately, Model 4 should be interpreted as a conditional effect rather
+than a pure causal one. Because Learning and Task Completion counts were
+measured post-randomization, standard causal inference is subject to
+potential post-treatment bias. Consequently, the finding is best
+understood as an estimate of the treatment's intrinsic
+efficacy---demonstrating that for any given level of AI engagement, the
+context-aware version resulted in superior academic performance.
+
+RQ3 confirmed that the dual nature of AI usage patterns extends beyond
+immediate exam performance to the broader development of computational
+literacy. Using an ANCOVA approach (Model 1), the analysis demonstrated
+that Task Completion sessions have a robust negative relationship with
+literacy outcomes (*ꞵ* = -0.17, *p* = .012), even when adjusting for
+participants\' baseline ability (C1).
+
+While Learning sessions trended positively, the effect was marginal (*ꞵ*
+= 0.07, *p* = .078) and did not reach statistical significance. This
+suggests that in the short term, maladaptive AI use (executive
+help-seeking) may be a more potent inhibitor of literacy development
+than adaptive use is a facilitator. Although the positive relationship
+for learning sessions remains suggestive and warrants further
+investigation with larger samples, the overall regression model was
+highly significant, *F(3, 83)* = 54.66, *p* \< .001.
+
+In conclusion, these findings indicate that LLM usage patterns are
+significantly related to computational literacy development, with the
+crucial caveat that the direction and strength of this relationship are
+contingent upon the specific type of AI engagement.
+
+In summary, an important finding was the importance of Collectively,
+these results suggest that the integration of LLMs in education is a
+\"double-edged sword.\" The benefit of advanced features, such as
+in-context learning and assignment-awareness, can be identified only
+when accounting for the student\'s help-seeking strategy. While the
+technology provides a significant performance advantage for any given
+level of use, the persistent negative impact of shortcut-oriented
+behaviors remains a critical challenge for instructional
+
+Chapter 4 demonstrated that aggregate LLM usage volume is an inadequate
+predictor of academic success, as the impact of AI engagement is
+fundamentally determined by the type of interaction rather than the
+quantity. Across all three research questions, the distinction between
+Learning (adaptive) and Task Completion (maladaptive) sessions served as
+the essential mechanism for uncovering significant results: in RQ1, this
+classification revealed the opposing effects of AI on exam performance;
+in RQ2, it acted as a vital suppressor that unmasked a significant
+treatment effect for the context-aware intervention; and in RQ3, it
+identified executive help-seeking as a specific inhibitor of
+computational literacy development. Collectively, these findings
+establish that the educational value of Generative AI is a conditional
+phenomenon, requiring a granular understanding of student help-seeking
+intent to accurately measure its influence on learning outcomes.
 
 **5.0 Summary**
 ===============
@@ -3470,29 +3543,39 @@ relationship varied by usage type.
 5.1 Introduction
 ----------------
 
-In this section I will add interpretive analysis to the findings of the
-paper. First, the key findings will be summarized and synthesized. Next,
-the chapter follows a discussion of the results as to understand the
-causal effects of the findings. When appropriate the interpretation in
-this section will be connected back to the theoretical literature cited
-in the literature review.
+This chapter provides an interpretive analysis of the study's findings,
+synthesizing the statistical results into a cohesive narrative. The
+discussion first contextualizes these results within the existing
+theoretical literature, identifying areas where this research supports,
+contradicts, or extends the current academic landscape. Particular
+attention is paid to the causal implications of the findings and their
+contribution to the broader discourse on Generative AI in education.
 
-The findings from this study will be contextualized within the
-literature. Facets of my research that support, contradict, or extend
-the current research landscape will be identified. The contribution of
-this research to the overall academic zeitgeist will be identified.
-
-The latter part of this chapter will focus on how my research can be
-materialized. First, a critical analysis of this study\'s limitations
-will be proposed. Next, the practical and theoretical implications of
-this research will be discussed. Finally, a synthesis of the limitations
-and implications of my research will be used to formulate suggestions
-for future research in this area and beyond.
-
-The chapter concludes with a final summary of the thesis, complete with
-salient points and overall themes.
+The latter portion of the chapter focuses on the practical application
+of this research. It includes a critical evaluation of the study's
+limitations, followed by a discussion of the practical and theoretical
+implications for researchers, educators, and students**.** Finally,
+these insights are used to formulate suggestions for future research,
+concluding with a final summary of the thesis's salient points and
+overarching themes.
 
 ### 5.1.1 Research and Key Findings At a Glance
+
+This thesis investigated the impact of **L**arge Language Model (LLM)
+integration on student performance and computational literacy within an
+introductory Python programming course. Utilizing a mixed-methods
+approach, student-AI interactions were captured and classified via
+categorical content analysis into two competing strategies: Learning
+sessions (adaptive help-seeking characterized by scaffolding and
+questioning) and Task Completion sessions (executive help-seeking
+characterized by cognitive offloading and delegation).
+
+These categorized interactions served as the primary independent
+variables for assessing academic outcomes, specifically midterm exam
+scores (*E1*) and post-intervention computational literacy (*C2*).
+Additionally, a randomized controlled trial assessed the efficacy of a
+context-aware LLM enhancement. The empirical findings of this research
+can be distilled into four key conclusions:
 
 This thesis investigated the impact of Large Language Models (LLMs) use
 on student learning performance and computational literacy within an
@@ -3512,34 +3595,33 @@ study conducted a randomized controlled trial to explore the impacts of
 context-aware LLMs on academic outcomes. My research can be distilled
 into four key findings:
 
-**Finding 1:** The mutual suppression effect evident in RQ1 justified
-the importance of accounting for both usage patterns in the analysis.
-The mutual suppression effect means that when I looked at learning
-sessions and task completion sessions separately, their true
-relationship with midterm exam scores (E1) was hidden, or *suppressed*,
-by the presence of some statistical factor they both shared. This shared
-factor is a kind of statistical noise that is not useful for predicting
-academic success. By including both usage patterns (learning sessions
-and task completion sessions) the statistical relationship between usage
-and midterm exam scores was revealed.
+**Finding 1: The Essentiality of Usage Classification.** A mutual
+suppression effect established that aggregate AI use is an inadequate
+predictor of success. The true relationship between AI engagement and
+academic outcomes was only revealed when accounting for the
+countervailing effects of adaptive and executive help-seeking.
 
-**Finding 2:** Participants who engaged in task completion sessions
-while using the LLM in the intervention had a statistically significant
-negative correlation with midterm exam scores and computational literacy
-instruments.
+**Finding 2: The Negative Impact of Executive Help-Seeking**
+.Participants who utilized the LLM for Task Completion (seeking direct
+answers or delegating cognitive labor) exhibited a statistically
+significant negative correlation with both midterm exam scores and
+computational literacy gains.
 
-**Finding 3:** Participants who engaged in learning-focused sessions
-while using the LLM in the intervention demonstrated a statistically
-significant positive correlation with midterm exam scores.
+**Finding 3: The Positive Impact of Adaptive Help-Seeking.**
+Participants who engaged in Learning-focused sessions (utilizing the AI
+for scaffolding and conceptual clarification) demonstrated a
+statistically significant positive correlation with midterm exam
+performance.
 
-**Finding 4:** Context-aware AI significantly improved student learning
-performance, providing a meaningful performance, but this was dependent
-on the usage patterns. In other words, for the same usage patterns of
-learning session counts and task completion counts, a participant in the
-treatment group scored better on an exam than the control group.
+**Finding 4: The Efficacy of Context-Aware Scaffolding.** The
+context-aware AI significantly improved student learning performance,
+representing a meaningful advantage that was conditional upon usage
+patterns. Specifically, when holding the frequency of learning and task
+completion sessions constant, participants in the treatment group
+achieved higher exam scores than those in the control group.
 
-5.2 Finding 1: Mutual Suppression
----------------------------------
+5.2 Finding 1: The Essentiality of Usage Classification
+-------------------------------------------------------
 
 ### 5.2.1 Discussion of Finding 1
 
@@ -3622,8 +3704,8 @@ hypothesis. Scoping the study to a specific task or behavior may produce
 unexplainable results due the confounding interdependence among
 independent variables.
 
-5.3 Finding 2: Negative Implications of AI use for Task Completion
-------------------------------------------------------------------
+5.3 Finding 2: The Negative Impact of Executive Help-Seeking
+------------------------------------------------------------
 
 ### 5.3.1 Discussion of Finding 2
 
@@ -3693,7 +3775,7 @@ detrimental to learning. These contradictory findings point to Finding
 understand its impacts on learning, use alone did not explain the entire
 story.
 
-5.4 Finding 3: Positive Implications of AI use for Learning
+5.4 Finding 3: The Positive Impact of Adaptive Help-Seeking
 -----------------------------------------------------------
 
 ### 5.4.1 Discussion of Finding 3
@@ -3754,13 +3836,33 @@ tutoring system [(Aleven et al.,
 adaptive constructs to the CodeHelp tool deployed by [Kazemitabaar et
 al., (2024)](https://www.zotero.org/google-docs/?qSPPil).
 
+5.5. Finding 4: The Efficacy of Context-Aware Scaffolding
+---------------------------------------------------------
+
 ### 5.5.1 Discussion of Finding 4
 
-TODO - hold for now
+The results indicate that the context-aware treatment (\$T2\$) provides
+a performance advantage that is independent of the frequency of
+engagement. While the intervention did not alter the quantity of
+student-AI interactions, it enhanced the efficacy of those interactions.
+This implies that the treatment\'s value lies in the **quality of the
+scaffolding provided** rather than in a fundamental shift in student
+help-seeking volume.
+
+This suggests that the benefit of In-Context Learning (ICL) in education
+is **intrinsic to the tool's response quality**, rather than its ability
+to change student behavior. The AI didn\'t \"nudge\" students into being
+better learners; it simply provided a higher-quality \"floor\" of
+support that translated into better exam performance, regardless of
+whether the student was a heavy or light user.
 
 ### 5.5.2 Contextualization of Finding 4
 
-TODO - hold for now
+For educational designers, the implication of Model 4 is that **software
+features matter independently of student motivation.** Even if a student
+is \"lazy\" (high Task Completion) or \"diligent\" (high Learning), they
+*both* benefit from the in-context learning feature compared to their
+counterparts in the control group.
 
 5.5 Implications and Recommendations
 ------------------------------------
