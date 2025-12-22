@@ -16,128 +16,330 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title"><span id="_qpt3mqaq9v3" class="anchor"></span>📚 Draft-Thesis</h1>
+<h1 class="title"><span id="_z65zo811j5e0" class="anchor"></span>📚 Draft-Thesis</h1>
 </header>
-<h1 id="contents"><strong>Contents</strong></h1>
-<p><a href="#contents"><strong>Contents 1</strong></a></p>
-<p><a href="#introduction"><strong>1.0 Introduction 4</strong></a></p>
+<h1 id="abstract">Abstract</h1>
+<p>Large Language Models (LLMs) represent a disruptive innovation in programming education, acting as both a supportive tutor and a tool for cognitive offloading. This study investigated how specific student engagement patterns influence learning performance and computational literacy. Utilizing a multi-method design, interaction LLM trace data from an introductory Python course were categorized into adaptive (learning) and maladaptive (task-completion) help-seeking behaviors. Quantitative analysis revealed a mutual suppression effect: aggregate AI usage volume was an unreliable predictor of success, whereas engagement type was highly significant.</p>
+<p>Findings indicated that task-completion behaviors negatively predicted midterm exam scores and computational literacy gains. Conversely, learning-oriented sessions positively correlated with exam performance. Furthermore, a randomized controlled trial demonstrated that context-aware AI significantly improved learning outcomes when controlling for usage patterns, acting as a performance multiplier. These results underscore an urgent need for pedagogical adaptation, shifting from policing AI to empowering students as sophisticated, adaptive, and metacognitively aware users of generative technology.</p>
+<p><em>Keywords:</em> Large Language Models, Help-Seeking Behavior, Computational Literacy, Programming Education, In-Context Learning, and Suppression Analysis.</p>
+<p><strong>Help-Seeking Behaviors in AI-Mediated Programming:<br />
+Impacts on Performance and Computational Literacy</strong></p>
+<p>By</p>
+<p>Michael A. Fudge, Jr.</p>
+<p>B.S.,Oswego State University, 1993</p>
+<p>M.S., Syracuse University, 2006</p>
+<p>Thesis<br />
+Submitted In partial fulfillment of the requirements for the degree of Doctor of Professional Studies in Information Management</p>
+<p>Syracuse University<br />
+May 2026</p>
+<p>Copyright © Michael A. Fudge, Jr. 2025<br />
+All Rights Reserved</p>
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>Pursuing a Doctorate has been an adventure. Like every adventure there are highs, lows, moments of clarity, moments of confusion, moments of confidence and moments of doubt. I have grown so much as an academic these past few years, and there are many individuals to acknowledge; Those who helped with each of those moments.</p>
+<p>I am thankful for the support of my advisors, Dr. Bei Yu, Dr. Jeffrey Stanton, and Dr. John Jordan. Each of you helped me along on this journey by sharing your wisdom and expertise. You let me <em>explore</em> the phenomena I see in the classroom everyday and helped me to materialize it into this thesis.</p>
+<p>I am thankful for my classmates. You were there to share in the highs, listened to me complain during the lows, and always provided an empathetic ear. I cannot imagine completing this program without you all.</p>
+<p>I’d like to acknowledge my friends and family. While many of you don’t quite get what I’m trying to accomplish in this thesis, that didn’t stop you from lending an attentive ear.</p>
+<p>Most importantly, I would like to thank my loving wife Kim for her persistence, patience and unwavering support throughout my Doctoral journey, and my dog, Luna who is always ready to provide unconditional love.</p>
+<h1 id="contents">Contents</h1>
+<p><a href="#abstract"><strong>Abstract 1</strong></a></p>
+<p><a href="#acknowledgements"><strong>Acknowledgements 4</strong></a></p>
+<p><a href="#contents"><strong>Contents 5</strong></a></p>
+<p><a href="#list-of-figures"><strong>List of Figures 8</strong></a></p>
+<p><a href="#list-of-tables"><strong>List of Tables 9</strong></a></p>
+<p><a href="#introduction"><strong>1.0 Introduction 1</strong></a></p>
 <blockquote>
-<p><a href="#background">1.1 Background 4</a></p>
-<p><a href="#problem-statement">1.2 Problem Statement 6</a></p>
-<p><a href="#purpose-of-the-study">1.3 Purpose of the Study 9</a></p>
-<p><a href="#significance-of-the-study">1.4 Significance of the Study 10</a></p>
-<p><a href="#thesis-organization">1.5 Thesis Organization 11</a></p>
+<p><a href="#background">1.1 Background 1</a></p>
+<p><a href="#problem-statement">1.2 Problem Statement 3</a></p>
+<p><a href="#purpose-of-the-study">1.3 Purpose of the Study 6</a></p>
+<p><a href="#significance-of-the-study">1.4 Significance of the Study 7</a></p>
+<p><a href="#thesis-organization">1.5 Thesis Organization 8</a></p>
 </blockquote>
-<p><a href="#literature-review"><strong>2.0 Literature Review 12</strong></a></p>
+<p><a href="#literature-review"><strong>2.0 Literature Review 9</strong></a></p>
 <blockquote>
-<p><a href="#rise-of-the-large-language-model-llm">2.1 Rise of the Large Language Model (LLM) 13</a></p>
-<p><a href="#llms-as-a-disruptive-innovation-for-software-development">2.2 LLMs as a Disruptive Innovation for software development 14</a></p>
-<p><a href="#impacts-on-developer-productivity">2.2.1 Impacts on Developer Productivity 16</a></p>
-<p><a href="#conversations-on-the-future-of-programming">2.2.2 Conversations on the Future of Programming 17</a></p>
-<p><a href="#large-language-model-use-in-higher-education">2.3 Large-Language Model use in Higher Education 17</a></p>
-<p><a href="#llm-use-in-programming-education">2.4 LLM Use in Programming Education 19</a></p>
-<p><a href="#framing-novices-and-programming-difficulties">2.4.1 Framing Novices and Programming Difficulties 19</a></p>
-<p><a href="#studies-of-llm-use-in-programming-courses">2.4.2 Studies of LLM Use in Programming Courses 20</a></p>
-<p><a href="#llm-impacts-on-computer-programming-education">2.5 LLM Impacts on Computer Programming Education 23</a></p>
-<p><a href="#computational-thinking">2.5.1 Computational Thinking 23</a></p>
-<p><a href="#self-efficacy">2.5.2 Self-Efficacy 25</a></p>
-<p><a href="#help-seeking-behavior">2.5.3 Help-Seeking Behavior 26</a></p>
-<p><a href="#academic-performance">2.5.4 Academic Performance 28</a></p>
-<p><a href="#summary">2.6 Summary 30</a></p>
-<p><a href="#duality-of-llm-use">2.6.1 Duality of LLM Use 30</a></p>
-<p><a href="#mechanisms-by-which-llm-use-impacts-learning">2.6.2 Mechanisms by Which LLM Use Impacts Learning 31</a></p>
-<p><a href="#research-rationale-and-gap-statement">2.6.3 Research Rationale and Gap Statement 31</a></p>
+<p><a href="#rise-of-the-large-language-model-llm">2.1 Rise of the Large Language Model (LLM) 10</a></p>
+<p><a href="#llms-as-a-disruptive-innovation-for-software-development">2.2 LLMs as a Disruptive Innovation for software development 11</a></p>
+<p><a href="#impacts-on-developer-productivity">2.2.1 Impacts on Developer Productivity 13</a></p>
+<p><a href="#conversations-on-the-future-of-programming">2.2.2 Conversations on the Future of Programming 14</a></p>
+<p><a href="#large-language-model-use-in-higher-education">2.3 Large-Language Model use in Higher Education 14</a></p>
+<p><a href="#llm-use-in-programming-education">2.4 LLM Use in Programming Education 16</a></p>
+<p><a href="#framing-novices-and-programming-difficulties">2.4.1 Framing Novices and Programming Difficulties 16</a></p>
+<p><a href="#studies-of-llm-use-in-programming-courses">2.4.2 Studies of LLM Use in Programming Courses 17</a></p>
+<p><a href="#llm-impacts-on-computer-programming-education">2.5 LLM Impacts on Computer Programming Education 20</a></p>
+<p><a href="#computational-thinking">2.5.1 Computational Thinking 20</a></p>
+<p><a href="#self-efficacy">2.5.2 Self-Efficacy 22</a></p>
+<p><a href="#help-seeking-behavior">2.5.3 Help-Seeking Behavior 23</a></p>
+<p><a href="#academic-performance">2.5.4 Academic Performance 25</a></p>
+<p><a href="#summary">2.6 Summary 27</a></p>
+<p><a href="#duality-of-llm-use">2.6.1 Duality of LLM Use 27</a></p>
+<p><a href="#mechanisms-by-which-llm-use-impacts-learning">2.6.2 Mechanisms by Which LLM Use Impacts Learning 28</a></p>
+<p><a href="#research-rationale-and-gap-statement">2.6.3 Research Rationale and Gap Statement 28</a></p>
 </blockquote>
-<p><a href="#methods"><strong>3.0 Methods 32</strong></a></p>
+<p><a href="#methods"><strong>3.0 Methods 29</strong></a></p>
 <blockquote>
-<p><a href="#introduction-1">3.1 Introduction 32</a></p>
-<p><a href="#research-questions">3.1.1 Research Questions 33</a></p>
-<p><a href="#study-design">3.2 Study Design 34</a></p>
-<p><a href="#overview">3.2.1 Overview 35</a></p>
-<p><a href="#participant-funnel">3.2.2 Participant Funnel 38</a></p>
-<p><a href="#population-1-chatbot-participants">3.2.2.1 Population 1: Chatbot participants 39</a></p>
-<p><a href="#population-2-chatbot-participants-with-survey-responses">3.2.2.1 Population 2: Chatbot participants with Survey Responses 39</a></p>
-<p><a href="#computational-literacy-instrument-c1c2">3.2.3 Computational Literacy Instrument (C1/C2) 40</a></p>
-<p><a href="#chatbot-design">3.2.4 Chatbot Design 42</a></p>
-<p><a href="#llm-selection">3.2.4.1 LLM Selection 42</a></p>
-<p><a href="#random-assignment">3.2.4.2 Random Assignment 43</a></p>
-<p><a href="#control-group-t1">3.2.4.3 Control Group (T1) 44</a></p>
-<p><a href="#treatment-group-t2">3.2.4.4 Treatment Group (T2) 45</a></p>
-<p><a href="#midterm-exam-e1">3.2.5 Midterm Exam (E1) 46</a></p>
-<p><a href="#questionnaire-q1">3.2.6 Questionnaire (Q1) 47</a></p>
-<p><a href="#chatbot-trace-data-d1">3.2.7 Chatbot Trace Data (D1) 48</a></p>
-<p><a href="#data-analysis">3.3 Data Analysis 50</a></p>
-<p><a href="#overview-1">3.3.1 Overview 50</a></p>
-<p><a href="#tools">3.3.2 Tools 51</a></p>
-<p><a href="#operationalizing-d1-chatbot-trace-data">3.3.3 Operationalizing D1 Chatbot Trace Data 52</a></p>
-<p><a href="#model-selection-reliability-testing">3.3.4 Model Selection Reliability Testing 54</a></p>
-<p><a href="#categorical-content-analysis">3.3.5 Categorical Content Analysis 56</a></p>
-<p><a href="#hypothesis-formulation-and-methodology">3.4 Hypothesis Formulation and Methodology 57</a></p>
-<p><a href="#rq1-hypothesis-and-methodology">3.4.1 RQ1 Hypothesis and Methodology 57</a></p>
-<p><a href="#rq2-hypothesis-and-methodology">3.4.2 RQ2 Hypothesis and Methodology 59</a></p>
-<p><a href="#rq3-hypothesis-and-methodology">3.4.3 RQ3 Hypothesis and Methodology 61</a></p>
-<p><a href="#satisfying-assumptions-of-linear-regressions">3.4.4 Satisfying Assumptions of Linear Regressions 63</a></p>
+<p><a href="#introduction-1">3.1 Introduction 29</a></p>
+<p><a href="#research-questions">3.1.1 Research Questions 30</a></p>
+<p><a href="#study-design">3.2 Study Design 31</a></p>
+<p><a href="#overview">3.2.1 Overview 32</a></p>
+<p><a href="#participant-funnel">3.2.2 Participant Funnel 35</a></p>
+<p><a href="#population-1-chatbot-participants">3.2.2.1 Population 1: Chatbot participants 36</a></p>
+<p><a href="#population-2-chatbot-participants-with-survey-responses">3.2.2.1 Population 2: Chatbot participants with Survey Responses 36</a></p>
+<p><a href="#computational-literacy-instrument-c1c2">3.2.3 Computational Literacy Instrument (C1/C2) 37</a></p>
+<p><a href="#chatbot-design">3.2.4 Chatbot Design 39</a></p>
+<p><a href="#llm-selection">3.2.4.1 LLM Selection 39</a></p>
+<p><a href="#random-assignment">3.2.4.2 Random Assignment 40</a></p>
+<p><a href="#control-group-t1">3.2.4.3 Control Group (T1) 41</a></p>
+<p><a href="#treatment-group-t2">3.2.4.4 Treatment Group (T2) 42</a></p>
+<p><a href="#midterm-exam-e1">3.2.5 Midterm Exam (E1) 43</a></p>
+<p><a href="#questionnaire-q1">3.2.6 Questionnaire (Q1) 44</a></p>
+<p><a href="#chatbot-trace-data-d1">3.2.7 Chatbot Trace Data (D1) 45</a></p>
+<p><a href="#data-analysis">3.3 Data Analysis 47</a></p>
+<p><a href="#overview-1">3.3.1 Overview 47</a></p>
+<p><a href="#tools">3.3.2 Tools 48</a></p>
+<p><a href="#operationalizing-d1-chatbot-trace-data">3.3.3 Operationalizing D1 Chatbot Trace Data 49</a></p>
+<p><a href="#model-selection-reliability-testing">3.3.4 Model Selection Reliability Testing 51</a></p>
+<p><a href="#categorical-content-analysis">3.3.5 Categorical Content Analysis 53</a></p>
+<p><a href="#hypothesis-formulation-and-methodology">3.4 Hypothesis Formulation and Methodology 54</a></p>
+<p><a href="#rq1-hypothesis-and-methodology">3.4.1 RQ1 Hypothesis and Methodology 54</a></p>
+<p><a href="#rq2-hypothesis-and-methodology">3.4.2 RQ2 Hypothesis and Methodology 56</a></p>
+<p><a href="#rq3-hypothesis-and-methodology">3.4.3 RQ3 Hypothesis and Methodology 58</a></p>
+<p><a href="#satisfying-assumptions-of-linear-regressions">3.4.4 Satisfying Assumptions of Linear Regressions 60</a></p>
 </blockquote>
-<p><a href="#results"><strong>4.0 Results 64</strong></a></p>
+<p><a href="#results"><strong>4.0 Results 61</strong></a></p>
 <blockquote>
-<p><a href="#introduction-2">4.1 Introduction 64</a></p>
-<p><a href="#findings-for-rq1">4.2 Findings for RQ1 66</a></p>
-<p><a href="#model-overview-for-rq1">4.2.1 Model Overview for RQ1 66</a></p>
-<p><a href="#regression-assumption-tests-of-the-model-for-rq1">4.2.2 Regression Assumption Tests of the Model for RQ1 67</a></p>
-<p><a href="#hierarchical-regression-analysis-for-the-rq1-model">4.2.3 Hierarchical Regression Analysis for the RQ1 Model 70</a></p>
-<p><a href="#model-0-e1-session-count">4.2.3.1 Model 0: E1 ~ Session Count 71</a></p>
-<p><a href="#model-1-e1-task-complection-session-count">4.2.3.2 Model 1: E1 ~ Task Complection Session Count 72</a></p>
-<p><a href="#model-2-e1-learning-session-count">4.2.3.3 Model 2: E1 ~ Learning Session Count 73</a></p>
-<p><a href="#model-3-e1-learning-session-count-task-completion-session-count">4.2.3.4 Model 3: E1 ~ Learning Session Count + Task Completion Session Count 74</a></p>
-<p><a href="#summary-of-findings-for-rq1">4.2.4 Summary of Findings for RQ1 75</a></p>
-<p><a href="#conclusion-for-rq1">4.2.5 Conclusion for RQ1 76</a></p>
-<p><a href="#findings-for-rq2">4.3 Findings for RQ2 77</a></p>
-<p><a href="#model-overview-for-rq2">4.3.1 Model Overview for RQ2 77</a></p>
-<p><a href="#regression-assumption-tests-for-the-rq2-model">4.3.2 Regression Assumption Tests for the RQ2 Model 78</a></p>
-<p><a href="#regression-analysis-for-the-rq2">4.3.3 Regression Analysis for the RQ2 79</a></p>
-<p><a href="#model-1-total-effect-for-rq2">4.3.3.1 Model 1: Total Effect for RQ2 79</a></p>
-<p><a href="#models-2-ab-mediation-analysis-for-rq2">4.3.3.2 Models 2 a/b: Mediation Analysis for RQ2 81</a></p>
-<p><a href="#models-3-ab-moderation-analysis-for-rq2">4.3.3.3 Models 3 a/b: Moderation Analysis for RQ2 82</a></p>
-<p><a href="#model-4-identification-of-rq2-treatment-effect-via-suppression-analysis">4.3.3.4 Model 4: Identification of RQ2 Treatment Effect via Suppression Analysis 84</a></p>
-<p><a href="#summary-of-findings-for-rq2">4.3.4 Summary of Findings for RQ2 86</a></p>
-<p><a href="#conclusion-for-rq2">4.3.5 Conclusion for RQ2 87</a></p>
-<p><a href="#findings-for-rq3">4.4 Findings for RQ3 88</a></p>
-<p><a href="#model-overview-for-rq3">4.4.1 Model Overview for RQ3 88</a></p>
-<p><a href="#regression-assumption-tests-for-the-rq3-model">4.4.2 Regression Assumption Tests for the RQ3 Model 90</a></p>
-<p><a href="#model-1-ancova-for-rq3-accounting-for-baseline-literacy">4.4.3 Model 1: ANCOVA for RQ3 Accounting for Baseline Literacy 93</a></p>
-<p><a href="#model-1a-supplementary-analysis-change-in-scores">4.4.3.1 Model 1a: Supplementary Analysis Change in Scores 95</a></p>
-<p><a href="#summary-of-findings-for-rq3">4.4.4 Summary of Findings for RQ3 96</a></p>
-<p><a href="#conclusion-for-rq3">4.4.5 Conclusion for RQ3 97</a></p>
-<p><a href="#overall-summary-of-findings">4.5 Overall Summary of Findings 98</a></p>
+<p><a href="#introduction-2">4.1 Introduction 61</a></p>
+<p><a href="#findings-for-rq1">4.2 Findings for RQ1 63</a></p>
+<p><a href="#model-overview-for-rq1">4.2.1 Model Overview for RQ1 63</a></p>
+<p><a href="#regression-assumption-tests-of-the-model-for-rq1">4.2.2 Regression Assumption Tests of the Model for RQ1 64</a></p>
+<p><a href="#hierarchical-regression-analysis-for-the-rq1-model">4.2.3 Hierarchical Regression Analysis for the RQ1 Model 67</a></p>
+<p><a href="#model-0-e1-session-count">4.2.3.1 Model 0: E1 ~ Session Count 68</a></p>
+<p><a href="#model-1-e1-task-complection-session-count">4.2.3.2 Model 1: E1 ~ Task Complection Session Count 69</a></p>
+<p><a href="#model-2-e1-learning-session-count">4.2.3.3 Model 2: E1 ~ Learning Session Count 70</a></p>
+<p><a href="#model-3-e1-learning-session-count-task-completion-session-count">4.2.3.4 Model 3: E1 ~ Learning Session Count + Task Completion Session Count 71</a></p>
+<p><a href="#summary-of-findings-for-rq1">4.2.4 Summary of Findings for RQ1 72</a></p>
+<p><a href="#conclusion-for-rq1">4.2.5 Conclusion for RQ1 73</a></p>
+<p><a href="#findings-for-rq2">4.3 Findings for RQ2 74</a></p>
+<p><a href="#model-overview-for-rq2">4.3.1 Model Overview for RQ2 74</a></p>
+<p><a href="#regression-assumption-tests-for-the-rq2-model">4.3.2 Regression Assumption Tests for the RQ2 Model 75</a></p>
+<p><a href="#regression-analysis-for-the-rq2">4.3.3 Regression Analysis for the RQ2 76</a></p>
+<p><a href="#model-1-total-effect-for-rq2">4.3.3.1 Model 1: Total Effect for RQ2 76</a></p>
+<p><a href="#models-2-ab-mediation-analysis-for-rq2">4.3.3.2 Models 2 a/b: Mediation Analysis for RQ2 78</a></p>
+<p><a href="#models-3-ab-moderation-analysis-for-rq2">4.3.3.3 Models 3 a/b: Moderation Analysis for RQ2 79</a></p>
+<p><a href="#model-4-identification-of-rq2-treatment-effect-via-suppression-analysis">4.3.3.4 Model 4: Identification of RQ2 Treatment Effect via Suppression Analysis 81</a></p>
+<p><a href="#summary-of-findings-for-rq2">4.3.4 Summary of Findings for RQ2 83</a></p>
+<p><a href="#conclusion-for-rq2">4.3.5 Conclusion for RQ2 84</a></p>
+<p><a href="#findings-for-rq3">4.4 Findings for RQ3 85</a></p>
+<p><a href="#model-overview-for-rq3">4.4.1 Model Overview for RQ3 85</a></p>
+<p><a href="#regression-assumption-tests-for-the-rq3-model">4.4.2 Regression Assumption Tests for the RQ3 Model 87</a></p>
+<p><a href="#model-1-ancova-for-rq3-accounting-for-baseline-literacy">4.4.3 Model 1: ANCOVA for RQ3 Accounting for Baseline Literacy 90</a></p>
+<p><a href="#model-1a-supplementary-analysis-change-in-scores">4.4.3.1 Model 1a: Supplementary Analysis Change in Scores 92</a></p>
+<p><a href="#summary-of-findings-for-rq3">4.4.4 Summary of Findings for RQ3 93</a></p>
+<p><a href="#conclusion-for-rq3">4.4.5 Conclusion for RQ3 94</a></p>
+<p><a href="#overall-summary-of-findings">4.5 Overall Summary of Findings 95</a></p>
 </blockquote>
-<p><a href="#summary-1"><strong>5.0 Summary 102</strong></a></p>
+<p><a href="#summary-1"><strong>5.0 Summary 99</strong></a></p>
 <blockquote>
-<p><a href="#introduction-3">5.1 Introduction 102</a></p>
-<p><a href="#research-and-key-findings-at-a-glance">5.1.1 Research and Key Findings At a Glance 102</a></p>
-<p><a href="#finding-1-the-essentiality-of-usage-classification">5.2 Finding 1: The Essentiality of Usage Classification 103</a></p>
-<p><a href="#discussion-of-finding-1">5.2.1 Discussion of Finding 1 103</a></p>
-<p><a href="#contextualization-of-finding-1">5.2.2 Contextualization of Finding 1 105</a></p>
-<p><a href="#finding-2-the-negative-impact-of-executive-help-seeking">5.3 Finding 2: The Negative Impact of Executive Help-Seeking 107</a></p>
-<p><a href="#discussion-of-finding-2">5.3.1 Discussion of Finding 2 107</a></p>
-<p><a href="#contextualization-of-finding-2">5.3.2 Contextualization of Finding 2 108</a></p>
-<p><a href="#finding-3-the-positive-impact-of-adaptive-help-seeking">5.4 Finding 3: The Positive Impact of Adaptive Help-Seeking 109</a></p>
-<p><a href="#discussion-of-finding-3">5.4.1 Discussion of Finding 3 109</a></p>
-<p><a href="#contextualization-of-finding-3">5.4.2 Contextualization of Finding 3 110</a></p>
-<p><a href="#finding-4-the-efficacy-of-context-aware-scaffolding">5.5. Finding 4: The Efficacy of Context-Aware Scaffolding 111</a></p>
-<p><a href="#discussion-of-finding-4">5.5.1 Discussion of Finding 4 111</a></p>
-<p><a href="#contextualization-of-finding-4">5.5.2 Contextualization of Finding 4 113</a></p>
-<p><a href="#implications-and-recommendations">5.5 Implications and Recommendations 114</a></p>
-<p><a href="#theoretical-implications">5.5.1 Theoretical Implications 114</a></p>
-<p><a href="#practical-implications-for-instructors">5.5.2 Practical Implications for Instructors 116</a></p>
-<p><a href="#practical-implications-for-institutions">5.5.3 Practical Implications for Institutions 117</a></p>
-<p><a href="#practical-implications-for-students">5.5.4 Practical Implications for Students 118</a></p>
-<p><a href="#limitations">5.6 Limitations 119</a></p>
-<p><a href="#future-research">5.7 Future Research 120</a></p>
-<p><a href="#conclusion">5.8 Conclusion 122</a></p>
+<p><a href="#introduction-3">5.1 Introduction 99</a></p>
+<p><a href="#research-and-key-findings-at-a-glance">5.1.1 Research and Key Findings At a Glance 99</a></p>
+<p><a href="#finding-1-the-essentiality-of-usage-classification">5.2 Finding 1: The Essentiality of Usage Classification 100</a></p>
+<p><a href="#discussion-of-finding-1">5.2.1 Discussion of Finding 1 100</a></p>
+<p><a href="#contextualization-of-finding-1">5.2.2 Contextualization of Finding 1 102</a></p>
+<p><a href="#finding-2-the-negative-impact-of-executive-help-seeking">5.3 Finding 2: The Negative Impact of Executive Help-Seeking 104</a></p>
+<p><a href="#discussion-of-finding-2">5.3.1 Discussion of Finding 2 104</a></p>
+<p><a href="#contextualization-of-finding-2">5.3.2 Contextualization of Finding 2 105</a></p>
+<p><a href="#finding-3-the-positive-impact-of-adaptive-help-seeking">5.4 Finding 3: The Positive Impact of Adaptive Help-Seeking 106</a></p>
+<p><a href="#discussion-of-finding-3">5.4.1 Discussion of Finding 3 106</a></p>
+<p><a href="#contextualization-of-finding-3">5.4.2 Contextualization of Finding 3 107</a></p>
+<p><a href="#finding-4-the-efficacy-of-context-aware-scaffolding">5.5. Finding 4: The Efficacy of Context-Aware Scaffolding 108</a></p>
+<p><a href="#discussion-of-finding-4">5.5.1 Discussion of Finding 4 108</a></p>
+<p><a href="#contextualization-of-finding-4">5.5.2 Contextualization of Finding 4 110</a></p>
+<p><a href="#implications-and-recommendations">5.5 Implications and Recommendations 111</a></p>
+<p><a href="#theoretical-implications">5.5.1 Theoretical Implications 111</a></p>
+<p><a href="#practical-implications-for-instructors">5.5.2 Practical Implications for Instructors 113</a></p>
+<p><a href="#practical-implications-for-institutions">5.5.3 Practical Implications for Institutions 114</a></p>
+<p><a href="#practical-implications-for-students">5.5.4 Practical Implications for Students 115</a></p>
+<p><a href="#limitations">5.6 Limitations 116</a></p>
+<p><a href="#future-research">5.7 Future Research 117</a></p>
+<p><a href="#conclusion">5.8 Conclusion 119</a></p>
 </blockquote>
-<p><a href="#references"><strong>References 124</strong></a></p>
+<p><a href="#references"><strong>References 121</strong></a></p>
 <h1 id="section"><br />
 </h1>
+<h1 id="list-of-figures">List of Figures</h1>
+<table>
+<thead>
+<tr class="header">
+<th>3.1</th>
+<th>An Overview of the Study Design</th>
+<th>32</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3.2</td>
+<td>Context-Selection from the IST256 AI Tutor</td>
+<td>34</td>
+</tr>
+<tr class="even">
+<td>3.3</td>
+<td>The treatment group (T2) is aware of the selected content</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>3.4</td>
+<td>The Participant Funnel for Chatbot Use (n = 87)</td>
+<td>36</td>
+</tr>
+<tr class="even">
+<td>3.5</td>
+<td>The Participant Funnel Integrating Survey Responses (n = 77)</td>
+<td>37</td>
+</tr>
+<tr class="odd">
+<td>3.6</td>
+<td>A Sample Question from The CT-Test</td>
+<td>39</td>
+</tr>
+<tr class="even">
+<td>3.7</td>
+<td>System Prompt Configuration for the Control Group (T1)</td>
+<td>42</td>
+</tr>
+<tr class="odd">
+<td>3.8</td>
+<td>Treatment T2 Context Prompt Template</td>
+<td>42</td>
+</tr>
+<tr class="even">
+<td>3.9</td>
+<td>AI Response to Context Selection in the Treatment Condition (T2)</td>
+<td>43</td>
+</tr>
+<tr class="odd">
+<td>3.10</td>
+<td>Distribution of Chat Session Classifications From the D1 Dataset</td>
+<td>54</td>
+</tr>
+<tr class="even">
+<td>4.1</td>
+<td>Partial regression plots when holding the other constant of E1 ~ Task Completion Session Count + Learning Session Count</td>
+<td>65</td>
+</tr>
+<tr class="odd">
+<td>4.2</td>
+<td>Residuals vs Fitted Values for E1 ~ Learning Session Count + Task Completion Session Count</td>
+<td>66</td>
+</tr>
+<tr class="even">
+<td>4.3</td>
+<td>Evidence of normality among the residuals of E1 ~ Task Completion Session Count + Learning Session Count</td>
+<td>67</td>
+</tr>
+<tr class="odd">
+<td>4.4</td>
+<td>Forestplot of E1 ~ Session Count</td>
+<td>68</td>
+</tr>
+<tr class="even">
+<td>4.5</td>
+<td>Forestplot of E1 ~Task Completion Session Count</td>
+<td>69</td>
+</tr>
+<tr class="odd">
+<td>4.6</td>
+<td>Forestplot of E1 ~ Learning Session Count</td>
+<td>70</td>
+</tr>
+<tr class="even">
+<td>4.7</td>
+<td>Forestplot of E1 ~ Task Completion Session Count + Learning Session Count</td>
+<td>72</td>
+</tr>
+<tr class="odd">
+<td>4.8</td>
+<td>Evidence of normality among the residuals of E1 ~ Treatment</td>
+<td>76</td>
+</tr>
+<tr class="even">
+<td>4.9</td>
+<td>Forestplot of E1 ~ Treatment</td>
+<td>77</td>
+</tr>
+<tr class="odd">
+<td>4.10</td>
+<td>Forestplot of E1 ~ Treatment + Learning Session Count + Task Completion Session Count</td>
+<td>82</td>
+</tr>
+<tr class="even">
+<td>4.11</td>
+<td>Partial regression plots when holding the other constant of C2 ~ Task Completion Session Count + Learning Session Count. + C1 with Visual Confirmation of Heteroscedasticity</td>
+<td>88</td>
+</tr>
+<tr class="odd">
+<td>4.12</td>
+<td>Residuals vs Fitted Values for C2 ~ Learning Session Count + Task Completion Session Count + C1</td>
+<td>89</td>
+</tr>
+<tr class="even">
+<td>4.13</td>
+<td>Evidence of normality among the residuals of C2 ~ Task Completion Session Count + Learning Session Count + C1</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td>4.14</td>
+<td>Forestplot of C2 ~ Learning Session Count + Task Completion Session Count + C1</td>
+<td>92</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-1"><br />
+</h1>
+<h1 id="list-of-tables">List of Tables</h1>
+<table>
+<thead>
+<tr class="header">
+<th>3.1</th>
+<th>Summary of Study Observations and Experimental Conditions</th>
+<th>32</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3.2</td>
+<td>Internal Consistency (Cronbach’s Alpha) of the E1 Midterm Exam</td>
+<td>44</td>
+</tr>
+<tr class="even">
+<td>3.3</td>
+<td>Fields in the D1 Chatbot Trace Data</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>3.4</td>
+<td>Codebook of Participant Behaviors in Trace Data (D1)</td>
+<td>49</td>
+</tr>
+<tr class="even">
+<td>3.5</td>
+<td>Krippendorff’s Alpha for Inter-coder Reliability and Internal Consistency</td>
+<td>52</td>
+</tr>
+<tr class="odd">
+<td>4.1</td>
+<td>Hierarchical Model Comparison for RQ1</td>
+<td>73</td>
+</tr>
+<tr class="even">
+<td>4.2</td>
+<td>Analytical Findings for RQ2</td>
+<td>83</td>
+</tr>
+<tr class="odd">
+<td>4.3</td>
+<td>Summary of Findings for RQ3</td>
+<td>94</td>
+</tr>
+</tbody>
+</table>
 <h1 id="introduction"><strong>1.0 Introduction</strong></h1>
 <h2 id="background">1.1 Background</h2>
 <p>Computer programming is undergoing a profound transformation. Large Language Models (LLMs), a type of artificial intelligence (AI) trained on vast amounts of textual data, have shown remarkable programming capability. A recent study found that with guided prompts, the GPT-4 LLM outperformed 85% of human programmers on online programming challenges <a href="https://www.zotero.org/google-docs/?6YpWOL">(Hou &amp; Ji, 2025)</a>. Furthermore, a 2023 study from code management platform GitHub revealed 92% of U.S.-based developers use AI coding tools, with 70% saying they offer advantages at work <a href="https://www.zotero.org/google-docs/?IozMez">(Github, 2023)</a>.</p>
@@ -179,7 +381,7 @@
 <p>This work advanced theoretical and conceptual understanding in computing education and learning sciences. It provided empirical evidence for the distinction between beneficial and detrimental LLM usage patterns. While patterns such as answer-seeking <a href="https://www.zotero.org/google-docs/?JUCZkh">(Finnie-Ansley et al., 2022; Hassan et al., 2025)</a>, cognitive offloading for task completion <a href="https://www.zotero.org/google-docs/?LqnMNM">(Margulieux et al., 2024; Prather, Reeves, Leinonen, et al., 2024)</a>, scaffolding <a href="https://www.zotero.org/google-docs/?i08f1z">(Hassan et al., 2025; Prather et al., 2019; Prather, Reeves, Denny, et al., 2024)</a> and questioning <a href="https://www.zotero.org/google-docs/?eePwvg">(Cambaz &amp; Zhang, 2024; Finnie-Ansley et al., 2022)</a> were observed in prior research, this study anchored these behaviors within established help-seeking theory.</p>
 <p>The study explored the impacts of LLM use not only on learning but also on the development of the abstract problem-solving abilities essential for computational literacy. A significant contribution of this work was demonstrating the importance of accounting for competing behaviors when modeling these impacts. Specifically, including both adaptive and maladaptive help-seeking behaviors in the model helped explain the effects on learning and computational literacy more effectively than examining each individually. This finding extends existing help-seeking research by <a href="https://www.zotero.org/google-docs/?R0Y2yy">Kazemitabaar et al., (2024)</a> and <a href="https://www.zotero.org/google-docs/?DLbiIR">Sheese et al., (2024)</a>.</p>
 <h2 id="thesis-organization">1.5 Thesis Organization</h2>
-<p>After the introduction, the supporting work from this thesis is organized into four chapters. Each subsequent chapter builds upon the previous ones to outlay the lens through which this research is grounded, the methods by which the study was conducted, the key findings and the implications of those findings. A summary of each chapter is outlined in table 1.</p>
+<p>After the introduction, the supporting work from this thesis is organized into four chapters. Each subsequent chapter builds upon the previous ones to outlay the lens through which this research is grounded, the methods by which the study was conducted, the key findings and the implications of those findings. A summary of each chapter is outlined in as follows:</p>
 <table>
 <thead>
 <tr class="header">
@@ -307,8 +509,8 @@
 <p><em><strong>RQ3: What is the relationship between large language model use and computational literacy?</strong></em></p>
 <p>This question was addressed using quantitative correlational design with repeated measures <a href="https://www.zotero.org/google-docs/?KiDAww">(Creswell &amp; Creswell, 2017, Chapter 8)</a>. Participants' computational literacy was measured at the onset of the course then at the mid-term using identical validated instruments. Similar to RQ1, linear regression analysis was performed where quantified LLM usage patterns served as independent variables. An Analysis of Covariance (ANCOVA) was utilized to control for individual differences in prior knowledge (pre-test scores). To provide a comprehensive understanding of these relationships, a supplementary change score analysis examined whether specific usage patterns predicted the magnitude of improvement in computational literacy.</p>
 <h2 id="study-design">3.2 Study Design</h2>
-<p><img src="./publish/thesis2/html/media/image16.png" style="width:6.5in;height:3.29167in" alt="A diagram of the study design" /><br />
-<em>Figure1: An overview of the study design.</em></p>
+<p><img src="./publish/thesis2/html/media/image2.png" style="width:6.5in;height:3.29167in" alt="A diagram of the study design" /><br />
+<em>Figure 3.1: An Overview of the Study Design.</em></p>
 <table>
 <thead>
 <tr class="header">
@@ -363,18 +565,18 @@
 </tr>
 </tbody>
 </table>
-<p><em>Table 1: Summary of Study Observations and Experimental Conditions</em></p>
+<p><em>Table 3.1: Summary of Study Observations and Experimental Conditions</em></p>
 <h3 id="overview">3.2.1 Overview</h3>
 <p>This study was conducted over a six-week period during the Spring 2025 semester within an introductory Python programming course IST256<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> at the Syracuse University School of Information Studies. The course focused on programming fundamentals from an informatics perspective and was designed for non-computer science majors. A total of 173 students were enrolled. The research focused on the initial six weeks of the semester, as these units cover foundational computational literacy constructs: instruction sequencing, variables, branching, iteration, and functional composition.</p>
 <p>The study was classified as exempt by the University Institutional Review Board (IRB# 24-346) under Category 1 (§46.104), which pertains to research conducted in established educational settings. While the study elements were integrated into the curriculum, students were provided the opportunity to opt-out of having their data included in the final analysis.</p>
 <p>To capture the complexities of AI-assisted learning, a multi-method research design was adopted. A correlational design was used to examine the relationship between AI usage patterns and summative exam scores (Creswell &amp; Creswell, 2017, Chapter 1). A pretest-posttest design established a baseline and measured growth in computational literacy. Finally, a between-subjects experimental design was employed to measure the impacts of in-context learning via randomly assigned control and treatment groups.</p>
 <p>The study commenced with the administration of the diagnostic instrument (C1) to establish a baseline for each participant's computational literacy prior to instruction. Concurrently, students were introduced to a self-hosted AI tutor application powered by GPT-4o-mini<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>. Throughout the intervention period, students were encouraged to use the AI as a virtual tutor for Python-related queries and course assignments.</p>
-<p>A key feature of the AI tutor interface was a context-selection drop-down menu (see Figure 2). For the control group (T1), selecting an assignment from this menu provided no additional data to the model.</p>
-<p><img src="./publish/thesis2/html/media/image7.png" style="width:5.09375in;height:5.61458in" /><br />
-<em>Figure 2: Context-Selection from the IST256 AI Tutor</em></p>
-<p>For the treatment group (T2), selecting an assignment automatically injected the specific lab or assignment instructions into the LLM’s context (see Figure 3).<br />
-<img src="./publish/thesis2/html/media/image19.png" style="width:6.5in;height:4in" /><br />
-<em>Figure 3: The treatment group (T2) is aware of the selected content.</em></p>
+<p>A key feature of the AI tutor interface was a context-selection drop-down menu (see Figure 3.2). For the control group (T1), selecting an assignment from this menu provided no additional data to the model.</p>
+<p><img src="./publish/thesis2/html/media/image3.png" style="width:5.09375in;height:5.61458in" /><br />
+<em>Figure 3.2: Context-Selection from the IST256 AI Tutor</em></p>
+<p>For the treatment group (T2), selecting an assignment automatically injected the specific lab or assignment instructions into the LLM’s context (see Figure 3.3).<br />
+<img src="./publish/thesis2/html/media/image14.png" style="width:6.5in;height:4in" /><br />
+<em>Figure 3.3: The treatment group (T2) is aware of the selected content.</em></p>
 <p>Because the chatbot was self-hosted, all student-AI interactions were captured as a trace dataset (D1). Following the six-week intervention, three primary observations were recorded:</p>
 <ol type="1">
 <li><blockquote>
@@ -391,18 +593,18 @@
 <p>Participants (<em>N</em> = 173) were recruited from a Spring 2025 section of IST256, an introductory Python programming course.The study was classified as exempt by the Syracuse University Institutional Review Board (IRB# 24-346) under 45 CFR § 46.104(d)(1), which pertains to research conducted in established or commonly accepted educational settings. Of the 173 eligible students, 126 provided informed consent to participate in the study. Five consenting students were excluded for failing to complete all required observations (C1, C2, or E1), resulting in a final sample of 121 participants for the broader study analysis.</p>
 <h4 id="population-1-chatbot-participants">3.2.2.1 Population 1: Chatbot participants </h4>
 <p>The analysis distinguished between two primary sub-populations. Population 1 consisted of participants who engaged with the AI chatbot, thereby generating the trace data (D1) required for interaction analysis. This group included <em>n</em> = 87 participants, with 48 assigned to the control group (T1) and 39 to the treatment group (T2).</p>
-<p><img src="./publish/thesis2/html/media/image21.png" style="width:6.5in;height:3.58333in" /><em>Figure 4: The Participant Funnel for Chatbot Use (n = 87)</em></p>
+<p><img src="./publish/thesis2/html/media/image5.png" style="width:6.5in;height:3.58333in" /><em>Figure 3.4: The Participant Funnel for Chatbot Use (n = 87)</em></p>
 <h4 id="population-2-chatbot-participants-with-survey-responses">3.2.2.1 Population 2: Chatbot participants with Survey Responses</h4>
 <p>The participant questionnaire (Q1) was administered to identify potential covariates, including demographic data (gender, major, and class rank) and prior programming experience. Ten chatbot users failed to complete this survey, resulting in a reduced sample size of <em>n</em> = 77 for analyses requiring survey-derived covariate data. Among these 77 participants, 41 were in the control group and 36 were in the treatment group.</p>
-<p><img src="./publish/thesis2/html/media/image6.png" style="width:6.5in;height:3.05556in" /><em>Figure 5: The Participant Funnel Integrating Survey Responses (n = 77)</em></p>
+<p><img src="./publish/thesis2/html/media/image12.png" style="width:6.5in;height:3.05556in" /><em>Figure 3.5: The Participant Funnel Integrating Survey Responses (n = 77)</em></p>
 <h3 id="computational-literacy-instrument-c1c2">3.2.3 Computational Literacy Instrument (C1/C2)</h3>
 <p>Computational literacy is a fundamental objective of introductory programming curricula, where the specific programming language serves primarily as a vehicle for experiential learning. Rather than mere syntax proficiency, the primary learning objective is the development of abstract computational reasoning necessary to address future technical challenges.</p>
 <p>Because no consensus model currently exists for the development of computational thinking, there is a lack of universally accepted measurement instruments <a href="https://www.zotero.org/google-docs/?DLRbui">(Shute et al., 2017)</a>. <a href="https://www.zotero.org/google-docs/?EpJMU8">Brennan and Resnick (2012)</a> identified three primary dimensions of the computational thinking framework: computational concepts (programming structures), computational practices (debugging and remixing), and computational perspectives (problem framing).</p>
 <p>The psychometrically validated CT-Test, developed by <a href="https://www.zotero.org/google-docs/?Tkr7qs">Román-González et al., (2017)</a>, focuses exclusively on computational concepts. The concepts evaluated by the instrument include: loops, branching, arrays, functions, data representation, and instruction sequencing. These concepts aligned closely with the instructional content within the first six weeks of the IST256 course.</p>
 <p>The CT-Test consists of 28 multiple-choice questions, and students were allotted 45 minutes for completion. The instrument was administered in class using the Syracuse University Blackboard learning management system, with items delivered individually in a randomized order. Consistent with the original instrument's design, participants were permitted to skip and revisit items. The post-test (C2) utilized the same items as the pre-test (C1), though the question order was re-randomized for each participant. Students received a raw score out of 28 but were provided no feedback regarding the accuracy of specific responses as to minimize the practice effect.</p>
 <p>The following figure is an example question from the CT-Test. The entire instrument can be found in appendix A.</p>
-<p><img src="./publish/thesis2/html/media/image24.png" style="width:6.5in;height:3.16667in" /><br />
-<em>Figure 6: A Sample Question from The CT-Test</em></p>
+<p><img src="./publish/thesis2/html/media/image7.png" style="width:6.5in;height:3.16667in" /><br />
+<em>Figure 3.6: A Sample Question from The CT-Test</em></p>
 <h3 id="chatbot-design">3.2.4 Chatbot Design</h3>
 <p>The AI chatbot application<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> developed for this study was programmed in Python utilizing the Streamlit<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> framework. It was released as open source under the Apache 2.0 license and published to GitHub<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>. The platform was deployed to a Kubernetes cluster at Syracuse University data center. To access the application, users were required to authenticate using their institutional Syracuse University credentials. Participant chat interaction trace data (D1) were stored in a PostgreSQL database located within the same data center. A custom Python script was developed to extract these data from the database for subsequent analysis.</p>
 <h4 id="llm-selection">3.2.4.1 LLM Selection</h4>
@@ -431,16 +633,16 @@ in_treatment = mod(number, 2) # odd or even</p>
 </blockquote></li>
 </ol>
 <p>These constraints were implemented to mitigate challenges identified in prior research, where AI models failed to provide pedagogical explanations or generated code that deviated from instructional standards <a href="https://www.zotero.org/google-docs/?ScROEN">(Prather, Reeves, Leinonen, et al., 2024)</a>. Following an iterative evaluation process, a final prompt configuration was selected to optimize the balance between objective achievement and token efficiency. This configuration served as the baseline model for the control group (T1)<br />
-<img src="./publish/thesis2/html/media/image8.png" style="width:6.5in;height:2in" /><br />
-<em>Figure 7: System Prompt Configuration for the Control Group (T1)</em></p>
+<img src="./publish/thesis2/html/media/image1.png" style="width:6.5in;height:2in" /><br />
+<em>Figure 3.7: System Prompt Configuration for the Control Group (T1)</em></p>
 <h4 id="treatment-group-t2">3.2.4.4 Treatment Group (T2)</h4>
 <p>The treatment group (T2) utilized the same foundational LLM and system prompt configurations as the control group (T1), supplemented by a user prompt injected into the conversation based on the participant's contextual selection. For instance, if a participant selected <em>“03-HW-Conditionals”</em> as the assignment context, the full content of the corresponding homework notebook file: “<em>lessons/03-Conditionals/HW-Conditionals.ipynb”</em> was loaded into the chat session. This file was identical to the assignment provided to the students and contained all instructions, suggested approaches, and scaffolded code sections. This technique provided in-context learning to the LLM as the assignment instructions were now included in the conversational memory.</p>
 <p>The following prompt template was employed to integrate this metadata into the conversation:</p>
 <p><img src="./publish/thesis2/html/media/image15.jpg" style="width:6.5in;height:1.34722in" alt="A black screen with white text AI-generated content may be incorrect." /></p>
-<p><em>Figure 8: Treatment T2 Context Prompt Template</em></p>
+<p><em>Figure 3.8: Treatment T2 Context Prompt Template</em></p>
 <p>Following the injection of this context, the AI chatbot acknowledged its readiness to assist with the specific assignment, demonstrating immediate context awareness.</p>
-<p><img src="./publish/thesis2/html/media/image18.jpg" style="width:6.5in;height:1.36111in" alt="A black background with white text AI-generated content may be incorrect." /></p>
-<p><em>Figure 9: AI Response to Context Selection in the Treatment Condition (T2)</em></p>
+<p><img src="./publish/thesis2/html/media/image22.jpg" style="width:6.5in;height:1.36111in" alt="A black background with white text AI-generated content may be incorrect." /></p>
+<p><em>Figure 3.9: AI Response to Context Selection in the Treatment Condition (T2)</em></p>
 <p>When a participant requested assistance with a specific section, the AI responded with functional code accompanied by a pedagogical explanation. This mechanism highlights the primary distinction between the two groups: while T1 could generate similar outputs, participants in the control condition were required to manually provide the necessary instructions or code snippets to the model. Essentially, T2 automated the prompting process that T1 participants would otherwise have to perform manually. This design allowed the study to investigate whether such context-awareness improved user engagement and learning or merely provided a higher degree of convenience in question-answering.</p>
 <h3 id="midterm-exam-e1">3.2.5 Midterm Exam (E1)</h3>
 <p>The primary objective of the midterm exam (E1) was to assess participant proficiency regarding the fundamental computational concepts taught during the six-week intervention period. The assessment targeted four specific domains: (a) theoretical concepts, such as the distinction between definite and indefinite loops; (b) the practical application of concepts, such as identifying the appropriate circumstances for using specific programming structures; (c) language-specific implementation, focusing on Python syntax and keyword usage; and (d) functional code tracing, requiring students to predict the output of provided code snippets.</p>
@@ -480,13 +682,13 @@ in_treatment = mod(number, 2) # odd or even</p>
 <td>0.88</td>
 </tr>
 <tr class="even">
-<td><em>Total</em></td>
+<td>Total</td>
 <td>168</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p><em>Table 1: Internal Consistency (Cronbach’s Alpha) of the E1 Midterm Exam</em></p>
+<p><em>Table 3.2: Internal Consistency (Cronbach’s Alpha) of the E1 Midterm Exam</em></p>
 <h3 id="questionnaire-q1">3.2.6 Questionnaire (Q1)</h3>
 <p>A debriefing questionnaire (Q1) was administered following the conclusion of the experimental intervention. The primary objectives of this instrument were to:</p>
 <ol type="1">
@@ -562,7 +764,7 @@ in_treatment = mod(number, 2) # odd or even</p>
 </tr>
 </tbody>
 </table>
-<p><em>Table 2: Fields in the D1 Chatbot Trace Data</em><br />
+<p><em>Table 3.3: Fields in the D1 Chatbot Trace Data</em><br />
 While trace data can be coded through various lenses, such as prompt specificity or question type, this study utilized the data to classify interactions at the session level and quantify those interactions for statistical analysis.</p>
 <p>The raw D1 dataset contained 9,518 entries, with each row representing a single user prompt or AI response. To facilitate analysis at the session level—defined as a sequential series of requests and responses constituting a single conversation—the data were grouped by Session Id and ordered chronologically by Timestamp. This aggregation process resulted in a final corpus of 1,024 unique sessions.</p>
 <h2 id="data-analysis">3.3 Data Analysis</h2>
@@ -574,7 +776,7 @@ While trace data can be coded through various lenses, such as prompt specificity
 <p>Data analysis was conducted using the Python programming language <a href="https://www.zotero.org/google-docs/?cchhAo">(Python Software Foundation, 2023)</a>, within Jupyter notebooks <a href="https://www.zotero.org/google-docs/?kSKGFd">(Kluyver et al., 2016)</a>. Quantitative visualizations were generated using the matplotlib <a href="https://www.zotero.org/google-docs/?by065J">(Hunter, 2007)</a> and seaborn <a href="https://www.zotero.org/google-docs/?Z5zeig">(Waskom, 2021)</a> libraries. Specialized diagrams like the sankey diagrams and forestplots used sankeyflow <a href="https://www.zotero.org/google-docs/?DcqBQt">(Xu, 2024)</a> and forestplot <a href="https://www.zotero.org/google-docs/?JoVZRx">(Shen, 2024)</a> libraries respectively. Statistical computations and data manipulation were facilitated by a suite of specialized libraries, including pandas <a href="https://www.zotero.org/google-docs/?8AG8cQ">(McKinney, 2010)</a>, scipy <a href="https://www.zotero.org/google-docs/?6nIUGT">(Virtanen et al., 2020)</a>, statsmodels <a href="https://www.zotero.org/google-docs/?DKVRTF">(Seabold &amp; Perktold, 2010)</a>, pingouin <a href="https://www.zotero.org/google-docs/?S2i1TN">(Vallat, 2018)</a>, and simpledorff <a href="https://www.zotero.org/google-docs/?KrZj0F">(Holzäpfel, 2020)</a>. Furthermore, Openrouter<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> served as a unified API gateway to access various Large Language Models across the OpenAI, xAI, Google, and Anthropic platforms.</p>
 <p>To ensure participant confidentiality and data security, all raw and processed datasets were maintained alongside the source code in a private Git repository. This repository was further secured via backups to a personal storage device. Following the conclusion of the study, the research materials were cleaned of all personally identifiable information (PII) to prevent the linkage of data to individual participants. The final code and anonymized datasets were published to a public GitHub repository<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>.</p>
 <h3 id="operationalizing-d1-chatbot-trace-data">3.3.3 Operationalizing D1 Chatbot Trace Data </h3>
-<p>To perform the categorical content analysis of the 1,024 D1 chatbot trace data sessions, a codebook was first developed deductively. An initial set of categories was established based on existing literature and pedagogical expertise derived from seven years of personal instruction in the IST256 course. A random sub-sample of 50 sessions was selected from the D1 dataset to identify initial classifications. Each session in this sub-sample was classified according to the criteria defined in <em>Table 3</em>. Furthermore, the classified activities were summarized into representative examples to be incorporated into the LLM coding prompt</p>
+<p>To perform the categorical content analysis of the 1,024 D1 chatbot trace data sessions, a codebook was first developed deductively. An initial set of categories was established based on existing literature and pedagogical expertise derived from seven years of personal instruction in the IST256 course. A random sub-sample of 50 sessions was selected from the D1 dataset to identify initial classifications. Each session in this sub-sample was classified according to the criteria defined in <em>Table 3.4</em>. Furthermore, the classified activities were summarized into representative examples to be incorporated into the LLM coding prompt</p>
 <table>
 <thead>
 <tr class="header">
@@ -647,12 +849,12 @@ Citations</strong></th>
 </tr>
 </tbody>
 </table>
-<p><em>Table 3: Codebook of Participant Behaviors in Trace Data (D1)</em></p>
+<p><em>Table 3.4: Codebook of Participant Behaviors in Trace Data (D1)</em></p>
 <p>The classification process is illustrated by an interaction from Participant 119, who submitted a single prompt: <em>"Write a function, score_sentiment() which given 3 inputs... will return an integer score..."</em>. Because the participant provided assignment instructions to elicit code generation without further inquiry, the session was classified as Seeking Answers, which is a form of Task Completion / Executive Help-Seeking.</p>
 <p>In contrast, an interaction from Participant 107 involved multiple conceptual inquiries, such as asking for an explanation of boolean logic (<em>"Why [is it] false? a=0.1 b=0.2 bool(a+b==0.3)"</em>) and operator distinctions (<em>"explain == vs ="</em>). Since the participant sought to understand programming concepts taught in the course, this interaction was classified as Questioning behavior, which is a form of Learning / Adaptive Help-Seeking. An AI prompt was subsequently formulated using this codebook and observed interactions; the complete prompt is provided in Appendix C.</p>
 <h3 id="model-selection-reliability-testing">3.3.4 Model Selection Reliability Testing</h3>
 <p>Utilizing a Large Language Model (LLM) for content analysis introduced two primary methodological concerns: inter-coder reliability and internal consistency. First, it was necessary for the LLM classifier to align closely with the 50 human-coded baseline classifications. Second, given that LLMs can exhibit stochastic behavior or "hallucinations," the selected model needed to demonstrate high internal reliability across multiple classifications of the same dataset. The optimal model was defined as the one achieving the highest degree of agreement with the human baseline while remaining most internally consistent.</p>
-<p>Four candidate models from different LLM providers were selected as candidates for content analysis task: xAI’s grok-4-fast<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a>, OpenAI’s gpt-5-mini<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>, Google’s gemini-2.5-flash<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a>, and Anthropic’s claude-sonnet-4<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a>. Before these models could be formally evaluated, a classification prompt was engineered based on the codebook presented in <em>Table 3</em>.</p>
+<p>Four candidate models from different LLM providers were selected as candidates for content analysis task: xAI’s grok-4-fast<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a>, OpenAI’s gpt-5-mini<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>, Google’s gemini-2.5-flash<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a>, and Anthropic’s claude-sonnet-4<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a>. Before these models could be formally evaluated, a classification prompt was engineered based on the codebook presented in <em>Table 3.4</em>.</p>
 <p>The development of the prompt was an iterative process that involved integrating specific instructions and few-shot examples. For each iteration, a representative interaction was selected and used to elicit generations from the four LLMs. These outputs were then verified against the human-coded baseline in the prompt to ensure they met the classification criteria. This refinement cycle was repeated for each of the five classification types: Seeking Answers, Overreliance, Scaffolding, Questioning, and Inconclusive. The prompt was finalized only after it consistently elicited the correct classification across all models and categories.</p>
 <p>To assess inter-coder reliability, each model classified the 50-session sub-sample, and the results were compared against the human baseline classification using Krippendorff’s alpha (𝛼). Krippendorff’s alpha was selected as the reliability coefficient due to its versatility across different scales of measurement and its robustness in handling small sample sizes. Following the benchmarks established by <a href="https://www.zotero.org/google-docs/?Vh3T7i">Krippendorff (2011)</a>, a coefficient of 𝛼 &gt;= .800 was set as the threshold for highly reliable agreement, while scores between .667 and .800 were considered acceptable for tentative conclusions. This procedure was repeated three times to establish a measure of internal consistency (stability) for each model, with a target consistency of 1.000, indicating the model performed the classification task identically across all iterations.</p>
 <table>
@@ -687,13 +889,13 @@ Citations</strong></th>
 </tr>
 </tbody>
 </table>
-<p><em>Table 4: Krippendorff’s Alpha for Inter-coder Reliability and Internal Consistency</em></p>
+<p><em>Table 3.5: Krippendorff’s Alpha for Inter-coder Reliability and Internal Consistency</em></p>
 <p>As indicated in Table 4, x-ai/grok-4-fast and anthropic/claude-sonnet-4 demonstrated the highest level of agreement with the human baseline. However, only google/gemini-2.5-flash and anthropic/claude-sonnet-4 exhibited perfect internal consistency (𝛼 = 1.000) across all runs. Consequently, the anthropic/claude-sonnet-4 model was selected as the final classifier due to its superior performance in both reliability dimensions (Agreement 𝛼 = 0.873; Consistency 𝛼 = 1.000). For additional context, the collective Krippendorff’s alpha across all models and the human rater for the three runs ranged from 𝛼 = .751 to 𝛼 = .772.</p>
 <h3 id="categorical-content-analysis">3.3.5 Categorical Content Analysis</h3>
 <p>Following the identification of the optimal Large Language Model (LLM) for the classification task, Anthropic’s Claude-sonnet-4 was utilized to categorize all 1,024 sessions within the D1 chatbot trace dataset. The automated content analysis identified 623 sessions as Learning, 336 sessions as Task Completion, and 35 sessions as Inconclusive.</p>
 <p>Because the final unit of analysis for this study is the individual student, session-level classifications were aggregated for each of the <em>n</em> = 87 participants. For example, Participant 82 was associated with 33 Learning sessions, 7 Task Completion sessions, and 2 Inconclusive sessions. In contrast, Participant 124 generated 5 Learning sessions, 25 Task Completion sessions, and 1 Inconclusive session. By aggregating the data in this manner, the frequency of each interaction type could be utilized as an independent variable to evaluate its impact on student outcomes, specifically the E1 midterm exam and the C1/C2 computational thinking assessments.</p>
-<p><img src="./publish/thesis2/html/media/image1.png" style="width:5.23438in;height:3.90012in" /></p>
-<p><em>Figure 10: Distribution of Chat Session Classifications From the D1 Dataset</em></p>
+<p><img src="./publish/thesis2/html/media/image18.png" style="width:5.23438in;height:3.90012in" /></p>
+<p><em>Figure 3.10: Distribution of Chat Session Classifications From the D1 Dataset</em></p>
 <h2 id="hypothesis-formulation-and-methodology">3.4 Hypothesis Formulation and Methodology</h2>
 <p>With the dataset established, the statistical analysis commenced. This section operationalizes the primary research questions into testable hypotheses and details the methodological framework employed to investigate each query.</p>
 <h3 id="rq1-hypothesis-and-methodology">3.4.1 RQ1 Hypothesis and Methodology</h3>
@@ -830,14 +1032,14 @@ Citations</strong></th>
 <h3 id="regression-assumption-tests-of-the-model-for-rq1">4.2.2 Regression Assumption Tests of the Model for RQ1</h3>
 <p>Prior to interpreting the results for RQ1, a comprehensive assessment of Ordinary Least Squares (OLS) regression assumptions was conducted to ensure the validity and reliability of the model estimates.</p>
 <p>Linearity was evaluated through the examination of partial regression plots, which assess the relationship between the dependent variable (E1) and each predictor while controlling for other variables in the model. Visual inspection of these plots indicated approximate linear relationships, supporting the application of linear regression. As is common with session-oriented trace data, both independent variables exhibited a right-skewed distribution, where the majority of participants engaged in few sessions and a smaller subset engaged in many.</p>
-<p><img src="./publish/thesis2/html/media/image10.png" style="width:6.5in;height:4.48611in" /><br />
-<em>Figure 11: Partial regression plots when holding the other constant of E1 ~ Task Completion Session Count + Learning Session Count.</em></p>
+<p><img src="./publish/thesis2/html/media/image20.png" style="width:6.5in;height:4.48611in" /><br />
+<em>Figure 4.1: Partial regression plots when holding the other constant of E1 ~ Task Completion Session Count + Learning Session Count.</em></p>
 <p>The assumption of independence was satisfied, as the Durbin-Watson statistic (<em>DW</em> = 2.09) fell within the acceptable range near the ideal value of 2.0. To evaluate homoscedasticity, the Breusch-Pagan test was performed, yielding a non-significant result (<em>𝝌</em><sup>2</sup>= 0.29, <em>p</em> = .867). This indicates that the assumption of constant error variance was met. These findings were corroborated by the plot of residuals versus fitted values, which displayed a symmetrical, random scatter with a relatively flat Locally Estimated Scatterplot Smoothing (LOESS) curve, suggesting no discernible funneling or non-linear patterns. The end of the LOESS curve does indicate a slight uptick likely due to lack of observations in that region.</p>
-<p><img src="./publish/thesis2/html/media/image17.png" style="width:5.22917in;height:3.46875in" /><br />
-<em>Figure 12: Residuals vs Fitted Values for E1 ~ Learning Session Count + Task Completion Session Count</em></p>
+<p><img src="./publish/thesis2/html/media/image10.png" style="width:5.22917in;height:3.46875in" /><br />
+<em>Figure 4.2: Residuals vs Fitted Values for E1 ~ Learning Session Count + Task Completion Session Count</em></p>
 <p>The residuals demonstrated close adherence to a normal distribution, as evidenced by a non-significant Shapiro-Wilk test (<em>W</em> = 0.99, <em>p</em> = .679). Visual inspection of the residuals histogram and the Q-Q plot further confirmed normality, with data points closely following the theoretical diagonal line.</p>
-<p><img src="./publish/thesis2/html/media/image13.png" style="width:6.5in;height:2.30556in" /><br />
-<em>Figure 13: Evidence of normality among the residuals of E1 ~ Task Completion Session Count + Learning Session Count.</em></p>
+<p><img src="./publish/thesis2/html/media/image16.png" style="width:6.5in;height:2.30556in" /><br />
+<em>Figure 4.3: Evidence of normality among the residuals of E1 ~ Task Completion Session Count + Learning Session Count.</em></p>
 <p>Multicollinearity was assessed using the Variance Inflation Factor (VIF). Both predictor variables yielded a <em>VIF</em> of 1.19, well below the conventional threshold of concern (typically &gt; 5.0) and close to the target value of 1.0. This indicates that Learning and Task Completion session counts provide sufficiently unique information to the model.</p>
 <p>Given that all diagnostic tests indicated the satisfaction of OLS assumptions, the model was deemed appropriate for interpretation. The overall model was statistically significant, <em>F(2, 84)</em> = 9.76, <em>p</em> &lt; .001, and explained 18.9% of the variance in E1 (<em>R<sup>2</sup></em> = .189, <em>adjusted R<sup>2</sup></em> = .169).</p>
 <h3 id="hierarchical-regression-analysis-for-the-rq1-model">4.2.3 Hierarchical Regression Analysis for the RQ1 Model</h3>
@@ -845,17 +1047,17 @@ Citations</strong></th>
 <h4 id="model-0-e1-session-count">4.2.3.1 Model 0: E1 ~ Session Count</h4>
 <p>The initial stage of the analysis involved a simple linear regression of the total session count on the dependent variable <em>E1</em>. This established a baseline to determine if the raw quantity of AI usage, regardless of classification, impacted exam performance.</p>
 <p>A post-hoc power analysis revealed that the model did not achieve the conventional target of .80 power at an <em>⍺</em> = .05 level (Actual Cohen’s <em>f<sup>2</sup></em> = .012, Target <em>f<sup>2</sup></em> = .092). The regression model was not statistically significant, <em>F(1, 85)</em> = 1.01, <em>p</em> = .317, with the total number of sessions explaining only 1% of the variance in <em>E1</em> scores (<em>R<sup>2 </sup></em>= .012, <em>adjusted R<sup>2</sup></em> = .000). The regression coefficient was negative but failed to reach statistical significance (<em>ꞵ</em> = -0.06, <em>SE</em> = 0.06, <em>t</em> = -1.00, <em>p</em> = .317, 95% <em>CI</em> [-0.17, 0.06]). Consequently, total session count was not a significant predictor of exam performance.</p>
-<p><img src="./publish/thesis2/html/media/image2.png" style="width:6.5in;height:4.125in" /><br />
-<em>Figure 14: Forestplot of E1 ~ Session Count</em></p>
+<p><img src="./publish/thesis2/html/media/image13.png" style="width:6.5in;height:4.125in" /><br />
+<em>Figure 4.4: Forestplot of E1 ~ Session Count</em></p>
 <h4 id="model-1-e1-task-complection-session-count">4.2.3.2 Model 1: E1 ~ Task Complection Session Count</h4>
 <p>A simple linear regression revealed that Task Completion session count was a significant negative predictor of E1, <em>F(1, 85)</em> = 12.35, <em>p</em> &lt; .001. The model explained 12.7% of the variance in exam scores (<em>R<sup>2</sup></em> = .127, <em>adjusted R<sup>2</sup></em> = .117). The model satisfied statistical power requirements for a target of .80 at an <em>⍺</em> = .05 level, as the observed effect size exceeded the required threshold (Actual Cohen’s <em>f<sup>2 </sup></em>= .145, Target <em>f<sup>2</sup></em>= .092).</p>
 <p>The regression coefficient indicated that each additional Task Completion session was associated with a 0.41-unit decrease in E1 score (<em>ꞵ</em> = -0.41, <em>SE</em> = 0.12, <em>t</em> = -3.52, <em>p</em> = .001, 95% <em>CI</em> [-0.65, -0.18]). This bivariate relationship confirmed that higher engagement in behaviors categorized as Task Completion was independently associated with lower exam performance.<br />
-<img src="./publish/thesis2/html/media/image11.png" style="width:6.5in;height:3.63889in" /></p>
-<p><em>Figure 15: Forestplot of E1 ~Task Completion Session Count</em></p>
+<img src="./publish/thesis2/html/media/image21.png" style="width:6.5in;height:3.63889in" /></p>
+<p><em>Figure 4.5: Forestplot of E1 ~Task Completion Session Count</em></p>
 <h4 id="model-2-e1-learning-session-count">4.2.3.3 Model 2: E1 ~ Learning Session Count</h4>
 <p>In contrast, the bivariate relationship between Learning session count and E1 scores presented a different dynamic. This simple linear regression model did not meet the assumptions of statistical power for a target of .80 at an <em>⍺</em> = .05 level (Actual <em>Cohen’s f<sup>2 </sup></em>= .007 &lt; Target <em>Cohen’s f<sup>2 </sup></em>= .092). The model was not statistically significant, <em>F(1, 85)</em> = 0.62, <em>p</em> = .435, with sessions classified as Learning explaining less than 1% of the variance in E1 (<em>R<sup>2 </sup></em>= .007, <em>adjusted R<sup>2</sup></em> = -.004)</p>
-<p>The regression coefficient was positive but failed to reach statistical significance (<em>ꞵ</em>= 0.06, <em>SE</em> = 0.08, <em>t</em> = 0.79, <em>p</em> = .435, 95% <em>CI</em> [-0.10, 0.23]). These results indicate that Learning session count, when considered in isolation, was not a significant predictor of exam performance.<img src="./publish/thesis2/html/media/image12.png" style="width:6.5in;height:3.84722in" /><br />
-<em>Figure 16: Forestplot of E1 ~ Learning Session Count</em></p>
+<p>The regression coefficient was positive but failed to reach statistical significance (<em>ꞵ</em>= 0.06, <em>SE</em> = 0.08, <em>t</em> = 0.79, <em>p</em> = .435, 95% <em>CI</em> [-0.10, 0.23]). These results indicate that Learning session count, when considered in isolation, was not a significant predictor of exam performance.<img src="./publish/thesis2/html/media/image17.png" style="width:6.5in;height:3.84722in" /><br />
+<em>Figure 4.6: Forestplot of E1 ~ Learning Session Count</em></p>
 <h4 id="model-3-e1-learning-session-count-task-completion-session-count">4.2.3.4 Model 3: E1 ~ Learning Session Count + Task Completion Session Count</h4>
 <p>A distinct and more robust pattern emerged when Task Completion and Learning session counts were analyzed simultaneously within a multiple regression framework. The full multivariate model was statistically significant, <em>F(2, 84)</em> = 9.76, <em>p</em> &lt; .001, and satisfied the requirements for statistical power for a target of .80 at an <em>⍺</em> = .05 level (Actual Cohen’s <em>f<sup>2</sup></em> = .233, Target <em>f<sup>2</sup></em> = .115). This model explained 18.9% of the total variance in <em>E1</em> scores (<em>R<sup>2</sup></em> = .189, Adjusted <em>R<sup>2</sup></em> = .169), representing a 48.8% increase in explanatory power over the Task Completion bivariate model alone (<em>R<sup>2</sup></em>= .127).</p>
 <p>A comparison of the bivariate and multivariate results reveals a mutual suppression effect, where the predictive power of both variables was enhanced when included together in the model.</p>
@@ -868,8 +1070,8 @@ Citations</strong></th>
 </blockquote></li>
 </ul>
 <p>The change in <em>R<sup>2</sup></em> from the Task Completion model to the full model was statistically significant (<em>ΔR<sup>2</sup></em> = .062), indicating that the addition of Learning session counts provided 6% of unique explanatory power beyond what was explained by Task Completion sessions alone. These results suggest that the relationship between LLM usage and exam performance is obscured unless both adaptive (Learning) and executive (Task Completion) help-seeking behaviors are accounted for simultaneously.</p>
-<p><img src="./publish/thesis2/html/media/image4.png" style="width:6.5in;height:3.63889in" /></p>
-<p><em>Figure 17: Forestplot of E1 ~ Task Completion Session Count + Learning Session Count</em></p>
+<p><img src="./publish/thesis2/html/media/image23.png" style="width:6.5in;height:3.63889in" /></p>
+<p><em>Figure 4.7: Forestplot of E1 ~ Task Completion Session Count + Learning Session Count</em></p>
 <h3 id="summary-of-findings-for-rq1">4.2.4 Summary of Findings for RQ1</h3>
 <p>The comparison across models revealed a mutual suppression effect between Task Completion and Learning session counts when predicting midterm exam scores (E1). The predictors shared variance that obscured their individual relationships with the outcome when considered in isolation. As demonstrated in the transition from bivariate to multivariate analysis, the <em>ꞵ</em> coefficient for Task Completion sessions increased in magnitude from -0.41 to -0.54. Simultaneously, Learning sessions transformed from a non-significant predictor (<em>p</em> = .435) to a significant one (<em>p</em> = .013), with the <em>ꞵ</em> coefficient increasing more than threefold from 0.06 to 0.21.</p>
 <p>This pattern indicates that each predictor accounted for irrelevant variance in the other, effectively clearing the signal for their unique predictive contributions to emerge. The significant increase in explained variance, specifically <em>ΔR<sup>2</sup></em> of .062 when adding Learning to the Task Completion model, demonstrates that both session types provided non-redundant information regarding exam performance.</p>
@@ -926,7 +1128,7 @@ Variables</strong></th>
 </tr>
 </tbody>
 </table>
-<p><em>Table 5: Hierarchical Model Comparison</em></p>
+<p><em>Table 4.1: Hierarchical Model Comparison for RQ1</em></p>
 <p>The observed effects were in direct opposition: Learning sessions exerted a positive influence ( <em>ꞵ</em> = 0.21, while Task Completion sessions exerted a negative influence ( <em>ꞵ</em> = -0.54) that was more than twice as influential. This suggests that these behaviors represent competing strategies for academic engagement. The negative relationship for Task Completion aligns with the theory that surface-level engagement (executive help-seeking) is less effective for deep learning, while the positive relationship for Learning sessions reflects the benefits of adaptive help-seeking.</p>
 <h3 id="conclusion-for-rq1">4.2.5 Conclusion for RQ1</h3>
 <p>The multivariate regression analysis of model 3: E1 ~ Task Completion Count + Learning Session Count (<em>F(2, 84)</em> = 9.76, <em>p</em> &lt; .001) provided sufficient statistical evidence to reject the null hypothesis (<strong><em>H</em><sub>01</sub></strong>). Both hypothesized directional relationships were confirmed: Learning sessions positively predicted exam performance (<em>ꞵ</em> = 0.21, <em>p</em> = .013), while Task Completion sessions negatively predicted performance (<em>ꞵ</em> = -0.54, <em>p</em> &lt; .001).</p>
@@ -950,8 +1152,8 @@ Variables</strong></th>
 <p>Because the independent variable is binary <em>(0 = control, 1 = treatment)</em>, the assumption of linearity is inherently satisfied. The regression effectively estimates the difference in means between the two groups, which is a linear relationship by definition. The Durbin-Watson statistic (<em>DW</em> = 2.11) fell within the acceptable range near 2.0, indicating no evidence of autocorrelation and confirming the independence of residuals.</p>
 <p>To evaluate the assumption of constant variance, the Breusch-Pagan test was administered. The test yielded a non-significant result (<em>𝝌</em><sup>2</sup> = 0.081, <em>p</em> = .776), indicating that the residuals exhibited homoscedasticity across the range of fitted values. This suggests that the variance of exam scores (E1) remained constant across both the control and treatment groups.</p>
 <p>The Shapiro-Wilk test was utilized to verify the normality of residuals. The result was non-significant (<em>W</em> = 0.98, <em>p</em> = .167), suggesting that the residuals approximated a normal distribution. This finding was corroborated visually through a histogram of residuals and a Q-Q plot, both of which demonstrated close adherence to the theoretical normal distribution line.</p>
-<p><img src="./publish/thesis2/html/media/image23.png" style="width:6.5in;height:2.30556in" /><br />
-<em>Figure 18: Evidence of normality among the residuals of E1 ~ Treatment</em></p>
+<p><img src="./publish/thesis2/html/media/image4.png" style="width:6.5in;height:2.30556in" /><br />
+<em>Figure 4.8: Evidence of normality among the residuals of E1 ~ Treatment</em></p>
 <p>The Variance Inflation Factor (VIF) for the treatment variable was 1.00. This indicates a complete absence of multicollinearity, as expected in a simple linear regression model with a single predictor.</p>
 <p>Given that all diagnostic tests indicated the satisfaction of OLS regression assumptions, the model was deemed appropriate for formal interpretation.</p>
 <h3 id="regression-analysis-for-the-rq2">4.3.3 Regression Analysis for the RQ2</h3>
@@ -959,8 +1161,8 @@ Variables</strong></th>
 <p>The total effect was for RQ2 was represented by the following Model:</p>
 <p><strong>Model 1: E1 ~ Treatment</strong></p>
 <p>The initial regression model examined the total effect of the treatment on midterm exam performance. The control group (<em>n</em> = 48) achieved a mean <em>E1</em> score of 30.23 points (<em>SE</em> = 0.87). Participants in the treatment group (<em>n</em> = 39), who utilized the context-aware AI, scored an average of 2.05 points higher than the control group (<em>ꞵ</em> = 2.05, SE = 1.30). However, this mean difference did not reach statistical significance (<em>p</em> = .119, 95% <em>CI</em> [-0.54, 4.64]). The 95% confidence interval crossed the zero boundary, indicating that the null hypothesis of no difference between the population means could not be rejected at this stage.</p>
-<p><img src="./publish/thesis2/html/media/image5.png" style="width:6.5in;height:3.97222in" /><br />
-<em>Figure 19: Forestplot of E1 ~ Treatment</em></p>
+<p><img src="./publish/thesis2/html/media/image6.png" style="width:6.5in;height:3.97222in" /><br />
+<em>Figure 4.9: Forestplot of E1 ~ Treatment</em></p>
 <p>The overall model fit was weak, with group assignment accounting for only 2.8% of the variance in E1 scores (<em>R<sup>2</sup></em> = .028, Adjusted <em>R<sup>2</sup></em> = .017). The <em>F</em>-statistic was not significant, <em>F(1, 85)</em> = 2.49, <em>p</em> = .119, indicating that the model did not explain a statistically significant proportion of the variance in exam performance. Furthermore, the model did not meet the conventional threshold for statistical power (Actual Cohen’s <em>f<sup>2</sup></em> = .029, Target <em>f<sup>2</sup></em> = .092). This effect size falls below the threshold for a small effect, suggesting that the practical significance of the group differences was minimal in isolation.</p>
 <p>These findings suggest that providing an AI assistant with assignment-specific context did not immediately translate into measurably improved exam performance. The lack of a significant main effect may indicate that the in-context learning (ICL) manipulation did not sufficiently alter learning outcomes in ways captured by the summative assessment alone, potentially due to unaccounted factors such as prior domain expertise or AI-prompting proficiency.</p>
 <p>However, given the significant relationships established in RQ1 between usage patterns and performance, a more granular examination of these factors as process variables was warranted. The following sections explore how the treatment interacted with Learning and Task Completion behaviors through mediation and moderation analyses to reveal the underlying impact of the intervention.</p>
@@ -995,8 +1197,8 @@ Variables</strong></th>
 <p>When controlling for the frequency of Learning and Task Completion sessions, the treatment effect became statistically significant (<em>ꞵ</em> = 2.74, <em>SE</em> = 1.18, <em>t(83)</em> = 2.32, <em>p</em> = .023, 95% <em>CI</em> [0.39, 5.09]). On average, participants in the treatment group scored 2.74 points higher on the midterm exam than control group students with identical LLM usage patterns.</p>
 <p>This finding carries an important caveat: the 2.74-point advantage is a <em>conditional effect.</em> For example, if two participants—one from the control group and one from the treatment group—exhibited the exact same counts of learning and task-completion behaviors, the student in the treatment group would be predicted to score approximately 2.74 points higher due to the context-aware enhancement of the AI.</p>
 <p>Both session types maintained significant relationships with exam performance after accounting for the treatment. Consistent with the findings in RQ1, Learning session counts remained a significant positive predictor (<em>ꞵ</em> = 0.23, <em>SE</em> = 0.08, <em>t(83)</em> = 2.90, <em>p</em> = .005$), while Task Completion counts demonstrated a significant negative relationship (<em>ꞵ</em> = -0.57, <em>SE</em> = 0.12, <em>t(83)</em> = -4.65, <em>p</em> &lt; .001).</p>
-<p><img src="./publish/thesis2/html/media/image20.png" style="width:6.5in;height:3.58333in" /><br />
-<em>Figure 20: Forestplot of E1 ~ Treatment + Learning Session Count + Task Completion Session Count</em></p>
+<p><img src="./publish/thesis2/html/media/image8.png" style="width:6.5in;height:3.58333in" /><br />
+<em>Figure 4.10: Forestplot of E1 ~ Treatment + Learning Session Count + Task Completion Session Count</em></p>
 <p>The emergence of statistical significance only after the inclusion of covariates indicates a suppression effect. Although the treatment did not significantly alter student usage volume, those usage patterns accounted for a large portion of the variance in exam scores. By including them in the model, the noise associated with individual student strategy (adaptive vs. executive help-seeking) was partitioned out, allowing the true signal of the treatment effect to be identified. The results indicate that the context-aware treatment (T2) provides a performance advantage that is independent of the frequency of engagement. While the intervention did not alter the quantity of student-AI interactions, it enhanced the efficacy of those interactions. This implies that the treatment's value lies in the quality of the scaffolding provided rather than in a fundamental shift in student help-seeking volume.</p>
 <h3 id="summary-of-findings-for-rq2">4.3.4 Summary of Findings for RQ2</h3>
 <p>The following table summarizes the analytical findings for RQ2.</p>
@@ -1061,7 +1263,7 @@ E1 ~ Treatment + Learning SC + Task Completion SC</td>
 </tr>
 </tbody>
 </table>
-<p><em>Table 6: Analytical findings for RQ2. Note: SC is an abbreviation for Session Count</em></p>
+<p><em>Table 4.2: Analytical Findings for RQ2. Note: SC is an abbreviation for Session Count</em></p>
 <p>The initial assessment of the treatment effect (Model 1) revealed a null result. While the treatment group demonstrated a mean increase of 2.05 points over the control group, this difference failed to reach statistical significance (<em>p</em> = .119). In the subsequent exploratory analysis (Model 4), which controlled for the Learning and Task Completion session counts identified in RQ1, the model’s precision increased substantially. This multivariate approach accounted for 23.8% of the variance in <em>E1</em> scores, a significant improvement over the 2.8% explained by the baseline model.</p>
 <p>However, because these usage patterns were observed and measured after the random assignment of treatment conditions, controlling for them introduces complexity regarding causal interpretation. While the mediation analysis confirmed that the treatment did not significantly influence the volume of Learning or Task Completion sessions, the inclusion of these post-treatment variables may still introduce bias.</p>
 <p>Controlling for post-randomization variables can lead to post-treatment bias, which complicates the isolation of a pure causal link. In this analysis, however, accounting for the massive variance in student help-seeking behaviors was necessary to identify the underlying signal of the intervention. Rather than providing a pure causal estimate of the "Intent-to-Treat," Model 4 offers an estimate of the treatment’s intrinsic efficacy when behavioral noise is partitioned out. Therefore, these findings are most responsibly interpreted as a conditional effect rather than a definitive causal one.</p>
@@ -1092,14 +1294,14 @@ E1 ~ Treatment + Learning SC + Task Completion SC</td>
 <p>Prior to interpreting the findings for RQ3, a comprehensive assessment of Ordinary Least Squares (OLS) regression assumptions was conducted to ensure the validity and reliability of the model estimates.</p>
 <p>Preliminary diagnostic testing revealed a violation of the homoscedasticity assumption. The Breusch-Pagan test was significant (<em>𝝌</em><sup>2</sup> = 12.58, <em>p</em> = .006), indicating non-constant error variance across the range of fitted values. This was confirmed visually by the cone-like distribution of residuals in the diagnostic plots. To ensure valid statistical inference, heteroscedasticity-consistent (HC) robust standard errors were used for all regression results. This approach provides robust hypothesis tests and accurate <em>p</em>-values and confidence intervals, even when error variance is not constant.</p>
 <p><img src="./publish/thesis2/html/media/image9.png" style="width:6.5in;height:4.48611in" /><br />
-<em>Figure 21: Partial regression plots when holding the other constant of C2 ~ Task Completion Session Count + Learning Session Count. + C1 with Visual Confirmation of Heteroscedasticity.</em></p>
+<em>Figure 4.11: Partial regression plots when holding the other constant of C2 ~ Task Completion Session Count + Learning Session Count. + C1 with Visual Confirmation of Heteroscedasticity.</em></p>
 <p>Linearity was evaluated via partial regression plots, which assess the relationship between the dependent variable (C2) and each predictor while controlling for others in the model. Visual inspection indicated approximate linear relationships, though heteroscedasticity remained visually apparent. As observed in previous models, the session-oriented independent variables exhibited a right-skewed distribution, with fewer observations at higher session counts.</p>
 <p>The plot of residuals versus fitted values showed symmetrical, randomly scattered points. Heteroscedasticity can be observed on the right end of the graph. The Locally Estimated Scatterplot Smoothing (LOESS) curve was relatively flat and hovering about horizontal.</p>
-<p><img src="./publish/thesis2/html/media/image14.png" style="width:5.16667in;height:3.46875in" /><br />
-<em>Figure 22: Residuals vs Fitted Values for C2 ~ Learning Session Count + Task Completion Session Count + C1</em></p>
+<p><img src="./publish/thesis2/html/media/image24.png" style="width:5.16667in;height:3.46875in" /><br />
+<em>Figure 4.12: Residuals vs Fitted Values for C2 ~ Learning Session Count + Task Completion Session Count + C1</em></p>
 <p>The Durbin-Watson statistic (<em>DW</em> = 2.22) fell within the acceptable range near 2.0, indicating no substantial autocorrelation and satisfying the assumption of independence. The residuals demonstrated close adherence to a normal distribution, as evidenced by a non-significant Shapiro-Wilk test (<em>W</em> = 0.99, <em>p</em> = .551). This finding was corroborated visually by a histogram of residuals and a Q-Q plot, both of which showed the data points closely following the theoretical normal line.</p>
-<p><img src="./publish/thesis2/html/media/image3.png" style="width:6.5in;height:2.27778in" /><br />
-<em>Figure 23: Evidence of normality among the residuals of C2 ~ Task Completion Session Count + Learning Session Count + C1</em></p>
+<p><img src="./publish/thesis2/html/media/image11.png" style="width:6.5in;height:2.27778in" /><br />
+<em>Figure 4.13: Evidence of normality among the residuals of C2 ~ Task Completion Session Count + Learning Session Count + C1</em></p>
 <p>Multicollinearity was assessed using the Variance Inflation Factor (VIF). All independent variables reported VIF values below 1.27, with the C1 covariate at 1.07. These values are well below the conventional threshold of concern, indicating that the predictors provide unique information to the model without problematic redundancy.</p>
 <h3 id="model-1-ancova-for-rq3-accounting-for-baseline-literacy">4.4.3 Model 1: ANCOVA for RQ3 Accounting for Baseline Literacy</h3>
 <p>Descriptive statistics indicated that computational literacy scores increased significantly from pre-test (C1: <em>M</em> = 20.57, <em>SD</em> = 4.71) to post-test (C2: <em>M</em> = 21.44, <em>SD</em> = 4.78), paired <em>t(86)</em> = -2.67, <em>p</em> = .009, Cohen's <em>d</em> = 0.29. These results reflect modest yet statistically significant learning gains over the intervention period. As expected for a repeated measures instrument, C1 and C2 scores were strongly correlated (<em>r</em> = .79, <em>p</em> &lt; .001), suggesting high test-retest reliability. This combination of significant improvement and strong correlation justifies the Analysis of Covariance (ANCOVA) approach, which preserves individual trajectories while controlling for baseline differences.</p>
@@ -1108,8 +1310,8 @@ E1 ~ Treatment + Learning SC + Task Completion SC</td>
 <p>As anticipated, baseline computational literacy was the strongest predictor of post-test performance (<em>ꞵ</em> = 0.76, <em>SE</em> = 0.08, <em>z</em> = 10.07, <em>p</em> &lt; .001, 95% <em>CI</em> [0.61, 0.91]). For every 1-point increase in C1, post-test scores increased by an average of 0.76 points when holding session counts constant.</p>
 <p>After controlling for baseline ability (C1), Task Completion session count remained a significant negative predictor (<em>ꞵ</em> = -0.17, <em>SE</em> = 0.07, <em>z</em> = -2.52, <em>p</em> = .012, 95% <em>CI</em> [-0.30, -0.04]). Each additional task completion session was associated with a 0.17-point decrement in final computational literacy scores, suggesting that executive help-seeking behaviors predicted lower final achievement than would be expected based on initial competency levels. This effect remained significant after the application of heteroscedasticity-robust standard errors, confirming the stability of the finding.</p>
 <p>Learning session count demonstrated a positive relationship that approached but did not achieve conventional statistical significance (<em>ꞵ</em> = 0.07, <em>SE</em> = 0.04, <em>z</em> = 1.76, <em>p</em> = .078, 95% <em>CI</em> [-0.01, 0.14]). While this directional relationship aligns with the findings in RQ1 and RQ2, the marginal <em>p</em>-value suggests that the beneficial impact of learning-oriented LLM usage on computational literacy may require a larger sample size or more granular measurement to confirm statistically.</p>
-<p><img src="./publish/thesis2/html/media/image22.png" style="width:6.5in;height:3.59722in" /><br />
-<em>Figure 24: Forestplot of C2 ~ Learning Session Count + Task Completion Session Count + C1</em></p>
+<p><img src="./publish/thesis2/html/media/image19.png" style="width:6.5in;height:3.59722in" /><br />
+<em>Figure 4.14: Forestplot of C2 ~ Learning Session Count + Task Completion Session Count + C1</em></p>
 <h4 id="model-1a-supplementary-analysis-change-in-scores">4.4.3.1 Model 1a: Supplementary Analysis Change in Scores</h4>
 <p>A supplementary regression analysis was conducted to examine whether LLM usage patterns predicted the absolute magnitude of improvement rather than final performance adjusted for baseline standing. In this model, the change score (ΔC = C2 - C1) served as the dependent variable, with Learning and Task Completion session counts as the predictors. Unlike the ANCOVA approach in Model 1, this analysis focuses on the raw variance in student gains without adjusting for initial baseline differences.</p>
 <p><strong>Model 1a: C2 - C1 ~ Learning Session Count + Task Completion Count</strong></p>
@@ -1144,7 +1346,7 @@ Task Completion Session Count</td>
 </tr>
 </tbody>
 </table>
-<p>Table 7: Summary of Findings for RQ3</p>
+<p>Table 4.3: Summary of Findings for RQ3</p>
 <p>The analysis from Model 1 reveals that Task Completion sessions have a robust negative association with computational literacy (<em>ꞵ</em> = -0.17, <em>p</em> = .012$). Participants who engaged in higher frequencies of executive help-seeking achieved lower C2 scores than predicted by their baseline competency. This suggests that instrumental or shortcut-oriented LLM use may constrain the development of computational literacy relative to a student's potential.</p>
 <p>Conversely, Learning session counts exhibited a positive trend (<em>ꞵ</em> = 0.07, <em>p</em> = .078) but did not reach the threshold for statistical significance. While this finding is statistically inconclusive, the direction of the effect aligns with theoretical expectations and the results from RQ1 and RQ2, suggesting that exploratory engagement may support literacy development in ways that instrumental use does not.</p>
 <h3 id="conclusion-for-rq3">4.4.5 Conclusion for RQ3</h3>
@@ -1179,7 +1381,7 @@ Task Completion Session Count</td>
 <p>This chapter provides an interpretive analysis of the study’s findings, synthesizing the statistical results into a cohesive narrative. The discussion first contextualizes these results within the existing theoretical literature, identifying areas where this research supports, contradicts, or extends the current academic landscape. Particular attention is paid to the causal implications of the findings and their contribution to the broader discourse on Generative AI in education.</p>
 <p>The latter portion of the chapter focuses on the practical application of this research. It includes a critical evaluation of the study’s limitations, followed by a discussion of the practical and theoretical implications for researchers, educators, and students<strong>.</strong> Finally, these insights are used to formulate suggestions for future research, concluding with a final summary of the thesis’s salient points and overarching themes.</p>
 <h3 id="research-and-key-findings-at-a-glance">5.1.1 Research and Key Findings At a Glance</h3>
-<p>This thesis investigated the impact of <strong>L</strong>arge Language Model (LLM) integration on student performance and computational literacy within an introductory Python programming course. Utilizing a mixed-methods approach, student-AI interactions were captured and classified via categorical content analysis into two competing strategies: Learning sessions (adaptive help-seeking characterized by scaffolding and questioning) and Task Completion sessions (executive help-seeking characterized by cognitive offloading and delegation).</p>
+<p>This thesis investigated the impact of <strong>L</strong>arge Language Model (LLM) integration on student performance and computational literacy within an introductory Python programming course. Utilizing a multi-methods approach, student-AI interactions were captured and classified via categorical content analysis into two competing strategies: Learning sessions (adaptive help-seeking characterized by scaffolding and questioning) and Task Completion sessions (executive help-seeking characterized by cognitive offloading and delegation).</p>
 <p>These categorized interactions served as the primary independent variables for assessing academic outcomes, specifically midterm exam scores (<em>E1</em>) and post-intervention computational literacy (<em>C2</em>). Additionally, a randomized controlled trial assessed the efficacy of a context-aware LLM enhancement. The empirical findings of this research can be distilled into four key conclusions:</p>
 <p><strong>Finding 1: The Essentiality of Usage Classification.</strong> A mutual suppression effect established that aggregate AI use is an inadequate predictor of success. The true relationship between AI engagement and academic outcomes was only revealed when accounting for the countervailing effects of adaptive and executive help-seeking.</p>
 <p><strong>Finding 2: The Negative Impact of Executive Help-Seeking</strong> .Participants who utilized the LLM for Task Completion (seeking direct answers or delegating cognitive labor) exhibited a statistically significant negative correlation with both midterm exam scores and computational literacy gains.</p>
