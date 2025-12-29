@@ -7,10 +7,16 @@
     Email: mafudge@syr.edu
     ORCID: 0009-0006-2760-9360
 
+## Title
 
-This repository contains the code and resources for my Doctor of Professional Studies (DPS) thesis. 
+Help-Seeking Behaviors in AI-Mediated Programming: Impacts on Performance and Computational Literacy
 
-My thesis investigates the impact of Large Language Models (LLMs) use on learning and computational literacy of participants enrolled in a introduction to programming course.
+## Abstract
+
+Large Language Models (LLMs) represent a disruptive innovation in programming education, acting as both a supportive tutor and a tool for cognitive offloading. This study investigated how specific student engagement patterns influence learning performance and computational literacy. Utilizing a multi-method design, interaction LLM trace data from an introductory Python course were categorized into adaptive (learning) and maladaptive (task-completion) help-seeking behaviors. Quantitative analysis revealed a mutual suppression effect: aggregate AI usage volume was an unreliable predictor of success, whereas engagement type was highly significant.
+
+Findings indicated that task-completion behaviors negatively predicted midterm exam scores and computational literacy gains. Conversely, learning-oriented sessions positively correlated with exam performance. Furthermore, a randomized controlled trial demonstrated that context-aware AI significantly improved learning outcomes when controlling for usage patterns, acting as a performance multiplier. These results underscore an urgent need for pedagogical adaptation, shifting from policing AI to empowering students as sophisticated, adaptive, and metacognitively aware users of generative technology.
+
 
 ## Contents
 
