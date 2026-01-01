@@ -1,5 +1,5 @@
 ---
-title: '[]{#_z65zo811j5e0 .anchor}📚 Draft-Thesis'
+title: '[]{#_u6o63hj25vbu .anchor}📚 Draft-Thesis'
 ---
 
 Abstract
@@ -294,7 +294,7 @@ Contents
 >
 > [4.5 Overall Summary of Findings 95](#overall-summary-of-findings)
 
-[**5.0 Summary 99**](#summary-1)
+[**5.0 Summary 99**](#summary-2)
 
 > [5.1 Introduction 99](#introduction-3)
 >
@@ -1582,7 +1582,7 @@ in computational literacy.
 ----------------
 
 ![A diagram of the study
-design](./publish/thesis2/md/media/image2.png){width="6.5in"
+design](./publish/thesis2/md/media/image17.png){width="6.5in"
 height="3.2916666666666665in"}\
 *Figure 3.1: An Overview of the Study Design.*
 
@@ -1637,14 +1637,14 @@ A key feature of the AI tutor interface was a context-selection
 drop-down menu (see Figure 3.2). For the control group (T1), selecting
 an assignment from this menu provided no additional data to the model.
 
-![](./publish/thesis2/md/media/image3.png){width="5.09375in"
+![](./publish/thesis2/md/media/image13.png){width="5.09375in"
 height="5.614583333333333in"}\
 *Figure 3.2: Context-Selection from the IST256 AI Tutor*
 
 For the treatment group (T2), selecting an assignment automatically
 injected the specific lab or assignment instructions into the LLM's
 context (see Figure 3.3).\
-![](./publish/thesis2/md/media/image14.png){width="6.5in"
+![](./publish/thesis2/md/media/image12.png){width="6.5in"
 height="4.0in"}\
 *Figure 3.3: The treatment group (T2) is aware of the selected content.*
 
@@ -1680,7 +1680,7 @@ thereby generating the trace data (D1) required for interaction
 analysis. This group included *n* = 87 participants, with 48 assigned to
 the control group (T1) and 39 to the treatment group (T2).
 
-![](./publish/thesis2/md/media/image5.png){width="6.5in"
+![](./publish/thesis2/md/media/image18.png){width="6.5in"
 height="3.5833333333333335in"}*Figure 3.4: The Participant Funnel for
 Chatbot Use (n = 87)*
 
@@ -1694,7 +1694,7 @@ for analyses requiring survey-derived covariate data. Among these 77
 participants, 41 were in the control group and 36 were in the treatment
 group.
 
-![](./publish/thesis2/md/media/image12.png){width="6.5in"
+![](./publish/thesis2/md/media/image6.png){width="6.5in"
 height="3.0555555555555554in"}*Figure 3.5: The Participant Funnel
 Integrating Survey Responses (n = 77)*
 
@@ -1739,7 +1739,7 @@ responses as to minimize the practice effect.
 The following figure is an example question from the CT-Test. The entire
 instrument can be found in appendix A.
 
-![](./publish/thesis2/md/media/image7.png){width="6.5in"
+![](./publish/thesis2/md/media/image14.png){width="6.5in"
 height="3.1666666666666665in"}\
 *Figure 3.6: A Sample Question from The CT-Test*
 
@@ -1831,7 +1831,7 @@ iterative evaluation process, a final prompt configuration was selected
 to optimize the balance between objective achievement and token
 efficiency. This configuration served as the baseline model for the
 control group (T1)\
-![](./publish/thesis2/md/media/image1.png){width="6.5in"
+![](./publish/thesis2/md/media/image9.png){width="6.5in"
 height="2.0in"}\
 *Figure 3.7: System Prompt Configuration for the Control Group (T1)*
 
@@ -1854,7 +1854,7 @@ The following prompt template was employed to integrate this metadata
 into the conversation:
 
 ![A black screen with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image15.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image5.jpg){width="6.5in"
 height="1.3472222222222223in"}
 
 *Figure 3.8: Treatment T2 Context Prompt Template*
@@ -1864,7 +1864,7 @@ readiness to assist with the specific assignment, demonstrating
 immediate context awareness.
 
 ![A black background with white text AI-generated content may be
-incorrect.](./publish/thesis2/md/media/image22.jpg){width="6.5in"
+incorrect.](./publish/thesis2/md/media/image4.jpg){width="6.5in"
 height="1.3611111111111112in"}
 
 *Figure 3.9: AI Response to Context Selection in the Treatment Condition
@@ -2296,7 +2296,7 @@ utilized as an independent variable to evaluate its impact on student
 outcomes, specifically the E1 midterm exam and the C1/C2 computational
 thinking assessments.
 
-![](./publish/thesis2/md/media/image18.png){width="5.234375546806649in"
+![](./publish/thesis2/md/media/image23.png){width="5.234375546806649in"
 height="3.900122484689414in"}
 
 *Figure 3.10: Distribution of Chat Session Classifications From the D1
@@ -2450,6 +2450,16 @@ Completion Session Count)** This model examined whether the inclusion of
 AI usage patterns altered the treatment effect observed in Model 0,
 thereby identifying possible suppression.
 
+**Criteria for Hypothesis Testing**
+
+Statistical significance was defined at the 𝛼 = .05 level.
+
+Statistical significance was defined at the 𝛼 = .05 level.
+
+-   ***H~2~* Support:** A *p* \< .05 for Model 1
+
+The null hypothesis (***H02***) was rejected when *p \>= .05.*
+
 ### 3.4.3 RQ3 Hypothesis and Methodology
 
 **Research Question 3 (RQ3)***:* What is the relationship between large
@@ -2553,6 +2563,48 @@ This approach facilitated valid statistical inference by providing
 accurate *p*-values and confidence intervals, ensuring that the
 hypothesis tests remained robust even when the homoscedasticity
 assumption was violated.
+
+3.5 Summary
+-----------
+
+This chapter detailed the research methodology employed to investigate
+the impact of LLMs on student learning performance and computational
+literacy. The study utilized a multi-method quantitative design centered
+on a six-week intervention within an introductory Python programming
+course (N=173, final sample n=121).
+
+To address the efficacy of context-aware AI, the research employed a
+randomized controlled trial where participants were randomly assigned to
+either a control group (T1) using a standard AI interface or a treatment
+group (T2) utilizing a context-aware interface that automatically
+injected assignment instructions into the chat. Data collection relied
+on four primary instruments, including chatbot trace data (D1), which
+consisted of logs of student-AI interactions generated by a self-hosted
+GPT-4o-mini application; computational thinking test (C1/C2), a
+psychometrically validated pre-test and post-test instrument used to
+measure gains in computational literacy; and midterm exam (E1), which
+served as a summative assessment of programming proficiency.
+
+A defining methodological feature was the categorical content analysis
+of 1,024 chat sessions from D1. Using a codebook grounded in
+help-seeking theory, sessions were classified as either Learning
+(adaptive help-seeking) or Task Completion (executive help-seeking). To
+ensure scalability and consistency, this classification was performed by
+the Claude-sonnet-4 LLM, which achieved the highest inter-coder
+reliability (𝛼 = .873) of models tested against a human baseline.
+
+The chapter concluded by outlining the statistical models used to test
+the research hypotheses:
+
+RQ1: Employed a Hierarchical linear regression to evaluate the unique
+predictive power of Learning vs. Task Completion behaviors on E1.
+
+RQ2: A multi-stage regression analysis (including mediation, moderation,
+and suppression checks) to isolate the conditional effects of the
+context-aware treatment, T2.
+
+RQ3: An Analysis of Covariance (ANCOVA) to measure shifts in
+computational literacy C2 while controlling for baseline ability, C1.
 
 **4.0 Results**
 ===============
@@ -2673,7 +2725,7 @@ exhibited a right-skewed distribution, where the majority of
 participants engaged in few sessions and a smaller subset engaged in
 many.
 
-![](./publish/thesis2/md/media/image20.png){width="6.5in"
+![](./publish/thesis2/md/media/image22.png){width="6.5in"
 height="4.486111111111111in"}\
 *Figure 4.1: Partial regression plots when holding the other constant of
 E1 \~ Task Completion Session Count + Learning Session Count.*
@@ -2690,7 +2742,7 @@ no discernible funneling or non-linear patterns. The end of the LOESS
 curve does indicate a slight uptick likely due to lack of observations
 in that region.
 
-![](./publish/thesis2/md/media/image10.png){width="5.229166666666667in"
+![](./publish/thesis2/md/media/image8.png){width="5.229166666666667in"
 height="3.46875in"}\
 *Figure 4.2: Residuals vs Fitted Values for E1 \~ Learning Session Count
 + Task Completion Session Count*
@@ -2701,7 +2753,7 @@ evidenced by a non-significant Shapiro-Wilk test (*W* = 0.99, *p* =
 further confirmed normality, with data points closely following the
 theoretical diagonal line.
 
-![](./publish/thesis2/md/media/image16.png){width="6.5in"
+![](./publish/thesis2/md/media/image3.png){width="6.5in"
 height="2.3055555555555554in"}\
 *Figure 4.3: Evidence of normality among the residuals of E1 \~ Task
 Completion Session Count + Learning Session Count.*
@@ -2746,7 +2798,7 @@ negative but failed to reach statistical significance (*ꞵ* = -0.06, *SE*
 Consequently, total session count was not a significant predictor of
 exam performance.
 
-![](./publish/thesis2/md/media/image13.png){width="6.5in"
+![](./publish/thesis2/md/media/image2.png){width="6.5in"
 height="4.125in"}\
 *Figure 4.4: Forestplot of E1 \~ Session Count*
 
@@ -2766,7 +2818,7 @@ Completion session was associated with a 0.41-unit decrease in E1 score
 -0.18\]). This bivariate relationship confirmed that higher engagement
 in behaviors categorized as Task Completion was independently associated
 with lower exam performance.\
-![](./publish/thesis2/md/media/image21.png){width="6.5in"
+![](./publish/thesis2/md/media/image7.png){width="6.5in"
 height="3.638888888888889in"}
 
 *Figure 4.5: Forestplot of E1 \~Task Completion Session Count*
@@ -2786,7 +2838,7 @@ The regression coefficient was positive but failed to reach statistical
 significance (*ꞵ*= 0.06, *SE* = 0.08, *t* = 0.79, *p* = .435, 95% *CI*
 \[-0.10, 0.23\]). These results indicate that Learning session count,
 when considered in isolation, was not a significant predictor of exam
-performance.![](./publish/thesis2/md/media/image17.png){width="6.5in"
+performance.![](./publish/thesis2/md/media/image1.png){width="6.5in"
 height="3.8472222222222223in"}\
 *Figure 4.6: Forestplot of E1 \~ Learning Session Count*
 
@@ -2826,7 +2878,7 @@ performance is obscured unless both adaptive (Learning) and executive
 (Task Completion) help-seeking behaviors are accounted for
 simultaneously.
 
-![](./publish/thesis2/md/media/image23.png){width="6.5in"
+![](./publish/thesis2/md/media/image19.png){width="6.5in"
 height="3.638888888888889in"}
 
 *Figure 4.7: Forestplot of E1 \~ Task Completion Session Count +
@@ -2955,7 +3007,7 @@ corroborated visually through a histogram of residuals and a Q-Q plot,
 both of which demonstrated close adherence to the theoretical normal
 distribution line.
 
-![](./publish/thesis2/md/media/image4.png){width="6.5in"
+![](./publish/thesis2/md/media/image16.png){width="6.5in"
 height="2.3055555555555554in"}\
 *Figure 4.8: Evidence of normality among the residuals of E1 \~
 Treatment*
@@ -2987,7 +3039,7 @@ interval crossed the zero boundary, indicating that the null hypothesis
 of no difference between the population means could not be rejected at
 this stage.
 
-![](./publish/thesis2/md/media/image6.png){width="6.5in"
+![](./publish/thesis2/md/media/image24.png){width="6.5in"
 height="3.9722222222222223in"}\
 *Figure 4.9: Forestplot of E1 \~ Treatment*
 
@@ -3156,7 +3208,7 @@ predictor (*ꞵ* = 0.23, *SE* = 0.08, *t(83)* = 2.90, *p* = .005\$), while
 Task Completion counts demonstrated a significant negative relationship
 (*ꞵ* = -0.57, *SE* = 0.12, *t(83)* = -4.65, *p* \< .001).
 
-![](./publish/thesis2/md/media/image8.png){width="6.5in"
+![](./publish/thesis2/md/media/image10.png){width="6.5in"
 height="3.5833333333333335in"}\
 *Figure 4.10: Forestplot of E1 \~ Treatment + Learning Session Count +
 Task Completion Session Count*
@@ -3349,7 +3401,7 @@ standard errors were used for all regression results. This approach
 provides robust hypothesis tests and accurate *p*-values and confidence
 intervals, even when error variance is not constant.
 
-![](./publish/thesis2/md/media/image9.png){width="6.5in"
+![](./publish/thesis2/md/media/image15.png){width="6.5in"
 height="4.486111111111111in"}\
 *Figure 4.11: Partial regression plots when holding the other constant
 of C2 \~ Task Completion Session Count + Learning Session Count. + C1
@@ -3368,7 +3420,7 @@ scattered points. Heteroscedasticity can be observed on the right end of
 the graph. The Locally Estimated Scatterplot Smoothing (LOESS) curve was
 relatively flat and hovering about horizontal.
 
-![](./publish/thesis2/md/media/image24.png){width="5.166666666666667in"
+![](./publish/thesis2/md/media/image11.png){width="5.166666666666667in"
 height="3.46875in"}\
 *Figure 4.12: Residuals vs Fitted Values for C2 \~ Learning Session
 Count + Task Completion Session Count + C1*
@@ -3382,7 +3434,7 @@ corroborated visually by a histogram of residuals and a Q-Q plot, both
 of which showed the data points closely following the theoretical normal
 line.
 
-![](./publish/thesis2/md/media/image11.png){width="6.5in"
+![](./publish/thesis2/md/media/image21.png){width="6.5in"
 height="2.2777777777777777in"}\
 *Figure 4.13: Evidence of normality among the residuals of C2 \~ Task
 Completion Session Count + Learning Session Count + C1*
@@ -3440,7 +3492,7 @@ of learning-oriented LLM usage on computational literacy may require a
 larger sample size or more granular measurement to confirm
 statistically.
 
-![](./publish/thesis2/md/media/image19.png){width="6.5in"
+![](./publish/thesis2/md/media/image20.png){width="6.5in"
 height="3.5972222222222223in"}\
 *Figure 4.14: Forestplot of C2 \~ Learning Session Count + Task
 Completion Session Count + C1*

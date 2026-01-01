@@ -30,6 +30,7 @@ Click to view these contents.
 - `code/`: Contains Jupyter notebooks and Python scripts used for data analysis and modeling. These are viewable on GitHub.
    - [0.0-install_requirements.ipynb](./code/0.0-install_requirements.ipynb) ==> Used for installing the required packages, should you want to run the code.
    - [0.1-thesis_dataset.ipynb](./code/0.1-thesis_dataset.ipynb) ==> Overview of the thesis dataset.
+   - [0.2-descriptive_statistics.ipynb](./code/0.2-descriptive_statistics.ipynb) ==> Descriptive statistics of the thesis dataset. Bivariate plots and distributions.
    - [3.3.4-model_selection_reliability_testing.ipynb](./code/3.3.4-model_selection_reliability_testing.ipynb) ==> Notebook for Chapter 3 analysis of LLM selection for content analysis
    - [4.2-research_question_1.ipynb](./code/4.2-research_question_1.ipynb) ==> Notebook for Chapter 4 analysis of RQ1
    - [4.3-research_question_2.ipynb](./code/4.3-research_question_2.ipynb) ==> Notebook for Chapter 4 analysis of RQ2
