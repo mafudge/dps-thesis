@@ -13,9 +13,7 @@ Help-Seeking Behaviors in AI-Mediated Programming: Impacts on Performance and Co
 
 ## Abstract
 
-Large Language Models (LLMs) represent a disruptive innovation in programming education, acting as both a supportive tutor and a tool for cognitive offloading. This study investigated how specific student engagement patterns influence learning performance and computational literacy. Utilizing a multi-method design, interaction LLM trace data from an introductory Python course were categorized into adaptive (learning) and maladaptive (task-completion) help-seeking behaviors. Quantitative analysis revealed a mutual suppression effect: aggregate AI usage volume was an unreliable predictor of success, whereas engagement type was highly significant.
-
-Findings indicated that task-completion behaviors negatively predicted midterm exam scores and computational literacy gains. Conversely, learning-oriented sessions positively correlated with exam performance. Furthermore, a randomized controlled trial demonstrated that context-aware AI significantly improved learning outcomes when controlling for usage patterns, acting as a performance multiplier. These results underscore an urgent need for pedagogical adaptation, shifting from policing AI to empowering students as sophisticated, adaptive, and metacognitively aware users of generative technology.
+Large language models (LLMs) represent a disruptive innovation in programming education, acting as both a supportive tutor and a mechanism for cognitive offloading. This multi-method study investigated how specific student engagement patterns with a custom, course-provided LLM chatbot influenced learning performance and computational literacy among novice programmers (N = 87).  Through categorical content analysis of 1,024 chatbot interaction sessions, student behaviors were classified into adaptive (learning-oriented) and maladaptive (task-completion) help-seeking strategies. Quantitative analysis revealed a mutual suppression effect, demonstrating that while aggregate usage volume was an unreliable predictor of success, the type of engagement was highly significant. Findings indicated that task-completion behaviors negatively predicted midterm exam scores and computational literacy gains, whereas learning-oriented sessions positively correlated with exam performance. Additionally, a randomized controlled trial (n treatment = 39, n control = 48) demonstrated a conditional effect: a context-aware LLM significantly improved learning performance when controlling for these usage patterns, acting as a performance multiplier. Consequently, this study advocates for a pedagogical shift from managing AI access to cultivating AI literacy, ensuring students utilize generative technology as a scaffold for cognitive development rather than a substitute for it.
 
 
 ## Contents
@@ -35,6 +33,7 @@ Click to view these contents.
    - [4.2-research_question_1.ipynb](./code/4.2-research_question_1.ipynb) ==> Notebook for Chapter 4 analysis of RQ1
    - [4.3-research_question_2.ipynb](./code/4.3-research_question_2.ipynb) ==> Notebook for Chapter 4 analysis of RQ2
    - [4.4-research_question_3.ipynb](./code/4.4-research_question_3.ipynb) ==> Notebook for Chapter 4 analysis of RQ3
+   - [4.5-demographic-confounders-check.ipynb](./code/4.5-demographic-confounders-check.ipynb) ==> Supplementary analysis of potential confounders based on Demographic and Survey data.
 
 - `datasets/`: Contains datasets that were used analysis and the LLM model selection. These datasets were sanitized and do not contain any personally identifiable information.
    - [50_sample_original.csv](./datasets/50_sample_original.csv) ==> The 50 chat sessions selected at random from 1024 sessions total, PII removed.
